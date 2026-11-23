@@ -15,15 +15,15 @@ The `ml_system/` module is an **independent, CPU-friendly Machine Learning, Deep
 
 ```mermaid
 flowchart TD
-    A["Raw Audio (.wav, .mp3)"] --> B["Module 1: Speech-to-Text (faster-whisper)"]
+    A["Raw Audio (.wav, .mp3, .webm)"] --> B["Module 1: Speech-to-Text (faster-whisper)"]
     B --> C["Raw Spoken / Written Transcript"]
     D["Typed Text"] --> C
-    C --> E["Text Preprocessing & Normalization\n(Unicode NFKC, Devanagari clean, Stopwords)"]
+    C --> E["Text Preprocessing & Normalization\n(Unicode NFKC, Devanagari numerals, Hinglish phonetics)"]
     
-    E --> F["Module 2: Custom ML Classifier\n(TF-IDF + Logistic Regression)"]
-    E --> G["Module 3: NLP Entity Extraction\n(NER & Regex: dates, amounts, phones, locations)"]
+    E --> F["Module 2: Custom ML Classifier\n(FeatureUnion: Word 1-3 + Char_wb 2-5 + LR C=4.0)"]
+    E --> G["Module 3: NLP Entity Extraction\n(NER & Regex: dates, amounts, phones, locations, objects)"]
     
-    F --> H["Predicted Category & Confidence"]
+    F --> H["Predicted Category & Confidence\n(96.44% Test Acc, Macro F1: 0.9640)"]
     G --> I["Extracted Structured Entities"]
     
     H --> J["Module 4: Missing Information Detector\n(Category-specific Rule Engine)"]
@@ -35,26 +35,19 @@ flowchart TD
     I --> L
     K --> L
     
-    L --> M["FastAPI REST Response (/api/analyze)"]
+    L --> M["FastAPI REST & SQLite Persistence\n(/api/analyze, /api/complaints)"]
 ```
 
 ---
 
-## 2. Status: Are Frontend and Backend Integrated?
-
-### **Current Status: Decoupled & Modular (Ready for Connection)**
+## 2. Status & Architecture
 
 | Component | Status | Location | Notes |
 | :--- | :--- | :--- | :--- |
-| **Frontend UI** | **Complete (Phase 1)** | `d:\AwaazSetu\src\` | React 18, TypeScript, Vite, Tailwind CSS. Uses simulated local state and mock data for UI demo. |
-| **ML Backend** | **Complete & Verified** | `d:\AwaazSetu\ml_system\` | FastAPI, faster-whisper, Scikit-learn, Joblib. All REST endpoints operational with CORS enabled for `localhost:5173`. |
-| **Integration** | **Modular (Not Yet Connected)** | — | The frontend and backend currently run as independent services. The frontend does not yet call `http://localhost:8000/api/...`. |
-
-### Why are they currently decoupled?
-As per the project architecture roadmap:
-1. **Phase 1** required a self-contained, presentation-ready UI prototype with zero server dependencies so that evaluators could test all screens smoothly.
-2. The ML/DL Engine was built inside `ml_system/` as an **independent, fully testable Python engine** with its own virtual environment, automated tests, and evaluation suite.
-3. In the subsequent integration phase (Phase 3), the mock services in `src/services/` will be switched to call the FastAPI endpoints (`/api/analyze`, `/api/classify`, `/api/transcribe`).
+| **Frontend UI** | **Complete & Integrated** | `d:\AwaazSetu\src\` | React 18, TypeScript, Vite, Tailwind CSS. Connected to backend via REST APIs and live React Context. |
+| **ML Backend** | **Complete & Evaluated** | `d:\AwaazSetu\ml_system\` | FastAPI, faster-whisper, Scikit-learn, SQLite. 40 automated pytest tests passing. |
+| **Classification Accuracy** | **96.44% (Held-Out Test)** | `ml_system/models/` | 244/253 on frozen SHA-256 test set. All category recalls $\ge 0.88$. |
+| **Inference Latency** | **~1.75 ms (CPU)** | — | Well below 500 ms SLA requirement. Zero GPU requirement. |
 
 ---
 
@@ -62,17 +55,20 @@ As per the project architecture roadmap:
 
 ### Module 1: Deep Learning Speech Recognition (`faster-whisper`)
 - **Engine**: OpenAI Whisper architecture via `faster-whisper` (CTranslate2 inference engine).
-- **Default Model**: `base` (145 MB, lightweight CPU-compatible, with `small` model support via `config.py`).
+- **Default Model**: `base` (145 MB, lightweight CPU-compatible, int8 quantization).
 - **Capabilities**:
-  - Accepts WAV, MP3, and standard audio formats.
+  - Accepts WAV, MP3, WEBM, and standard audio formats.
   - Automatic language detection (Hindi and English).
   - Word/phrase segment extraction with millisecond timestamps (`start`, `end`).
-  - Processing duration tracking.
-  - Safe host fallback diagnostic mode on restricted environments.
-- **Endpoint**: `POST /api/transcribe` & `POST /api/analyze-audio`
+  - Offline-safe caching via `HF_HUB_OFFLINE=1`.
+- **Endpoints**: `POST /api/transcribe` & `POST /api/analyze-audio`
 
-### Module 2: Trained Complaint Classification Model
-- **Algorithm**: TF-IDF Vectorizer (word n-grams 1–3 + character n-grams 3–5) paired with **Logistic Regression** (L2 penalty, balanced class weighting), benchmarked against a **Calibrated Linear Support Vector Machine (Linear SVM)**.
+### Module 2: High-Performance Complaint Classification Model
+- **Algorithm**: Dual-channel `FeatureUnion` combining:
+  1. Word-level TF-IDF (1–3 word n-grams, sublinear term frequency)
+  2. Sub-word character-level TF-IDF (`char_wb` 2–5 n-grams, capturing Hinglish phonetic variants and Hindi inflections)
+  Paired with multinomial **Logistic Regression** ($C=4.0$, balanced class weighting, L2 regularization).
+- **Benchmarked Alternative**: Calibrated Linear Support Vector Machine (`LinearSVC` with Platt scaling calibration, test accuracy: 96.84%).
 - **Categories (7 Classes)**:
   1. `Theft` (e.g., wallet, phone, bag, vehicle stolen)
   2. `Cyber Fraud` (e.g., UPI scam, OTP fraud, phishing, fake lottery)
@@ -81,7 +77,7 @@ As per the project architecture roadmap:
   5. `Lost Documents` (e.g., Aadhaar, PAN card, passport, driving license misplaced)
   6. `Physical Assault` (e.g., armed attack, fighting, severe battery)
   7. `Other` (e.g., noise pollution, property dispute, public nuisance)
-- **Outputs**: Predicted category, calibrated class probability distribution, model confidence score, and model architecture metadata.
+- **Outputs**: Predicted category, calibrated class probability distribution, model confidence score, low-confidence flag (< 0.40).
 - **Endpoint**: `POST /api/classify`
 
 ### Module 3: Multilingual Information Extraction (NLP)
@@ -112,19 +108,22 @@ As per the project architecture roadmap:
   - Suspect / Property details table.
   - Prominent non-FIR legal disclaimer banner.
 
-### Module 6: Model Evaluation & Performance Benchmark
-- **Stratified Held-Out Test Set Results**:
-  - **Overall Accuracy**: `75.0%`
-  - **Weighted Precision**: `0.7719`
-  - **Weighted Recall**: `0.7500`
-  - **Weighted F1 Score**: `0.7422`
-- **Confusion Matrix & Metrics Visualizations**: Automatically rendered to `ml_system/evaluation/confusion_matrix.png` and `ml_system/evaluation/classification_metrics.png`.
-- **Speech Recognition Benchmark**: Word Error Rate (WER) Levenshtein distance benchmarking against reference transcripts.
+### Module 6: Rigorous Evaluation & Integrity Benchmark
+- **Frozen Held-Out Test Set Performance (253 samples, SHA-256 verified)**:
+  - **Overall Accuracy**: **96.44% (244/253)**
+  - **Macro F1 Score**: **0.9640**
+  - **Weighted F1 Score**: **0.9641**
+  - **95% Bootstrap Confidence Interval**: **[94.07%, 98.42%]**
+  - **Noisy ASR Test Set Accuracy**: **98.57% (69/70)**
+  - **Per-Language Accuracy**: English (93.75%), Hindi (98.94%), Hinglish (96.20%)
+  - **Every Class Recall**: All $\ge 0.88$ (Target $\ge 0.80$)
+- **Visualizations**: Rendered to `evaluation/confusion_matrix.png` and `evaluation/classification_metrics.png`.
+- **Integrity Lock**: SHA-256 hash locked in `evaluation/test_set_hash.txt` (`ceb66de40a260371134ca0a2bd853861480ad1e41dace5eed3a5e3af5f9a0ddd`).
 - **Endpoint**: `GET /api/evaluation`
 
-### Module 7: Unified FastAPI Backend
-- Single-pipeline endpoint (`POST /api/analyze`) combining transcription, classification, entity extraction, missing information detection, and structured complaint generation in a single call.
-- Comprehensive Pydantic schema validation.
+### Module 7: Unified FastAPI Backend & SQLite Persistence
+- Single-pipeline endpoint (`POST /api/analyze`) combining transcription, classification, entity extraction, missing information detection, and structured complaint generation.
+- Complete complaint lifecycle management with SQLite database persistence (`GET/POST /api/complaints`, timeline events, officer notes).
 - Interactive documentation at `/docs` (Swagger UI) and `/redoc`.
 
 ---
@@ -132,132 +131,56 @@ As per the project architecture roadmap:
 ## 4. Dataset Details
 
 - **Dataset Path**: `ml_system/datasets/raw/complaints_dataset.csv`
-- **Total Samples**: 217 hand-curated, realistic complaints.
-- **Languages**: Multilingual (English, Hindi in Devanagari script, and colloquial Hinglish).
-- **Distribution**:
-  - Balanced representation across all 7 categories (~31 samples per category).
-  - Processed using stratified 80/20 train/test split into `ml_system/datasets/processed/train.csv` (173 samples) and `test.csv` (44 samples).
-- **Academic Limitation Notice**: This dataset is designed for academic demonstration and system validation. It reflects realistic complaints but does not substitute for real-world police FIR registers.
+- **Total Samples**: **1,261** curated, realistic complaints.
+- **Linguistic Balance**:
+  - English: 488 samples
+  - Hindi (Devanagari): 448 samples
+  - Hinglish (Roman Hindi): 325 samples
+- **Category Balance**: Exactly 180–181 samples per category across all 7 classes.
+- **Data Splits**:
+  - `train.csv`: 882 samples (70%)
+  - `val.csv`: 126 samples (10%)
+  - `train_val.csv`: 1,008 samples (80%, used for 5-fold CV)
+  - `test.csv`: 253 samples (20%, frozen with SHA-256 hash)
+  - `noisy_asr_test.csv`: 70 samples (independent speech transcript stress test)
 
 ---
 
 ## 5. How to Run the ML Backend
 
-### Prerequisites
-- Python 3.11 or Python 3.12
-- Windows, Linux, or macOS
-
 ### Step 1: Activate Virtual Environment
-From the project root:
-```bash
-# Windows PowerShell
+```powershell
 & "D:\AwaazSetu\ml_system\.venv\Scripts\Activate.ps1"
-
-# Or Linux / macOS
-source ml_system/.venv/bin/activate
 ```
 
 ### Step 2: (Optional) Retrain and Re-Evaluate Models
-```bash
-# Retrain classification model
+```powershell
+# 5-fold cross validation experiments
+python ml_system/training/experiment_models.py
+
+# Train production model and evaluate on frozen test set
 python ml_system/training/train_classifier.py
 
-# Run evaluation suite and regenerate confusion matrix
+# Generate full evaluation report and confusion matrix plots
 python ml_system/training/evaluate_classifier.py
 ```
 
 ### Step 3: Launch FastAPI Server
-```bash
+```powershell
 cd ml_system
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-The server will start at:
+The server runs at:
 - **API Base URL**: `http://127.0.0.1:8000`
 - **Interactive Swagger Documentation**: `http://127.0.0.1:8000/docs`
-- **ReDoc Documentation**: `http://127.0.0.1:8000/redoc`
 
 ---
 
-## 6. How to Run Automated Tests
+## 6. Running Automated Tests
 
-The test suite covers classifier inference, NLP entity extraction, missing field detection, structured complaint drafting, and FastAPI integration.
+Run the full pytest suite (40 tests covering API routes, classifier accuracy, test set integrity, recalls, multilingual samples, latency benchmarks, NLP extraction, and database persistence):
 
-```bash
-cd ml_system
-python -m pytest tests -v
+```powershell
+python -m pytest ml_system/tests -v
 ```
-
----
-
-## 7. API Reference & Example Requests
-
-### 1. Health & Model Status
-- **`GET /health`**
-  ```bash
-  curl -X GET "http://127.0.0.1:8000/health"
-  ```
-  Returns status of the classifier and speech recognition engines.
-
-### 2. Classify Complaint Text
-- **`POST /api/classify`**
-  ```bash
-  curl -X POST "http://127.0.0.1:8000/api/classify" \
-       -H "Content-Type: application/json" \
-       -d '{"text": "Someone broke my car window at Connaught Place and took my laptop."}'
-  ```
-  *Response:*
-  ```json
-  {
-    "predicted_category": "Theft",
-    "confidence": 0.8124,
-    "class_probabilities": {
-      "Theft": 0.8124,
-      "Physical Assault": 0.0521,
-      "Cyber Fraud": 0.0315,
-      ...
-    },
-    "model_name": "TFIDF_LogisticRegression"
-  }
-  ```
-
-### 3. Extract Incident Entities
-- **`POST /api/extract`**
-  ```bash
-  curl -X POST "http://127.0.0.1:8000/api/extract" \
-       -H "Content-Type: application/json" \
-       -d '{"text": "Yesterday at 9 PM near Rajiv Chowk Metro, my iPhone 14 was stolen by Rahul."}'
-  ```
-
-### 4. Full Complaint Analysis Pipeline
-- **`POST /api/analyze`**
-  ```bash
-  curl -X POST "http://127.0.0.1:8000/api/analyze" \
-       -H "Content-Type: application/json" \
-       -d '{
-         "text": "I got a call asking for UPI OTP and lost Rs 45,000 from my SBI account.",
-         "language": "en"
-       }'
-  ```
-  Returns category classification, extracted entities, missing information checklist, and a formal draft factsheet.
-
-### 5. Speech-to-Text Transcription
-- **`POST /api/transcribe`**
-  ```bash
-  curl -X POST "http://127.0.0.1:8000/api/transcribe" \
-       -F "file=@sample_complaint.wav" \
-       -F "language=hi"
-  ```
-
----
-
-## 8. Frontend Integration Roadmap (How to Connect)
-
-To connect the React frontend to this backend in the next phase:
-
-1. **Frontend Service Update**:
-   Update `src/services/` to replace local mock functions with `fetch` calls to `http://localhost:8000/api/analyze` and `http://localhost:8000/api/transcribe`.
-2. **Audio Recording**:
-   Connect browser `navigator.mediaDevices.getUserMedia` in `src/components/AudioRecorder.tsx` to record a real audio Blob and send it as `multipart/form-data` to `POST /api/analyze-audio`.
-3. **Live Complaint Review**:
-   The response from `/api/analyze` populates the editable transcript, incident particulars form, and missing information alerts directly.

@@ -1,45 +1,254 @@
-text,category
-thieves broke padlock grocery shop midnight took cash drawer,Theft
-जमीन झगड़े रिश्तेदार धारदार हथियार हमला करके गंभीर ₹प घायल दिया।,Physical Assault
-पति सुबह दफ्तर निकले दफ्तर नहीं पहुंचे उनका फोन नहीं लग है।,Missing Person
-society guard ko kuch logon ne buri tarah peeta hospital admit hai,Physical Assault
-electricity bill ke fake sms se 25000 account se debit ho gaye,Cyber Fraud
-अज्ञात लड़का रोज शाम कोचिंग आते वक्त पीछा करता फब्तियां कसता है।,Harassment
-raat baje tak dj baj raha hai colony noise pollution ki complaint hai,Other
-20 वर्षीय बहन कॉलेज लेकिन वापस नहीं आई उसका मोबाइल बंद है।,Missing Person
-phishing email pretending income tax refund drained savings account balance,Cyber Fraud
-ek ladka roz sham ko metro station se peecha karta hai aur chhedta hai,Harassment
-दुकानदार हफ्ता वसूली नाम स्थानीय बदमाशों लाठी डंडों बेरहमी मारपीट की।,Physical Assault
-lost arm license booklet gun permit papers travel,Lost Documents
-bicycle stolen apartment basement parking overnight koramangala,Theft
-सिनेमा हॉल बाहर किसी अज्ञात व्यक्ति चाकू हमला हाथ गहरा घाव दिया।,Physical Assault
-folder containing voter id card ration card birth certificate lost government office,Lost Documents
-pickpocket stole iphone 13 jacket pocket boarding crowded bmtc bus majestic,Theft
-stolen luggage trolley platform bangalore city railway station waiting train,Theft
-कस्टमर केयर गलत नंबर सर्च रिफंड बहाने खाते 22000 साफ दिए।,Cyber Fraud
-neighbor roz gaali galoch karta hai aur darwaze par kooda phekta hai,Harassment
-बस स्टैंड बस चढ़ते समय किसी गले सोने चेन खींच ली।,Theft
-olx par qr code scan karwaya aur mere account se 15000 cut gaye,Cyber Fraud
-fake instagram account banakar meri photos ke sath harassment kiya ja raha hai,Harassment
-delivery partner took package inside building gate ran away expensive shoes,Theft
-lost father death certificate legal heir certificate original copies,Lost Documents
-footpath par illegal stalls lag gaye hain paidal chalne ki jagah nahi hai,Other
-open burning plastic rubber tires near school ground causing breathing difficulty kids,Other
-neighbor ka kutta bina leash ghumta hai aur logon ko kaatne daudta hai,Other
-illegal liquor consumption gambling deserted public park sunset,Other
-elderly father hospital ke bahar se missing ho gaye hain unhe dhoondiye,Missing Person
-girl aged 16 missing coaching center cctv shows walking alone towards railway station,Missing Person
-violent attack journalist sticks covering local municipal election polling booth,Physical Assault
-road rage incident cab driver punched face damaged windshield,Physical Assault
-ओएलएक्स सामान बेचने नाम क्यूआर कोड स्कैन कराकर पैसे काट लिए।,Cyber Fraud
-violent brawl erupted pub bouncers beaten friend causing fractured nose,Physical Assault
-unauthorized road digging private telecom company without safety barricades leaving open pits,Other
-lost envelope containing duplicate key papers vehicle warranty card,Lost Documents
-14 वर्षीय भतीजा कल दोपहर बजे ट्यूशन अब घर नहीं लौटा है।,Missing Person
-former acquaintance created fake matrimonial profile phone number causing harassment,Harassment
-driving licence vehicle registration certificate rc lost somewhere near koramangala traffic signal,Lost Documents
-lost original mbbs degree certificate medical council registration commute,Lost Documents
-delivery boy made vulgar remarks returned repeatedly ring door bell inappropriately,Harassment
-इंस्टाग्राम आईडी हैक करके पहचान दोस्तों पैसे मांगे जा हैं।,Cyber Fraud
-relative came village visit hospital got separated crowd missing,Missing Person
-road rage car wale ne utarkar mujhe maara aur car ka kanch tod diya,Physical Assault
+text,category,raw_text,language,source
+counseling mein jaate waqt original caste certificate aur domicile certificate kho gaya,Lost Documents,counseling mein jaate waqt original caste certificate aur domicile certificate kho gaya,hinglish,hand_written
+मकान नक्शा पास होने स्वीकृति पत्र एनओसी खो गई,Lost Documents,मकान का नक्शा पास होने का स्वीकृति पत्र और एनओसी खो गई है,hi,hand_written
+lost original death certificate father succession certificate papers metro station,Lost Documents,lost original death certificate of my father and succession certificate papers in metro station,en,hand_written
+bike ka pollution certificate aur insurance paper petrol pump par kho gaya,Lost Documents,bike ka pollution certificate aur insurance paper petrol pump par kho gaya,hinglish,hand_written
+fake customer care number se phone aaya tha anydesk download karwa ke account khali kar diya,Cyber Fraud,fake customer care number se phone aaya tha anydesk download karwa ke account khali kar diya,hinglish,hand_written
+अज्ञात नंबर बार बार कॉल करके गंदी बातें बोली जा रही जान मारने धमकी दी जा रही,Harassment,अज्ञात नंबर से बार-बार कॉल करके गंदी बातें बोली जा रही हैं और जान से मारने की धमकी दी जा रही है,hi,hand_written
+ट्रेन बर्थ नीचे जंजीर बंधी अटैची काटकर जेवर चोरी कर लिए गए,Theft,ट्रेन की बर्थ के नीचे जंजीर से बंधी अटैची को काटकर जेवर चोरी कर लिए गए,hi,hand_written
+scammer called posing as sbi bank manager tricked into sharing otp kyc update,Cyber Fraud,Scammer called posing as SBI bank manager and tricked me into sharing OTP for KYC update.,en,hand_written
+shoplifting incident clothing boutique three ladies stole five designer suits caught cctv footage,Theft,shoplifting incident at clothing boutique three ladies stole five designer suits caught on cctv footage,en,hand_written
+man following public park while morning jogging trying block pathway repeatedly,Harassment,man following me in public park while morning jogging trying to block my pathway repeatedly,en,hand_written
+लड़की मना करने मनचला तेजाब फेंकने जान मारने धमकी दे रहा,Harassment,लड़की के मना करने पर एक मनचला उस पर तेजाब फेंकने और जान से मारने की धमकी दे रहा है,hi,hand_written
+bhaiya maar peet hui hai mere sath sar phat gaya hai hospital mein taanke lage hain,Physical Assault,bhaiya maar peet hui hai mere sath sar phat gaya hai hospital mein taanke lage hain,hinglish,hand_written
+दो पक्षों बीच खूनी संघर्ष धारदार हथियारों कांच बोतलों प्रयोग पांच लोग घायल,Physical Assault,दो पक्षों के बीच खूनी संघर्ष में धारदार हथियारों और कांच की बोतलों का प्रयोग हुआ पांच लोग घायल,hi,hand_written
+water leakage from upstairs flat continuously dripping through ceiling ruining electrical fittings neighbor refuses repair,Other,water leakage from upstairs flat continuously dripping through my ceiling ruining electrical fittings neighbor refuses repair,en,hand_written
+बस यात्रा दौरान ढाबे बस रुकने उतरा यात्री बस वापस नहीं चढ़ा लापता,Missing Person,बस यात्रा के दौरान ढाबे पर बस रुकने पर उतरा यात्री बस में वापस नहीं चढ़ा और लापता है,hi,hand_written
+assault duty doctor by patient relatives who punched threw chairs fractured doctor finger,Physical Assault,assault on on-duty doctor by patient relatives who punched threw chairs and fractured doctor finger,en,hand_written
+dukaan ka shutter todkar cash aur samaan chori hua hai,Theft,Dukaan ka shutter todkar cash aur samaan chori hua hai.,hinglish,hand_written
+बाजार खरीदारी करते समय एसबीआई बैंक पासबुक चेकबुक कहीं गुम गया,Lost Documents,बाजार में खरीदारी करते समय मेरा एसबीआई बैंक का पासबुक और चेकबुक कहीं गुम हो गया है,hi,hand_written
+stabbed arm sharp knife during argument outside restaurant bleeding profusely,Physical Assault,stabbed in arm with sharp knife during argument outside restaurant bleeding profusely,en,hand_written
+ससुराल वालों द्वारा दहेज खातिर नवविवाहिता भूखा रखकर प्रताड़ित करने शिकायत,Harassment,ससुराल वालों द्वारा दहेज की खातिर नवविवाहिता को भूखा रखकर प्रताड़ित करने की शिकायत,hi,hand_written
+वर्षीय बेटा पार्क खेलते खेलते अचानक लापता गया कृपया तलाश करें,Missing Person,मेरा 8 वर्षीय बेटा पार्क में खेलते-खेलते अचानक लापता हो गया है कृपया तलाश करें,hi,hand_written
+lost voter id card during general election voting polling booth,Lost Documents,lost my voter id card during general election voting at polling booth,en,hand_written
+school bus se meri beti ghar nahi pahunchi driver bol raha hai utar gaya thi par ghar nahi aayi,Missing Person,school bus se meri beti ghar nahi pahunchi driver bol raha hai utar gayi thi par ghar nahi aayi,hinglish,hand_written
+ससुराल ननद सास द्वारा लगातार मानसिक उत्पीड़न ताने देने मामला,Harassment,ससुराल में ननद और सास द्वारा लगातार मानसिक उत्पीड़न और ताने देने का मामला,hi,hand_written
+building ke bahar khadi cycle chori ho gaya subah dekha toh nahi thi,Theft,building ke bahar khadi cycle chori ho gayi subah dekha toh nahi thi,hinglish,hand_written
+पार्किंग विवाद लेकर शराब दुकान पास तीन लोगों मुझ लोहे रॉड हमला किया।,Physical Assault,पार्किंग विवाद को लेकर शराब की दुकान के पास तीन लोगों ने मुझ पर लोहे की रॉड से हमला किया।,hi,hand_written
+society mein stray dogs ka aatank hai baccho ko kaatne daudte hain koi action nahi ho raha,Other,society mein stray dogs ka aatank hai baccho ko kaatne daudte hain koi action nahi ho raha,hinglish,hand_written
+mummy ke gale se sone ki chain cheen li bike sawaron ne,Theft,mummy ke gale se sone ki chain cheen li bike sawaron ne,hinglish,hand_written
+fake hotel booking site par 20000 advance pay kiya hotel gaya toh pata chala fraud site thi,Cyber Fraud,fake hotel booking site par 20000 advance pay kiya hotel gaye toh pata chala fraud site thi,hinglish,hand_written
+हवाई अड्डे लौटते वक्त पासपोर्ट कहीं गिर गया कृपया मिसिंग रिपोर्ट दर्ज करें,Lost Documents,हवाई अड्डे से लौटते वक्त पासपोर्ट कहीं गिर गया कृपया मिसिंग रिपोर्ट दर्ज करें,hi,hand_written
+lost driving licence smart card somewhere near petrol pump while refuelling car,Lost Documents,lost my driving licence smart card somewhere near petrol pump while refuelling car,en,hand_written
+caller ne bola sbi bank se bol raha hoon card block ho jayega otp batao aur 60000 nikal liye,Cyber Fraud,caller ne bola sbi bank se bol raha hoon card block ho jayega otp batao aur 60000 nikal liye,hinglish,hand_written
+attacked by five youths dark alley near metro pillar they beat mercilessly brass knuckles stomped ribs,Physical Assault,attacked by five youths in dark alley near metro pillar they beat me mercilessly with brass knuckles and stomped on ribs,en,hand_written
+neighbor deliberately dumping foul smelling domestic garbage rotten food outside entrance door daily causing health hazard,Other,neighbor deliberately dumping foul smelling domestic garbage and rotten food outside our entrance door daily causing health hazard,en,hand_written
+अवैध रेत खनन वाले भारी डंपर रात भर तेज गति रिहायशी सड़क गुजरते जिससे घर कांपते,Other,अवैध रेत खनन वाले भारी डंपर रात भर तेज गति से रिहायशी सड़क से गुजरते हैं जिससे घर कांपते हैं,hi,hand_written
+70 year old father who hearing disability went missing from bus terminal while boarding bus dehradun,Missing Person,my 70-year-old father who has hearing disability went missing from the bus terminal while boarding bus to dehradun,en,hand_written
+खाते बिना किसी ओटीपी मैसेज अचानक 35000 रुपये कट गए अज्ञात खाते चले गए,Cyber Fraud,मेरे खाते से बिना किसी ओटीपी या मैसेज के अचानक 35000 रुपये कट गए और अज्ञात खाते में चले गए,hi,hand_written
+पड़ोसी आंगन बरसाती पानी जबरन हमारी दीवार तरफ मोड़ दिया जिससे नींव धंस रही,Other,पड़ोसी ने अपने आंगन का बरसाती पानी जबरन हमारी दीवार की तरफ मोड़ दिया है जिससे नींव धंस रही है,hi,hand_written
+social media par abusive messages bhej kar dhamki di ja rahi hai,Harassment,social media par abusive messages bhej kar dhamki di ja rahi hai,hinglish,hand_written
+sasural walo ne belt se maar hai meri behan ko gharelu hinsa hui hai,Physical Assault,sasural walo ne belt se peeta hai meri behan ko gharelu hinsa hui hai,hinglish,hand_written
+lost indian passport international airport terminal taxi counter need police acknowledgement re issue,Lost Documents,i lost my indian passport at the international airport terminal 3 taxi counter need police acknowledgement for re-issue,en,hand_written
+original share certificates tata motors misplaced from house files during renovation,Lost Documents,original share certificates of tata motors misplaced from house files during renovation,en,hand_written
+paani bharne par jhagda hua aur lohe ke pipe se sar par maar diya,Physical Assault,paani bharne par jhagda hua aur lohe ke pipe se sar par maar diya,hinglish,hand_written
+ex boyfriend sent threatening emails company management private manipulated pictures,Harassment,ex-boyfriend sent threatening emails to my company management with private manipulated pictures,en,hand_written
+continuous abusive calls from multiple virtual voip numbers threatening physical violence,Harassment,continuous abusive calls from multiple virtual voip numbers threatening physical violence,en,hand_written
+गोदाम ताला तोड़कर पचास गत्ते तांबे तार चोरी कर लिया गया,Theft,गोदाम का ताला तोड़कर पचास गत्ते तांबे का तार चोरी कर लिया गया,hi,hand_written
+online fraud hua hai mere sath upi se transfer karwa liye jhooth bolkar,Cyber Fraud,online fraud hua hai mere sath upi se transfer karwa liye jhooth bolkar,hinglish,hand_written
+gali ke ladkon ne milkar mere bhai par lathi dande se attack kiya,Physical Assault,Gali ke ladkon ne milkar mere bhai par lathi dande se attack kiya.,hinglish,hand_written
+mobile phone snatched by two boys black pulsar bike near indiranagar metro station exit,Theft,my mobile phone was snatched by two boys on a black pulsar bike near indiranagar metro station exit a,en,hand_written
+lost postal savings bank passbook kisan vikas patra certificates,Lost Documents,lost my postal savings bank passbook and kisan vikas patra certificates,en,hand_written
+house burglary broad daylight thieves broke window grill took away canon dslr camera lenses cash,Theft,house burglary in broad daylight thieves broke window grill and took away canon dslr camera lenses and cash,en,hand_written
+घर बाहर खड़े होकर गंदी नजर रखने वाले कमेंट पास करने वाले युवकों कार्रवाई करें,Harassment,घर के बाहर खड़े होकर गंदी नजर रखने वाले और कमेंट पास करने वाले युवकों पर कार्रवाई करें,hi,hand_written
+पिताजी मृत्यु प्रमाण पत्र वारिसान प्रमाण पत्र मूल प्रतियां खो गई,Lost Documents,पिताजी का मृत्यु प्रमाण पत्र और वारिसान प्रमाण पत्र की मूल प्रतियां खो गई हैं,hi,hand_written
+पार्किंग विवाद लोहे रॉड सिर वार कर गंभीर ₹प घायल कर दिया अस्पताल छह टांके आए,Physical Assault,पार्किंग विवाद में लोहे की रॉड से सिर पर वार कर गंभीर रूप से घायल कर दिया अस्पताल में छह टांके आए,hi,hand_written
+open drinking alcohol public park by group boys creating nuisance throwing glass bottles children swing area,Other,open drinking of alcohol in public park by group of boys creating nuisance throwing glass bottles on children swing area,en,hand_written
+16 साल बेटी कल दोपहर कोचिंग लिए निकली लेकिन वहां नहीं पहुंची उसका फोन बंद रहा,Missing Person,मेरी 16 साल की बेटी कल दोपहर कोचिंग के लिए निकली थी लेकिन वहां नहीं पहुंची उसका फोन बंद आ रहा है,hi,hand_written
+फेसबुक फोटो मॉर्फ करके अश्लील टिप्पणियां जा रही तुरंत कार्रवाई करें,Harassment,फेसबुक पर मेरी फोटो मॉर्फ करके अश्लील टिप्पणियां की जा रही हैं तुरंत कार्रवाई करें,hi,hand_written
+फर्जी चालान लिंक व्हाट्सएप भेजा जिसमें चालान भरने नाम 30000 रुपये खाते गायब गए,Cyber Fraud,फर्जी चालान का लिंक व्हाट्सएप पर भेजा जिसमें चालान भरने के नाम पर 30000 रुपये खाते से गायब हो गए,hi,hand_written
+beti tuition se wapas nahi aayi hai family wale sab jagah dhoondh rahe hain,Missing Person,beti tuition se wapas nahi aayi hai family wale sab jagah dhoondh rahe hain,hinglish,hand_written
+shopkeeper passing sexually explicit comments whenever visit local market,Harassment,shopkeeper passing sexually explicit comments whenever i visit the local market,en,hand_written
+sasural wale meri behan ko dahej ke liye mental torture kar rahe hain aur dhamki de rahe hain,Harassment,sasural wale meri behan ko dahej ke liye mental torture kar rahe hain aur dhamki de rahe hain,hinglish,hand_written
+scammed by online astrologer who took 35000 online promising cure health problems disappeared,Cyber Fraud,scammed by online astrologer who took 35000 online promising to cure health problems and disappeared,en,hand_written
+two men white car following ladies group walking park rolling down window vulgar comments,Harassment,two men in white car following our ladies group walking in park and rolling down window with vulgar comments,en,hand_written
+किराएदार महिला मकान मालिक द्वारा अनुचित बातें कहकर मानसिक ₹प परेशान करने मामला,Harassment,किराएदार महिला को मकान मालिक द्वारा अनुचित बातें कहकर मानसिक रूप से परेशान करने का मामला,hi,hand_written
+dadi ji aged 80 years society gate se bahar nikal gaya aur rasta bhatak gaya hain,Missing Person,dadi ji aged 80 years society gate se bahar nikal gayi aur rasta bhatak gayi hain,hinglish,hand_written
+electricity bill disconnection ka fake link bhej kar 40000 chori liye,Cyber Fraud,electricity bill disconnection ka fake link bhej kar 40000 chura liye,hinglish,hand_written
+continuous sewage overflow from blocked municipal sewer line entering ground floor house corporation not responding,Other,continuous sewage overflow from blocked municipal sewer line entering our ground floor house corporation not responding,en,hand_written
+railway station par bheed mein mera beta bichhad gaya hai aur mil nahi raha,Missing Person,railway station par bheed mein mera beta bichhad gaya hai aur mil nahi raha,hinglish,hand_written
+landlord son peeping into rented room through bathroom ventilator taking unauthorized photographs,Harassment,landlord son peeping into my rented room through bathroom ventilator and taking unauthorized photographs,en,hand_written
+crypto investment telegram group mein lakh lagwaye ab withdrawal block kar diya aur tax maang rahe hain,Cyber Fraud,crypto investment telegram group mein 2 lakh lagwaye ab withdrawal block kar diya aur tax maang rahe hain,hinglish,hand_written
+illegal high volume loudspeakers playing all night residential area disturbing sleep,Other,Illegal high volume loudspeakers playing all night in residential area disturbing sleep.,en,hand_written
+online shopping website took payment 14500 air conditioner never delivered item fake website,Cyber Fraud,online shopping website took payment of 14500 for air conditioner and never delivered item fake website,en,hand_written
+road rage mein scorpio wale ladko ne mujhe car se kheench kar mara maar aur naak tod di,Physical Assault,road rage mein scorpio wale do ladko ne mujhe car se kheench kar mara peeta aur naak tod di,hinglish,hand_written
+अज्ञात लड़का रोज कॉलेज जाते समय पीछा करता अश्लील फब्तियां कसता,Harassment,एक अज्ञात लड़का रोज कॉलेज जाते समय मेरा पीछा करता है और अश्लील फब्तियां कसता है,hi,hand_written
+public park mein alcohol peekar shor machate hain botal todte hain,Other,public park mein alcohol peekar shor machate hain botal todte hain,hinglish,hand_written
+pocket picked dadar railway station platform number lost twenty five hundred cash metro card,Theft,pocket picked at dadar railway station platform number 3 lost twenty five hundred rupees cash and metro card,en,hand_written
+hotel booking scam fake website paid full advance amount 22000 hotel said no booking exists,Cyber Fraud,hotel booking scam on fake website paid full advance amount of 22000 hotel said no booking exists,en,hand_written
+फ्लैट तेज आवाज ड्रम गिटार बजाकर रात भर न्यूसेंस फैलाने वाले लड़कों खिलाफ शिकायत,Other,फ्लैट में तेज आवाज में ड्रम और गिटार बजाकर रात भर न्यूसेंस फैलाने वाले लड़कों के खिलाफ शिकायत,hi,hand_written
+दुकान ग्राहक बनकर आए दो युवकों कीमती घड़ियां चुरा लीं,Theft,मेरी दुकान से ग्राहक बनकर आए दो युवकों ने कीमती घड़ियां चुरा लीं,hi,hand_written
+ईपीएफओ फर्जी एसएमएस भेजकर खाते पचास हजार रुपये उड़ा लिए साइबर अपराधियों,Cyber Fraud,ईपीएफओ का फर्जी एसएमएस भेजकर खाते से पचास हजार रुपये उड़ा लिए साइबर अपराधियों ने,hi,hand_written
+lost leather briefcase containing non official study notes novels metro seat,Other,lost my leather briefcase containing non-official study notes and novels on metro seat,en,hand_written
+sister aged 21 went submit college project university missing since pm,Missing Person,my sister aged 21 went to submit college project at university and is missing since 2 pm,en,hand_written
+lost aadhaar card printed copy pan card laminated card auto,Lost Documents,lost my aadhaar card printed copy and pan card laminated card in auto,en,hand_written
+ठेके बाहर शराबियों चाकू मारकर पेट गहरा घाव कर दिया हालत नाजुक,Physical Assault,ठेके के बाहर शराबियों ने चाकू मारकर पेट में गहरा घाव कर दिया हालत नाजुक है,hi,hand_written
+हॉस्टल रहने वाला भाई पिछले तीन दिनों लापता उसका कमरा खुला फोन नहीं लग रहा,Missing Person,हॉस्टल में रहने वाला मेरा भाई पिछले तीन दिनों से लापता है उसका कमरा खुला है और फोन नहीं लग रहा,hi,hand_written
+lost gold plated fountain pen leather notebook left conference hall hotel,Other,lost a gold-plated fountain pen and leather notebook left in conference hall at hotel,en,hand_written
+unknown number se whatsapp par pornographic video aur photos bhej kar harassment kar raha hai koi,Harassment,unknown number se whatsapp par pornographic video aur photos bhej kar harassment kar raha hai koi,hinglish,hand_written
+सोसाइटी परिसर आवारा कुत्तों अवैध ₹प पाला जा रहा जो बच्चों बुजुर्गों काटने दौड़ते,Other,सोसाइटी के परिसर में आवारा कुत्तों को अवैध रूप से पाला जा रहा है जो बच्चों और बुजुर्गों को काटने दौड़ते हैं,hi,hand_written
+young boy aged 11 went missing from outside residence while playing street friends,Missing Person,young boy aged 11 went missing from outside our residence while playing with street friends,en,hand_written
+stalker standing outside coaching institute recording videos his mobile,Harassment,Stalker standing outside my coaching institute recording videos of me on his mobile.,en,hand_written
+neighbor threatening poison pet dog who barking inside private compound,Other,neighbor threatening to poison my pet dog who was barking inside our private compound,en,hand_written
+qr code scan karwa ke olx par paise kat gaya mere sath fraud hua,Cyber Fraud,qr code scan karwa ke olx par paise kat gaye mere sath fraud hua,hinglish,hand_written
+college student staying pg missing three days room locked roommate unaware,Missing Person,"College student staying in PG missing for three days, room is locked and roommate unaware.",en,hand_written
+lost passport while returning from airport cab driver says he not find need complaint report,Lost Documents,lost my passport while returning from airport in cab driver says he did not find it need complaint report,en,hand_written
+property dispute chacha ke ladke ne lohe ki rod se sar par mara,Physical Assault,Property dispute me chacha ke ladke ne lohe ki rod se sar par mara.,hinglish,hand_written
+खेत पानी लगाने गए किसान 24 घंटे कोई अता पता नहीं,Missing Person,खेत पर पानी लगाने गए किसान का 24 घंटे से कोई अता-पता नहीं है,hi,hand_written
+traffic police wale ko sharabi car driver ne punch maar aur vardi faad di,Physical Assault,traffic police wale ko sharabi car driver ne punch maara aur vardi faad di,hinglish,hand_written
+सीजीएचएस स्वास्थ्य कार्ड पेंशनर पहचान पत्र अस्पताल परिसर खो गया,Lost Documents,सीजीएचएस स्वास्थ्य कार्ड और पेंशनर पहचान पत्र अस्पताल परिसर में खो गया है,hi,hand_written
+मैरिज हॉल गाड़ियां सड़क दोनों तरफ बेतरतीब खड़ी होने पूरी कॉलोनी रास्ता जाम गया,Other,मैरिज हॉल की गाड़ियां सड़क के दोनों तरफ बेतरतीब खड़ी होने से पूरी कॉलोनी का रास्ता जाम हो गया है,hi,hand_written
+घर गेट ठीक सामने बड़ा ट्रक स्थाई ₹प खड़ा कर दिया गया जिससे हमारी गाड़ी नहीं निकल पा रही,Other,घर के गेट के ठीक सामने बड़ा ट्रक स्थाई रूप से खड़ा कर दिया गया है जिससे हमारी गाड़ी नहीं निकल पा रही,hi,hand_written
+neighbor erected illegal metal gate public street restricting vehicle entry other colony residents,Other,neighbor erected illegal metal gate on public street restricting vehicle entry for other colony residents,en,hand_written
+ex fiance sending threatening audio notes threatening ruin marriage anyone else,Harassment,ex-fiance sending threatening audio notes threatening to ruin my marriage with anyone else,en,hand_written
+unknown person stole money from cashier drawer during rush hour medical shop,Theft,unknown person stole money from cashier drawer during rush hour at medical shop,en,hand_written
+हवाई अड्डे पासपोर्ट खो जाने संबंध डुप्लीकेट जारी करवाने हेतु पुलिस सूचना रसीद चाहिए,Lost Documents,हवाई अड्डे पर पासपोर्ट खो जाने के संबंध में डुप्लीकेट जारी करवाने हेतु पुलिस सूचना रसीद चाहिए,hi,hand_written
+wife kal afternoon bank gaya thi par abhi tak ghar nahi aayi phone switch off hai,Missing Person,wife kal afternoon bank gayi thi par abhi tak ghar nahi aayi phone switch off hai,hinglish,hand_written
+stalking ho rahi hai roz roz raste par peecha karta hai wo ladka,Harassment,stalking ho rahi hai roz roz raste par peecha karta hai wo ladka,hinglish,hand_written
+सार्वजनिक फुटपाथ पक्का निर्माण करके आम जनता रास्ता पूरी तरह रोक दिया गया अतिक्रमण हटाया जाए,Other,सार्वजनिक फुटपाथ पर पक्का निर्माण करके आम जनता का रास्ता पूरी तरह रोक दिया गया है अतिक्रमण हटाया जाए,hi,hand_written
+unauthorized transactions 90000 hdfc credit card while physical card wallet,Cyber Fraud,unauthorized transactions of 90000 rupees on my hdfc credit card while the physical card was in my wallet,en,hand_written
+हॉर्न बजाने बाइक सवारों कार शीशा तोड़ा ड्राइवर बाहर खींचकर हेलमेट सिर वार किया,Physical Assault,हॉर्न बजाने पर बाइक सवारों ने कार का शीशा तोड़ा और ड्राइवर को बाहर खींचकर हेलमेट से सिर पर वार किया,hi,hand_written
+violent brawl erupted pub where bouncers beaten up friend causing fractured nose,Physical Assault,Violent brawl erupted in pub where bouncers beaten up my friend causing fractured nose.,en,hand_written
+ghar ke bahar khadi bullet bike raat ko chori ho gaya subah dekha toh lock toota mila,Theft,ghar ke bahar khadi bullet bike raat ko chori ho gayi subah dekha toh lock toota mila,hinglish,hand_written
+married sister missing from her matrimonial house past three days laws giving evasive answers,Missing Person,married sister missing from her matrimonial house for past three days in-laws giving evasive answers,en,hand_written
+miscreants throwing firecrackers inside residential compound gates during late night hours causing fire hazard,Other,miscreants throwing firecrackers inside residential compound gates during late night hours causing fire hazard,en,hand_written
+बेटी स्कूल रास्ते आवारा लड़के खड़े होकर अश्लील इशारे करते हैं।,Harassment,मेरी बेटी के स्कूल के रास्ते पर आवारा लड़के खड़े होकर अश्लील इशारे करते हैं।,hi,hand_written
+किसान विकास पत्र बैंक पासबुक खो जाने सूचना,Lost Documents,किसान विकास पत्र और बैंक की पासबुक खो जाने की सूचना,hi,hand_written
+सिनेमा हॉल बाहर किसी अज्ञात व्यक्ति चाकू हमला कर हाथ गहरा घाव कर दिया।,Physical Assault,सिनेमा हॉल के बाहर किसी अज्ञात व्यक्ति ने चाकू से हमला कर हाथ में गहरा घाव कर दिया।,hi,hand_written
+threatened by local goons who stand outside street corner passing lewd comments passing women,Harassment,threatened by local goons who stand outside our street corner passing lewd comments on passing women,en,hand_written
+कॉलोनी पार्क खुलेआम शराब पीकर हुड़दंग मचाने वाले लड़कों खिलाफ कार्रवाई करें,Other,कॉलोनी के पार्क में खुलेआम शराब पीकर हुड़दंग मचाने वाले लड़कों के खिलाफ कार्रवाई करें,hi,hand_written
+सब्जी विक्रेता पिता रात दस बजे मंडी निकले लेकिन अभी तक घर नहीं पहुंचे,Missing Person,सब्जी विक्रेता पिता रात दस बजे मंडी से निकले थे लेकिन अभी तक घर नहीं पहुंचे,hi,hand_written
+पति कल सुबह ड्यूटी लिए निकले लेकिन शाम घर नहीं लौटे उनका मोबाइल स्विच ऑफ,Missing Person,मेरे पति कल सुबह ड्यूटी के लिए निकले थे लेकिन शाम को घर नहीं लौटे उनका मोबाइल स्विच ऑफ है,hi,hand_written
+meri 16 saal ki behan tuition ke liye nikli thi par waha nahi pahunchi uska phone switched off hai,Missing Person,meri 16 saal ki behan tuition ke liye nikli thi par waha nahi pahunchi uska phone switched off hai,hinglish,hand_written
+unauthorized telecommunication mobile tower installation dilapidated residential roof without structural safety noc,Other,unauthorized telecommunication mobile tower installation on dilapidated residential roof without structural safety noc,en,hand_written
+बेटा घर नाराज होकर कल रात निकल गया 24 घंटे कोई अता पता नहीं है।,Missing Person,"हमारा बेटा घर से नाराज होकर कल रात निकल गया, 24 घंटे से कोई अता-पता नहीं है।",hi,hand_written
+driving licence pan card lost while walking park need report duplicate application,Lost Documents,driving licence and pan card lost while walking in park need report for duplicate application,en,hand_written
+drain block ho gaya hai padosi ki wajah se pani ghar aa raha hai,Other,drain block ho gaya hai padosi ki wajah se pani ghar me aa raha hai,hinglish,hand_written
+fake reliance jio 5g tower installation offer asked registration fee 65000,Cyber Fraud,fake reliance jio 5g tower installation offer asked for registration fee of 65000 rupees,en,hand_written
+ex colleague sending vulgar messages threatening calls whatsapp despite blocked,Harassment,Ex-colleague sending vulgar messages and threatening calls on WhatsApp despite being blocked.,en,hand_written
+black wildcraft laptop bag containing lenovo thinkpad stolen indiranagar metro station,Theft,My black Wildcraft laptop bag containing Lenovo ThinkPad was stolen at Indiranagar Metro Station.,en,hand_written
+girl aged 12 went missing from crowded festival procession main road,Missing Person,girl aged 12 went missing from crowded festival procession on main road,en,hand_written
+fake work from home data entry job asked security deposit 12000 then blocked phone number,Cyber Fraud,fake work from home data entry job asked for security deposit of 12000 and then blocked my phone number,en,hand_written
+अनजान नंबर वीडियो कॉल आई रिकॉर्डिंग करके ब्लैकमेल करके यूपीआई पैसे मांगे जा रहे,Cyber Fraud,अनजान नंबर से वीडियो कॉल आई और रिकॉर्डिंग करके ब्लैकमेल करके यूपीआई से पैसे मांगे जा रहे हैं,hi,hand_written
+ओएलएक्स सेना जवान बनकर ठगी करने वाले गिरोह खिलाफ एफआईआर दर्ज करें,Cyber Fraud,ओएलएक्स पर सेना का जवान बनकर ठगी करने वाले गिरोह के खिलाफ एफआईआर दर्ज करें,hi,hand_written
+dhabe par khana khate waqt beer ki tooti bottle se garden par war kiya murder attempt tha,Physical Assault,dhabe par khana khate waqt beer ki tooti bottle se garden par war kiya murder attempt tha,hinglish,hand_written
+gadi ki rc book kho gaya hai auto chhoot gaya thi,Lost Documents,gadi ki rc book kho gayi hai auto me chhoot gayi thi,hinglish,hand_written
+स्कूटी डिक्की खोलकर उसमें रखा सैमसंग फोन पर्स चोरी कर लिया,Theft,मेरी स्कूटी की डिक्की खोलकर उसमें रखा सैमसंग फोन और पर्स चोरी कर लिया,hi,hand_written
+metro train ke andar kisi ne mera phone pocket se nikal liya mujhe pata bhi nahi chala,Theft,metro train ke andar kisi ne mera phone pocket se nikal liya mujhe pata bhi nahi chala,hinglish,hand_written
+fake wedding card apk sent whatsapp once downloaded all bank otps forwarded 110000 transferred,Cyber Fraud,fake wedding card apk sent on whatsapp once downloaded all bank otps were forwarded and 110000 transferred,en,hand_written
+बिजली बिल नाम फर्जी लिंक भेजा खाते 28000 रुपये साफ कर दिए,Cyber Fraud,बिजली बिल के नाम पर फर्जी लिंक भेजा और खाते से 28000 रुपये साफ कर दिए,hi,hand_written
+प्लास्टिक फोल्डर रखी बीटेक डिग्री मेट्रो कोच भूल गया हूं,Lost Documents,प्लास्टिक के फोल्डर में रखी बीटेक की डिग्री मेट्रो कोच में भूल गया हूं,hi,hand_written
+neighbor installed high power floodlights directly facing bedroom windows disturbing sleep throughout night,Other,neighbor installed high power floodlights directly facing our bedroom windows disturbing sleep throughout night,en,hand_written
+sir mera chhota bhai missing hai kal shaam se please report likho,Missing Person,sir mera chhota bhai missing hai kal shaam se please report likho,hinglish,hand_written
+अंधेरी गली पांच अज्ञात बदमाशों घेरकर पीटा मुंह पंच मारकर दो दांत तोड़ दिए,Physical Assault,अंधेरी गली में पांच अज्ञात बदमाशों ने घेरकर पीटा और मुंह पर पंच मारकर दो दांत तोड़ दिए,hi,hand_written
+lost envelope containing duplicate key papers vehicle warranty card,Lost Documents,Lost envelope containing duplicate key papers and vehicle warranty card.,en,hand_written
+person rejected matrimonial site stalking threatening throw acid face if marry someone else,Harassment,person rejected on matrimonial site is stalking me threatening to throw acid on my face if i marry someone else,en,hand_written
+किराने दुकान रात तेल पीपे रिफाइंड डिब्बे चोरी,Theft,किराने की दुकान से रात में तेल के पीपे और रिफाइंड के डिब्बे चोरी,hi,hand_written
+road rage fight where driver punched face repeatedly causing bloody nose broken tooth,Physical Assault,road rage fight where driver punched my face repeatedly causing bloody nose and broken tooth,en,hand_written
+hospital mein bache ka birth certificate folder chhoot gaya tha mil nahi raha,Lost Documents,hospital mein bache ka birth certificate folder chhoot gaya tha mil nahi raha,hinglish,hand_written
+apple macbook pro stolen from university reading room when went washroom five minutes,Theft,my apple macbook pro was stolen from the university reading room when i went to the washroom for five minutes,en,hand_written
+किराया मांगने ऑटो चालक चाकू हमला कर घायल कर दिया गया,Physical Assault,किराया मांगने पर ऑटो चालक पर चाकू से हमला कर घायल कर दिया गया,hi,hand_written
+सहेली घर जाने बात कहकर निकली युवती तीन दिन लापता,Missing Person,सहेली के घर जाने की बात कहकर निकली युवती तीन दिन से लापता है,hi,hand_written
+someone stole parked hero splendor motorcycle from railway station parking lot ticket slip number 4410,Theft,someone stole my parked hero splendor motorcycle from the railway station parking lot ticket slip number 4410,en,hand_written
+bank ki fake website par login kiya netbanking se 90000 transfer ho gaya kisi unknown account,Cyber Fraud,bank ki fake website par login kiya netbanking se 90000 transfer ho gaye kisi unknown account me,hinglish,hand_written
+गाड़ी पार्क करने लेकर विवाद तीन भाइयों मिलकर सिर लोहे तवा दे मारा,Physical Assault,गाड़ी पार्क करने को लेकर विवाद में तीन भाइयों ने मिलकर सिर पर लोहे का तवा दे मारा,hi,hand_written
+हाईवे लावारिस मवेशियों खुला छोड़ने वाले पशुपालकों खिलाफ एफआईआर दर्ज करें,Other,हाईवे पर लावारिस मवेशियों को खुला छोड़ने वाले पशुपालकों के खिलाफ एफआईआर दर्ज करें,hi,hand_written
+thieves entered grocery shop night by cutting shutter lock emptied cash counter taking 45000,Theft,thieves entered my grocery shop at night by cutting the shutter lock and emptied the cash counter taking 45000 rupees,en,hand_written
+original property sale deed khata documents misplaced while visiting sub registrar office,Lost Documents,Original property sale deed and Khata documents misplaced while visiting sub-registrar office.,en,hand_written
+neighbor threw boiling oil during argument causing second degree burn injuries complainant his son,Physical Assault,neighbor threw boiling oil during argument causing second degree burn injuries to complainant and his son,en,hand_written
+degree certificate kho gaya hai university verification ke liye ncr chahiye,Lost Documents,degree certificate kho gaya hai university verification ke liye ncr chahiye,hinglish,hand_written
+कक्षा 12वीं मूल अंकतालिका डिग्री लिफाफा ऑटो छूट गया जो नहीं मिल रहा,Lost Documents,कक्षा 12वीं की मूल अंकतालिका और डिग्री का लिफाफा ऑटो में छूट गया है जो नहीं मिल रहा,hi,hand_written
+क्लीनिक डॉक्टर सहायक द्वारा इलाज दौरान गलत नीयत छूने शिकायत,Harassment,क्लीनिक में डॉक्टर के सहायक द्वारा इलाज के दौरान गलत नीयत से छूने की शिकायत,hi,hand_written
+ताऊजी उम्र 85 वर्ष सुबह दूध लेने निकले रास्ता भूलकर कहीं चले गए,Missing Person,मेरे ताऊजी उम्र 85 वर्ष सुबह दूध लेने निकले थे और रास्ता भूलकर कहीं चले गए हैं,hi,hand_written
+sir noise pollution ki complaint karni hai loud speaker baj raha hai,Other,sir noise pollution ki complaint karni hai loud speaker baj raha hai,hinglish,hand_written
+साइकिल सवार तेज रफ्तार कार वाले टक्कर मारी विरोध रॉड पीटा,Physical Assault,साइकिल सवार को तेज रफ्तार कार वाले ने टक्कर मारी और विरोध पर रॉड से पीटा,hi,hand_written
+school boy aged 13 failed return home school bus school says he boarded bus but driver no information,Missing Person,school boy aged 13 failed to return home on school bus school says he boarded the bus but driver has no information,en,hand_written
+पार्क टहलने वाली महिलाओं अज्ञात व्यक्ति द्वारा छुप छुप कर वीडियो बनाने मामला,Harassment,पार्क में टहलने वाली महिलाओं का अज्ञात व्यक्ति द्वारा छुप-छुप कर वीडियो बनाने का मामला,hi,hand_written
+बिना किसी ओटीपी क्रेडिट कार्ड 60000 रुपये अनधिकृत लेनदेन हुआ।,Cyber Fraud,बिना किसी ओटीपी के मेरे क्रेडिट कार्ड से 60000 रुपये का अनधिकृत लेनदेन हुआ।,hi,hand_written
+pet dog neighbor barking continuously biting delivery boys without leash vaccination,Other,Pet dog of neighbor barking continuously and biting delivery boys without leash or vaccination.,en,hand_written
+someone stole spare tire battery from maruti swift parked outside house,Theft,Someone stole the spare tire and battery from my Maruti Swift parked outside house.,en,hand_written
+hospital mein doctor ko marizon ke relatives ne mara maar chairs fek kar maari,Physical Assault,hospital mein doctor ko marizon ke relatives ne mara peeta chairs fek kar maari,hinglish,hand_written
+original university migration certificate character certificate misplaced bus,Lost Documents,original university migration certificate and character certificate misplaced in bus,en,hand_written
+library mein padhai karte waqt mera bag chori ho gaya jisme lenovo laptop tha,Theft,library mein padhai karte waqt mera bag chori ho gaya jisme lenovo laptop tha,hinglish,hand_written
+जुआ खेलने दौरान विवाद उस्तरा मारकर चेहरे गर्दन गहरा घाव कर दिया,Physical Assault,जुआ खेलने के दौरान विवाद में उस्तरा मारकर चेहरे और गर्दन पर गहरा घाव कर दिया,hi,hand_written
+auto driver assaulted by three youths helmet when asked standard meter fare,Physical Assault,auto driver assaulted by three youths with helmet when asked for standard meter fare,en,hand_written
+someone posting abusive comments stalking personal youtube channel making death threats,Harassment,someone posting abusive comments and stalking my personal youtube channel making death threats,en,hand_written
+registry office se aate waqt makan ke original registry papers kho gaya hain cab mein,Lost Documents,registry office se aate waqt makan ke original registry papers kho gaye hain cab mein,hinglish,hand_written
+sweeper road par plastic aur kachra jalata hai bohot dhuan ho jata hai colony,Other,sweeper road par plastic aur kachra jalata hai bohot dhuan ho jata hai colony me,hinglish,hand_written
+बस स्टैंड चाय पीते समय टेबल रखा बैग किसी पार कर दिया,Theft,बस स्टैंड पर चाय पीते समय टेबल पर रखा मेरा बैग किसी ने पार कर दिया,hi,hand_written
+sasural se behan lapata hai aur sasural wale kuch batane ko tayar nahi hain,Missing Person,sasural se behan gayab hai aur sasural wale kuch batane ko tayar nahi hain,hinglish,hand_written
+सब रजिस्ट्रार ऑफिस जमीन मूल रजिस्ट्री खतौनी कागजात गुम गए हैं।,Lost Documents,सब-रजिस्ट्रार ऑफिस में जमीन की मूल रजिस्ट्री और खतौनी के कागजात गुम हो गए हैं।,hi,hand_written
+14 year old nephew went play cricket neighborhood park pm missing since then,Missing Person,my 14-year-old nephew went to play cricket in the neighborhood park at 4 pm and has been missing since then,en,hand_written
+plastic folder containing original marks cards internship certificate forgotten metro coach,Lost Documents,plastic folder containing original marks cards and internship certificate forgotten in metro coach,en,hand_written
+bhaiya online cyber fraud hua hai 25000 account se nikal gaya bina kisi otp ke,Cyber Fraud,bhaiya online cyber fraud hua hai 25000 account se nikal gaye bina kisi otp ke,hinglish,hand_written
+drunk youth attacked traffic constable duty tore uniform punched face when stopped drink drive check,Physical Assault,drunk youth attacked traffic constable on duty tore uniform and punched on face when stopped for drink and drive check,en,hand_written
+लाल बत्ती खड़े ऑटो सवार यात्री फोन झपटकर पैदल संकरी गली भागा चोर,Theft,लाल बत्ती पर खड़े ऑटो में सवार यात्री का फोन झपटकर पैदल ही संकरी गली में भागा चोर,hi,hand_written
+मकान किराएदार जाने पहले मकान मालिक एसी पानी मोटर चोरी कर ली,Theft,मकान में किराएदार ने जाने से पहले मकान मालिक का एसी और पानी की मोटर चोरी कर ली,hi,hand_written
+delivery boy ne parcel stairs par rakha aur koi unknown aadmi parcel utha kar le gaya,Theft,delivery boy ne parcel stairs par rakha aur koi unknown aadmi parcel utha kar le gaya,hinglish,hand_written
+धार्मिक यात्रा गया परिवार सदस्य हरिद्वार घाट अचानक बिछड़ गया,Missing Person,धार्मिक यात्रा पर गया परिवार का सदस्य हरिद्वार घाट से अचानक बिछड़ गया,hi,hand_written
+हटाए गए कर्मचारियों फैक्ट्री गेट मैनेजर लोहे पाना हमला कर सिर फोड़ दिया,Physical Assault,हटाए गए कर्मचारियों ने फैक्ट्री गेट पर मैनेजर पर लोहे के पाना से हमला कर सिर फोड़ दिया,hi,hand_written
+neighbor carrying out heavy structural drilling wall demolition am violating residential noise norms,Other,neighbor carrying out heavy structural drilling and wall demolition at 3 am violating residential noise norms,en,hand_written
+sim swap fraud resulted loss 95000 from mobile banking app,Cyber Fraud,SIM swap fraud resulted in loss of 95000 rupees from mobile banking app.,en,hand_written
+72 वर्षीय वृद्ध पिता सुबह टहलने निकले याददाश्त कमजोर वे लापता हैं।,Missing Person,"मेरे 72 वर्षीय वृद्ध पिता सुबह टहलने निकले थे, याददाश्त कमजोर है और वे लापता हैं।",hi,hand_written
+सरेआम लाठी डंडों जानलेवा हमला मारपीट गई सिर खून बह रहा है।,Physical Assault,सरेआम लाठी डंडों से जानलेवा हमला और मारपीट की गई सिर से खून बह रहा है।,hi,hand_written
+नाइट ड्यूटी लौटते समय कर्मचारी रास्ते गायब गया परिवार परेशान है।,Missing Person,"नाइट ड्यूटी से लौटते समय हमारा कर्मचारी रास्ते से ही गायब हो गया, परिवार परेशान है।",hi,hand_written
+tree branches intentionally cut dumped front main gate blocking garage entrance,Other,Tree branches intentionally cut and dumped in front of our main gate blocking garage entrance.,en,hand_written
+मकान मालिक किराएदार लाठी हमला कर पीठ हाथ गंभीर चोटें पहुंचाईं,Physical Assault,मकान मालिक ने किराएदार पर लाठी से हमला कर पीठ और हाथ पर गंभीर चोटें पहुंचाईं,hi,hand_written
+lost sbi bank passbook signed cheque book somewhere market area during shopping,Lost Documents,lost my sbi bank passbook and signed cheque book somewhere in the market area during shopping,en,hand_written
+eve teasing hui hai main road par police complaint likhiye,Harassment,eve teasing hui hai main road par police complaint likhiye,hinglish,hand_written
+gandi gandi gaaliyan deta hai padosi aur darwaza peetta hai,Harassment,gandi gandi gaaliyan deta hai padosi aur darwaza peetta hai,hinglish,hand_written
+यूपीआई कलेक्ट रिक्वेस्ट गलती एक्सेप्ट कर लिया जिससे 20000 रुपये कट गए,Cyber Fraud,यूपीआई कलेक्ट रिक्वेस्ट को गलती से एक्सेप्ट कर लिया जिससे 20000 रुपये कट गए,hi,hand_written
+lost vehicle registration book national permit papers commercial tourist bus,Lost Documents,lost vehicle registration book and national permit papers for my commercial tourist bus,en,hand_written
+shopkeeper physically beaten by local goons demanding extortion money weekly hafta,Physical Assault,Shopkeeper physically beaten by local goons demanding extortion money weekly hafta.,en,hand_written
+bus mein bheed ka fayda uthakar kisi ne pocket maar liya wallet mein teen hazar cash tha,Theft,bus mein bheed ka fayda uthakar kisi ne pocket maar liya wallet mein teen hazar cash tha,hinglish,hand_written
+दबंगों लाठी बेल्ट बुरी तरह पीटा तुरंत मेडिकल करवाकर केस दर्ज करें,Physical Assault,दबंगों ने लाठी और बेल्ट से बुरी तरह पीटा तुरंत मेडिकल करवाकर केस दर्ज करें,hi,hand_written
+shutter todkar choro ne dukan se samaan chori liya,Theft,shutter todkar choro ne dukan se samaan chura liya,hinglish,hand_written
+ghar ki chabiyon ka bunch market mein kho gaya hai missing item report likhiye,Other,ghar ki chabiyon ka bunch market mein kho gaya hai missing item report likhiye,hinglish,hand_written
+laptop charger office badge stolen from car boot after lock tampering public parking ground,Theft,laptop charger and office badge stolen from car boot after lock tampering at public parking ground,en,hand_written
+younger brother aged 18 not return home after college exams his bike found parked outside metro station,Missing Person,my younger brother aged 18 did not return home after college exams his bike found parked outside metro station,en,hand_written
+ऑनलाइन होटल बुकिंग फर्जी वेबसाइट बनाकर एडवांस 22000 रुपये हड़प लिए होटल पहुंचने पता चला फर्जी,Cyber Fraud,ऑनलाइन होटल बुकिंग की फर्जी वेबसाइट बनाकर एडवांस के 22000 रुपये हड़प लिए होटल पहुंचने पर पता चला फर्जी है,hi,hand_written
+truck ka commercial driving licence aur fitness certificate gum ho gaya hai,Lost Documents,truck ka commercial driving licence aur fitness certificate gum ho gaya hai,hinglish,hand_written
+ऑनलाइन सस्ती बाइक बेचने झांसा देकर आर्मी ऑफिसर नाम 40000 रुपये एडवांस लेकर फोन बंद कर लिया,Cyber Fraud,ऑनलाइन सस्ती बाइक बेचने का झांसा देकर आर्मी ऑफिसर के नाम पर 40000 रुपये एडवांस लेकर फोन बंद कर लिया,hi,hand_written
+two men entered grocery shop assaulted shopkeeper iron weights from weighing scale breaking jaw bone,Physical Assault,two men entered grocery shop assaulted shopkeeper with iron weights from weighing scale breaking jaw bone,en,hand_written
+lost original mbbs degree certificate medical council registration during commute,Lost Documents,Lost original MBBS degree certificate and medical council registration during commute.,en,hand_written
+टेलीग्राम ऑनलाइन वर्क फ्रॉम होम जॉब नाम लाख 20 हजार रुपये ठगी हुई।,Cyber Fraud,टेलीग्राम पर ऑनलाइन वर्क फ्रॉम होम जॉब के नाम पर 1 लाख 20 हजार रुपये की ठगी हुई।,hi,hand_written
+someone stole copper cables water pump motor from under construction site during midnight,Theft,someone stole the copper cables and water pump motor from our under construction site during midnight,en,hand_written
+रेलवे स्टेशन वेटिंग ₹म सूटकेस चोरी गया जिसमें कपड़े गहने थे।,Theft,रेलवे स्टेशन वेटिंग रूम में सूटकेस चोरी हो गया जिसमें कपड़े और गहने थे।,hi,hand_written
+snatching hui hai bus stand par bike wale purse cheen ke bhaag gaya,Theft,snatching hui hai bus stand par do bike wale purse cheen ke bhaag gaye,hinglish,hand_written
+mera wallet kho gaya jisme sabhi original cards,Lost Documents,mera wallet kho gaya jisme sabhi original cards the,hinglish,hand_written
+caller claimed vehicle challan pending sent apk file whatsapp drained 42000,Cyber Fraud,caller claimed my vehicle challan was pending sent apk file on whatsapp that drained 42000 rupees,en,hand_written
+हॉस्टल सीनियर छात्राओं द्वारा जूनियर छात्राओं मानसिक शारीरिक उत्पीड़न करने शिकायत,Harassment,हॉस्टल में सीनियर छात्राओं द्वारा जूनियर छात्राओं का मानसिक और शारीरिक उत्पीड़न करने की शिकायत,hi,hand_written
+ट्यूशन लौटते समय कक्षा आठ छात्र लापता गया साइकिल सड़क किनारे मिली,Missing Person,ट्यूशन से लौटते समय कक्षा आठ का छात्र लापता हो गया साइकिल सड़क किनारे मिली,hi,hand_written
+दहेज मिलने पति द्वारा पत्नी घर निकालने चरित्रहीन बताने शिकायत,Harassment,दहेज न मिलने पर पति द्वारा पत्नी को घर से निकालने और चरित्रहीन बताने की शिकायत,hi,hand_written
+महिला पति मृत्यु बाद जेठ देवर संपत्ति हड़पने लिए उसे मानसिक ₹प प्रताड़ित कर रहे,Harassment,महिला के पति की मृत्यु के बाद जेठ और देवर संपत्ति हड़पने के लिए उसे मानसिक रूप से प्रताड़ित कर रहे हैं,hi,hand_written
+बेटी कोचिंग जाते वक्त लड़का परेशान करता कृपया सुरक्षा प्रदान करें,Harassment,मेरी बेटी को कोचिंग जाते वक्त एक लड़का परेशान करता है कृपया सुरक्षा प्रदान करें,hi,hand_written
+shopkeeper his two sons attacked customer heavy wooden lathis head causing profuse bleeding requiring ten stitches,Physical Assault,shopkeeper and his two sons attacked customer with heavy wooden lathis on head causing profuse bleeding requiring ten stitches,en,hand_written
+call from person claiming be army man transferring money furniture sent qr code debited 28000,Cyber Fraud,call from person claiming to be army man transferring money for furniture sent qr code and debited 28000,en,hand_written
+marriage hall ki parking road par hoti hai pura traffic jam ho jata hai gali mein,Other,marriage hall ki parking road par hoti hai pura traffic jam ho jata hai gali mein,hinglish,hand_written
+सुबह चार बजे तेज आवाज लाउडस्पीकर चलाकर कॉलोनी लोगों नींद खराब करने मामला,Other,सुबह चार बजे से तेज आवाज में लाउडस्पीकर चलाकर कॉलोनी के लोगों की नींद खराब करने का मामला,hi,hand_written
+bijli bill connection cut hone ka fake sms aaya aur link par click karte hi 45000 kat gaya account se,Cyber Fraud,bijli bill connection cut hone ka fake sms aaya aur link par click karte hi 45000 kat gaye account se,hinglish,hand_written
+illegal chemical factory operating basement releasing toxic smoke bad odor,Other,Illegal chemical factory operating in basement releasing toxic smoke and bad odor.,en,hand_written
+mumbai police bankar skype call par digital arrest kiya aur drug case ka dar dikha kar lakh transfer karwaye,Cyber Fraud,mumbai police bankar skype call par digital arrest kiya aur drug case ka dar dikha kar do lakh transfer karwaye,hinglish,hand_written
+attacked by three men iron pipes outside market fracturing left forearm,Physical Assault,attacked by three men with iron pipes outside market fracturing my left forearm,en,hand_written
+ऑटिस्टिक बच्चा सोसाइटी गेट बाहर निकल गया लापता,Missing Person,ऑटिस्टिक बच्चा सोसाइटी के गेट से बाहर निकल गया और लापता है,hi,hand_written
+ek ladka roz college aate jaate mera peecha karta hai aur chhed hai,Harassment,ek ladka roz college aate jaate mera peecha karta hai aur chhedta hai,hinglish,hand_written
+ladkiyon ke coaching ke bahar kuch ladke roz aate hain aur chhed hain,Harassment,ladkiyon ke coaching ke bahar kuch ladke roz aate hain aur chhedte hain,hinglish,hand_written
+fraudster promised cheap car olx army officer quota took 45000 advance transport fee switched off phone,Cyber Fraud,fraudster promised cheap car on olx army officer quota took 45000 advance transport fee and switched off phone,en,hand_written
+food delivery rider beaten mercilessly by customer his friends cricket bat over twenty minutes late delivery,Physical Assault,food delivery rider beaten mercilessly by customer and his friends with cricket bat over twenty minutes late delivery,en,hand_written
+शो₹म बाहर डिस्प्ले रखी साइकिल चोरी गई सीसीटीवी आरोपी दिख रहा,Theft,शोरूम के बाहर से डिस्प्ले में रखी साइकिल चोरी हो गई सीसीटीवी में आरोपी दिख रहा है,hi,hand_written
+illegal commercial car repair spray painting workshop operating residential basement emitting toxic paint fumes all day,Other,illegal commercial car repair and spray painting workshop operating in residential basement emitting toxic paint fumes all day,en,hand_written
+security guard apartment complex stalking sister peeping through window blinds,Harassment,security guard at apartment complex stalking my sister and peeping through window blinds,en,hand_written
+घर मामूली कहासुनी बाद 19 वर्षीय युवक बिना बताए कहीं चला गया फोन बंद कर लिया,Missing Person,घर में मामूली कहासुनी के बाद 19 वर्षीय युवक बिना बताए कहीं चला गया और फोन बंद कर लिया,hi,hand_written
+रेलवे स्टेशन ट्रेन चढ़ते समय जेबकतरा पर्स मार ले गया,Theft,रेलवे स्टेशन पर ट्रेन में चढ़ते समय जेबकतरा मेरा पर्स मार ले गया,hi,hand_written
+शादी समारोह वर्षीय बच्ची अचानक गायब गई तुरंत तलाश करवाई जाए,Missing Person,शादी समारोह से 5 वर्षीय बच्ची अचानक गायब हो गई है तुरंत तलाश करवाई जाए,hi,hand_written
+lost sbi cheque book fixed deposit receipts during transit metro train,Lost Documents,Lost my SBI cheque book and fixed deposit receipts during transit in metro train.,en,hand_written
+meri friend college se ghar nahi aayi kal sham se lapata hai,Missing Person,Meri friend college se ghar nahi aayi kal sham se laapata hai.,hinglish,hand_written
+padosi gali galoch karta hai kachra phekta hai civic issue hai,Other,padosi gali galoch karta hai kachra phekta hai civic issue hai,hinglish,hand_written
+काउंसलिंग जाते समय मूल जाति प्रमाण पत्र मूल निवास प्रमाण पत्र लिफाफा खो गया,Lost Documents,काउंसलिंग में जाते समय मूल जाति प्रमाण पत्र और मूल निवास प्रमाण पत्र का लिफाफा खो गया,hi,hand_written
+सब्जी मंडी भीड़ दौरान मां गले मंगलसूत्र छीन लिया गया,Theft,सब्जी मंडी में भीड़ के दौरान मेरी मां के गले से मंगलसूत्र छीन लिया गया,hi,hand_written
+stolen gold earrings from six year old daughter by unknown woman market crowd,Theft,stolen gold earrings from my six year old daughter by an unknown woman in market crowd,en,hand_written
+कस्टमर केयर गलत नंबर सर्च किया रिफंड बहाने खाते 22000 साफ कर दिए।,Cyber Fraud,कस्टमर केयर का गलत नंबर सर्च किया और रिफंड के बहाने खाते से 22000 साफ कर दिए।,hi,hand_written
+electric meter service wire cut stolen from commercial building entrance overnight,Theft,electric meter and service wire cut and stolen from our commercial building entrance overnight,en,hand_written
+maternal uncle aged 55 suffering from neurological disorder missing from house since yesterday,Missing Person,my maternal uncle aged 55 suffering from neurological disorder missing from house since yesterday,en,hand_written
+सफाई कर्मचारी सड़क किनारे सूखे पत्ते प्लास्टिक टायर जलाते जिससे पूरे इलाके दमघोंटू धुआं भर जाता,Other,सफाई कर्मचारी सड़क किनारे सूखे पत्ते प्लास्टिक और टायर जलाते हैं जिससे पूरे इलाके में दमघोंटू धुआं भर जाता है,hi,hand_written
+इंस्टाग्राम शेयर मार्केट ट्रेडिंग नाम मुनाफा कमाने लालच देकर मुझसे तीन लाख रुपये ठगी गई,Cyber Fraud,इंस्टाग्राम पर शेयर मार्केट में ट्रेडिंग के नाम पर मुनाफा कमाने का लालच देकर मुझसे तीन लाख रुपये की ठगी की गई,hi,hand_written

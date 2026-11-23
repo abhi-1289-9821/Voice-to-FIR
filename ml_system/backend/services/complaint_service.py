@@ -1,6 +1,6 @@
 import json
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
 from backend.database.connection import get_db
@@ -97,7 +97,7 @@ def _fetch_complaint_full(conn, comp_id: int) -> Optional[Dict[str, Any]]:
 def create_complaint(req: ComplaintCreateRequest) -> Dict[str, Any]:
     with get_db() as conn:
         ref_num = _generate_reference_number(conn)
-        now_iso = datetime.utcnow().isoformat() + "Z"
+        now_iso = datetime.now(timezone.utc).isoformat()
         entities_json = json.dumps(req.extracted_entities) if req.extracted_entities else "{}"
 
         cur = conn.execute(
@@ -210,7 +210,7 @@ def update_complaint_status(reference: str, req: StatusUpdateRequest) -> Optiona
 
         comp_id = row["id"]
         old_status = row["status"]
-        now_iso = datetime.utcnow().isoformat() + "Z"
+        now_iso = datetime.now(timezone.utc).isoformat()
 
         conn.execute(
             "UPDATE complaints SET status = ?, updated_at = ? WHERE id = ?",
@@ -248,7 +248,7 @@ def add_officer_note(reference: str, req: OfficerNoteCreateRequest) -> Optional[
             return None
 
         comp_id = row["id"]
-        now_iso = datetime.utcnow().isoformat() + "Z"
+        now_iso = datetime.now(timezone.utc).isoformat()
 
         conn.execute(
             """

@@ -13,6 +13,7 @@ class ClassificationResponse(BaseModel):
     model_name: str
     cleaned_text: str
     status: str
+    low_confidence: Optional[bool] = False
 
 
 class ExtractionRequest(BaseModel):

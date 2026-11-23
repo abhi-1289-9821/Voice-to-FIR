@@ -68,6 +68,7 @@ class ComplaintClassifier:
                 "model_name": self.model_type,
                 "cleaned_text": "",
                 "status": "empty_input",
+                "low_confidence": True,
             }
 
         cleaned = preprocess_for_tfidf(text)
@@ -79,6 +80,7 @@ class ComplaintClassifier:
                 "model_name": self.model_type,
                 "cleaned_text": "",
                 "status": "uninformative_input",
+                "low_confidence": True,
             }
 
         X_vec = self.vectorizer.transform([cleaned])
@@ -102,6 +104,7 @@ class ComplaintClassifier:
             "model_name": self.metadata.get("model_name", "TF-IDF + Logistic Regression"),
             "cleaned_text": cleaned,
             "status": "success",
+            "low_confidence": bool(confidence < 0.40),
         }
 
 

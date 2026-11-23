@@ -64,12 +64,12 @@ The project consists of two standalone engines:
 - **Zero Paid APIs**: Absolutely NO OpenAI, Gemini, Claude, ChatGPT, or external cloud LLMs.
 - **The 7 Core Modules**:
   1. **Speech Recognition**: Pretrained Whisper (`faster-whisper-base`) with Hindi/English detection and timestamps.
-  2. **Custom ML Classifier**: TF-IDF + Logistic Regression (C=2.5, balanced) trained across 7 complaint categories.
+  2. **Custom ML Classifier**: FeatureUnion (Word 1-3 + Char_wb 2-5 n-grams) + Logistic Regression (C=4.0, balanced) achieving 96.44% test accuracy (Macro F1: 0.9640) across 7 complaint categories.
   3. **Information Extraction (NLP)**: Hybrid regex & NER extracting Person, Location, Date, Time, Money, Phone, and Object.
   4. **Missing Information Detector**: Deterministic rule engine identifying missing critical facts per category.
   5. **Structured Complaint Generator**: Non-generative, template-based factsheet drafting with legal disclaimers.
-  6. **Model Evaluation**: Accuracy (75.0%), Weighted F1 (0.7422), Confusion Matrix, and WER benchmarks.
-  7. **REST Backend**: Unified `/api/analyze` and modular endpoints with Swagger UI.
+  6. **Model Evaluation & Integrity**: Accuracy (96.44%), Macro F1 (0.9640), 95% Bootstrap CI [94.07%, 98.42%], Confusion Matrix, and SHA-256 frozen test set verification.
+  7. **REST Backend & Persistence**: Unified `/api/analyze`, `/api/complaints`, SQLite database, and Swagger UI.
 
 ---
 

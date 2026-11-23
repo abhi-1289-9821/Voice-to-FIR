@@ -1,218 +1,1262 @@
-complaint_text,category,language
-My black Wildcraft laptop bag containing Lenovo ThinkPad was stolen at Indiranagar Metro Station.,Theft,English
-Someone broke the side window of my car parked outside Phoenix Mall and stole my camera.,Theft,English
-Pickpocket stole my iPhone 13 from my jacket pocket while boarding crowded BMTC bus at Majestic.,Theft,English
-Two men on a black Pulsar motorcycle snatched my mother's gold chain in Jayanagar 4th Block.,Theft,English
-My parked Honda Activa scooter registration KA-03-JM-4921 was stolen from Commercial Street parking.,Theft,English
-Bicycle stolen from apartment basement parking overnight in Koramangala.,Theft,English
-Thieves broke the padlock of our grocery shop at midnight and took cash from the drawer.,Theft,English
-My leather wallet containing cash of 5000 rupees was stolen in KR Market vegetable area.,Theft,English
-Stolen luggage trolley from platform 2 of Bangalore City Railway Station while waiting for train.,Theft,English
-Office premises burglarized over the weekend and four Dell desktop monitors are missing.,Theft,English
-Someone stole the spare tire and battery from my Maruti Swift parked outside house.,Theft,English
-My wristwatch and gold ring kept on hotel bedside table were stolen by housekeeping staff.,Theft,English
-Delivery partner took the package inside the building gate and ran away with expensive shoes.,Theft,English
-Generator diesel fuel tank siphon theft during night at our construction site.,Theft,English
-Stolen purse with credit cards from shopping trolley at D-Mart supermarket.,Theft,English
-मेट्रो स्टेशन पर टिकट लेते समय मेरा लैपटॉप बैग चोरी हो गया।,Theft,Hindi
-कल रात हमारी दुकान का ताला तोड़कर चोर गल्ले से 45000 रुपये ले गए।,Theft,Hindi
-सब्जी मंडी में भीड़ का फायदा उठाकर किसी ने मेरी जेब से मोबाइल निकाल लिया।,Theft,Hindi
-घर के बाहर खड़ी मेरी हीरो स्प्लेंडर मोटरसाइकिल चोरी हो गई है।,Theft,Hindi
-बस स्टैंड पर बस में चढ़ते समय किसी ने गले से सोने की चेन खींच ली।,Theft,Hindi
-"सोसाइटी की पार्किंग से मेरी साइकिल कल रात से गायब है, चोरी हो गई है।",Theft,Hindi
-कार का शीशा तोड़कर सीट पर रखा बैग और पैसे चोरी कर लिए गए।,Theft,Hindi
-रेलवे स्टेशन वेटिंग रूम में सूटकेस चोरी हो गया जिसमें कपड़े और गहने थे।,Theft,Hindi
-दुकान के काउंटर से ग्राहक बनकर आया लड़का मोबाइल उठाकर भाग गया।,Theft,Hindi
-मंदिर दर्शन के दौरान जूते और गाड़ी की चाबी चोरी हो गई।,Theft,Hindi
-Mera purse bus stand par kisi ne pocket maar liya usme 3000 cash tha.,Theft,Hinglish
-Ghar ke bahar khadi bike raat ko chori ho gayi.,Theft,Hinglish
-Market me shopping karte waqt mera iPhone chori ho gaya.,Theft,Hinglish
-Dukaan ka shutter todkar cash aur samaan chori hua hai.,Theft,Hinglish
-Auto me mera bag chhut gaya tha aur auto wala lekar bhaag gaya.,Theft,Hinglish
-Received fake electricity bill SMS and clicked link which deducted 34500 rupees via UPI.,Cyber Fraud,English
-Scammer called posing as SBI bank manager and tricked me into sharing OTP for KYC update.,Cyber Fraud,English
-Credit card cloned and unauthorized international transactions of 85000 rupees occurred.,Cyber Fraud,English
-Invested 2 lakh rupees in fake Telegram crypto trading group promising daily 20 percent returns.,Cyber Fraud,English
-Part-time job review scam where I was cheated of 65000 rupees for liking YouTube videos.,Cyber Fraud,English
-Fake customer care number on Google search cheated me of 18000 rupees during refund request.,Cyber Fraud,English
-Phishing email pretending to be income tax refund drained my savings account balance.,Cyber Fraud,English
-"OLX buyer sent fake QR code asking me to scan to receive payment, but money got debited.",Cyber Fraud,English
-Online loan app extorting money and sending morphed photos to all my contacts.,Cyber Fraud,English
-Matrimonial profile fraud where a person claiming to be a UK doctor cheated 4 lakh rupees.,Cyber Fraud,English
-My Instagram account was hacked and scammer is asking my followers for emergency money.,Cyber Fraud,English
-Unauthorized netbanking transfer of 150000 rupees without my consent or OTP.,Cyber Fraud,English
-Lottery winning email fraud asking for processing fee of 25000 rupees.,Cyber Fraud,English
-Fake airline ticket booking website took 42000 rupees and issued fraudulent PNR.,Cyber Fraud,English
-SIM swap fraud resulted in loss of 95000 rupees from mobile banking app.,Cyber Fraud,English
-बिजली बिल अपडेट का फर्जी मैसेज आया और लिंक पर क्लिक करते ही खाते से 35000 कट गए।,Cyber Fraud,Hindi
-बैंक अधिकारी बनकर कॉल किया और ओटीपी पूछकर 50000 रुपये निकाल लिए।,Cyber Fraud,Hindi
-टेलीग्राम पर ऑनलाइन वर्क फ्रॉम होम जॉब के नाम पर 1 लाख 20 हजार रुपये की ठगी हुई।,Cyber Fraud,Hindi
-ओएलएक्स पर सामान बेचने के नाम पर क्यूआर कोड स्कैन कराकर पैसे काट लिए।,Cyber Fraud,Hindi
-फेक लोन ऐप वाले मेरे कॉन्टैक्ट्स को आपत्तिजनक तस्वीरें भेजकर ब्लैकमेल कर रहे हैं।,Cyber Fraud,Hindi
-कस्टमर केयर का गलत नंबर सर्च किया और रिफंड के बहाने खाते से 22000 साफ कर दिए।,Cyber Fraud,Hindi
-बिना किसी ओटीपी के मेरे क्रेडिट कार्ड से 60000 रुपये का अनधिकृत लेनदेन हुआ।,Cyber Fraud,Hindi
-इंस्टाग्राम आईडी हैक करके मेरी पहचान से दोस्तों से पैसे मांगे जा रहे हैं।,Cyber Fraud,Hindi
-लॉटरी निकलने का झांसा देकर प्रोसेसिंग फीस के नाम पर 25000 रुपये ट्रांसफर करा लिए।,Cyber Fraud,Hindi
-शेयर मार्केट में भारी मुनाफे का झांसा देकर व्हाट्सएप ग्रुप पर 3 लाख रुपये हड़प लिए।,Cyber Fraud,Hindi
-Electricity bill ke fake SMS se 25000 rupees account se debit ho gaye.,Cyber Fraud,Hinglish
-Bank KYC update ke naam par OTP liya aur saare paise nikaal liye.,Cyber Fraud,Hinglish
-Telegram task fraud me 50000 ka loss ho gaya scammer ne block kar diya.,Cyber Fraud,Hinglish
-OLX par QR code scan karwaya aur mere account se 15000 cut gaye.,Cyber Fraud,Hinglish
-Loan app wale contact list hack karke blackmail kar rahe hain.,Cyber Fraud,Hinglish
-An unknown man on a motorcycle has been following me home from the bus stop every evening.,Harassment,English
-Ex-colleague sending vulgar messages and threatening calls on WhatsApp despite being blocked.,Harassment,English
-"Neighbor continuously abuses, passes derogatory remarks, and spits outside our main door.",Harassment,English
-Persistent cyberstalking with fake social media profiles posting defamatory claims about me.,Harassment,English
-Group of young men loitering near ladies college passing lewd remarks and eve teasing daily.,Harassment,English
-Landlord entering premises without permission and mentally harassing my family to vacate.,Harassment,English
-Repeated obscene phone calls from multiple unregistered numbers late at night.,Harassment,English
-Taxi driver locked the car doors and misbehaved during night ride from airport.,Harassment,English
-Supervisor at workplace making inappropriate sexual advances and threatening termination.,Harassment,English
-Former acquaintance created fake matrimonial profile with my phone number causing harassment.,Harassment,English
-Men drinking alcohol on public road passing vulgar comments at women walking by.,Harassment,English
-Stalker standing outside my coaching institute recording videos of me on his mobile.,Harassment,English
-Continuous verbal intimidation and threatening messages sent to my teenage daughter.,Harassment,English
-Obscene pictures sent from unknown Instagram account directly into my direct messages.,Harassment,English
-Delivery boy made vulgar remarks and returned repeatedly to ring door bell inappropriately.,Harassment,English
-एक अज्ञात लड़का रोज शाम को कोचिंग से आते वक्त मेरा पीछा करता है और फब्तियां कसता है।,Harassment,Hindi
-व्हाट्सएप पर अनजान नंबरों से लगातार अश्लील मैसेज और धमकियां भेजी जा रही हैं।,Harassment,Hindi
-कॉलेज के बाहर कुछ लड़के खड़े होकर लड़कियों से छेड़छाड़ और बदतमीजी करते हैं।,Harassment,Hindi
-पड़ोसी रोज गालियां बकता है और हमारे दरवाजे पर गंदगी फेंककर मानसिक रूप से प्रताड़ित करता है।,Harassment,Hindi
-सोशल मीडिया पर फर्जी प्रोफाइल बनाकर मेरी चरित्र हनन की कोशिश और मानसिक उत्पीड़न हो रहा है।,Harassment,Hindi
-ऑफिस में वरिष्ठ अधिकारी द्वारा अनुचित व्यवहार और नौकरी से निकालने की धमकी दी जा रही है।,Harassment,Hindi
-रात के समय बार-बार अश्लील वीडियो कॉल करके परेशान किया जा रहा है।,Harassment,Hindi
-ऑटो चालक ने रास्ते में बदतमीजी की और सुनसान रास्ते पर ले जाने की कोशिश की।,Harassment,Hindi
-मेरी बेटी के स्कूल के रास्ते पर आवारा लड़के खड़े होकर अश्लील इशारे करते हैं।,Harassment,Hindi
-मकान मालिक बिना अनुमति कमरे में घुस आता है और गाली-गलौज करता है।,Harassment,Hindi
-Ek ladka roz sham ko metro station se peecha karta hai aur chhedta hai.,Harassment,Hinglish
-WhatsApp par gande messages aur threat calls aa rahe hain roz raat ko.,Harassment,Hinglish
-Neighbor roz gaali galoch karta hai aur darwaze par kooda phekta hai.,Harassment,Hinglish
-Fake Instagram account banakar meri photos ke sath harassment kiya ja raha hai.,Harassment,Hinglish
-College ke gate par eve teasing ho rahi hai complaint darj kijiye.,Harassment,Hinglish
-My 14-year-old nephew Aryan went to tuition at 4 PM yesterday and has not returned home.,Missing Person,English
-My elderly father aged 74 suffering from dementia walked out of the house in morning and is missing.,Missing Person,English
-My sister Sunita aged 22 went to college in Jayanagar yesterday morning and her phone is switched off.,Missing Person,English
-Domestic maid left our residence on Sunday morning to visit relatives and has not been traceable.,Missing Person,English
-"My son Rahul aged 17 had an argument at home and left with a backpack, missing since 24 hours.",Missing Person,English
-Mentally challenged brother disappeared from market area around 3 PM wearing blue shirt.,Missing Person,English
-My husband went to office on Friday morning but did not reach workplace and phone is unreachable.,Missing Person,English
-"Daughter did not return from school bus stop, last seen near Green Glen Apartments.",Missing Person,English
-"College student staying in PG missing for three days, room is locked and roommate unaware.",Missing Person,English
-Old grandfather wearing white kurta pajama missing from temple premises since noon.,Missing Person,English
-Missing report for factory worker Ramesh who left night shift at 6 AM and never arrived home.,Missing Person,English
-Tenant vacated room without notice leaving elderly mother behind who is now untraceable.,Missing Person,English
-"Girl aged 16 missing from coaching center, CCTV shows her walking alone towards railway station.",Missing Person,English
-"Delivery partner missing along with company bike since last night, family deeply concerned.",Missing Person,English
-Relative who came from village to visit hospital got separated in crowd and is missing.,Missing Person,English
-मेरा 14 वर्षीय भतीजा कल दोपहर 4 बजे ट्यूशन गया था और अब तक घर नहीं लौटा है।,Missing Person,Hindi
-"मेरे 72 वर्षीय वृद्ध पिता सुबह टहलने निकले थे, याददाश्त कमजोर है और वे लापता हैं।",Missing Person,Hindi
-"मेरी 20 वर्षीय बहन कॉलेज गई थी लेकिन वापस नहीं आई, उसका मोबाइल बंद आ रहा है।",Missing Person,Hindi
-"हमारा बेटा घर से नाराज होकर कल रात निकल गया, 24 घंटे से कोई अता-पता नहीं है।",Missing Person,Hindi
-"बाजार से मानसिक रूप से अस्वस्थ भाई अचानक गायब हो गया, उसने नीली शर्ट पहनी है।",Missing Person,Hindi
-"पति सुबह दफ्तर के लिए निकले थे पर दफ्तर नहीं पहुंचे, उनका फोन भी नहीं लग रहा है।",Missing Person,Hindi
-"स्कूल से घर लौटते समय 12 साल की बच्ची लापता हो गई, बस स्टैंड पर आखिरी बार देखा गया।",Missing Person,Hindi
-गांव से आए हमारे दादाजी भीड़ में बिछड़ गए और शहर में रास्ता भटक गए हैं।,Missing Person,Hindi
-"हॉस्टल में रहने वाला छात्र तीन दिन से लापता है, कमरे का ताला लगा हुआ है।",Missing Person,Hindi
-"नाइट ड्यूटी से लौटते समय हमारा कर्मचारी रास्ते से ही गायब हो गया, परिवार परेशान है।",Missing Person,Hindi
-Mera 15 saal ka bhai kal dopahar se missing hai phone switched off hai.,Missing Person,Hinglish
-Grandfather subah walking par nikle the abhi tak ghar nahi laute.,Missing Person,Hinglish
-Meri friend college se ghar nahi aayi kal sham se laapata hai.,Missing Person,Hinglish
-Beta coaching gaya tha wahan se gayab ho gaya hai police complaint likhiye.,Missing Person,Hinglish
-Elderly father hospital ke bahar se missing ho gaye hain unhe dhoondiye.,Missing Person,Hinglish
-I lost my brown leather wallet containing original Aadhaar card and PAN card at BDA Complex.,Lost Documents,English
-Lost original Indian Passport and US Visa papers while traveling in auto from Indiranagar to Airport.,Lost Documents,English
-Driving licence and vehicle Registration Certificate RC lost somewhere near Koramangala traffic signal.,Lost Documents,English
-Lost original 10th and 12th CBSE marks card certificates while shifting houses.,Lost Documents,English
-Original property sale deed and Khata documents misplaced while visiting sub-registrar office.,Lost Documents,English
-Lost my SBI cheque book and fixed deposit receipts during transit in metro train.,Lost Documents,English
-"Folder containing Voter ID card, ration card, and birth certificate lost in government office.",Lost Documents,English
-Lost original MBBS degree certificate and medical council registration during commute.,Lost Documents,English
-Company access identity badge and health insurance card lost in bus route 335E.,Lost Documents,English
-Lost original vehicle insurance policy document and pollution certificate PUC.,Lost Documents,English
-Misplaced file containing pension sanction order and bank passbook at post office.,Lost Documents,English
-Lost my father's death certificate and legal heir certificate original copies.,Lost Documents,English
-University transfer certificate and character certificate lost near Majestic bus stand.,Lost Documents,English
-Lost my arm license booklet and gun permit papers during travel.,Lost Documents,English
-Lost envelope containing duplicate key papers and vehicle warranty card.,Lost Documents,English
-बीडीए कॉम्प्लेक्स में मेरा चमड़े का पर्स गिर गया जिसमें आधार कार्ड और पैन कार्ड थे।,Lost Documents,Hindi
-एयरपोर्ट जाते समय ऑटो रिक्शा में मेरा मूल पासपोर्ट और वीजा दस्तावेज छूट गया।,Lost Documents,Hindi
-गाड़ी की मूल आरसी बुक और ड्राइविंग लाइसेंस बाजार में कहीं गिर गए हैं।,Lost Documents,Hindi
-घर बदलते समय दसवीं और बारहवीं कक्षा की मूल अंकतालिकाएं और प्रमाण पत्र खो गए।,Lost Documents,Hindi
-सब-रजिस्ट्रार ऑफिस में जमीन की मूल रजिस्ट्री और खतौनी के कागजात गुम हो गए हैं।,Lost Documents,Hindi
-मेट्रो यात्रा के दौरान वोटर आईडी कार्ड और राशन कार्ड का फोल्डर खो गया।,Lost Documents,Hindi
-बैंक की चेकबुक और फिक्स डिपॉजिट रसीदें रास्ते में कहीं गिर गईं।,Lost Documents,Hindi
-कॉलेज का ओरिजिनल डिग्री सर्टिफिकेट और माइग्रेशन सर्टिफिकेट गुम हो गया है।,Lost Documents,Hindi
-सरकारी कार्यालय में पेंशन पासबुक और जरूरी कागजात का लिफाफा खो गया।,Lost Documents,Hindi
-दफ्तर का आईडी कार्ड और स्वास्थ्य बीमा कार्ड बस में सफर करते समय गिर गया।,Lost Documents,Hindi
-Mera Aadhaar card aur PAN card wallet ke sath metro me gir gaya.,Lost Documents,Hinglish
-Original driving licence aur bike ki RC road par kho gayi hai.,Lost Documents,Hinglish
-Passport aur visa documents airport jaate waqt cab me chhut gaye.,Lost Documents,Hinglish
-10th aur 12th marksheet ka original certificate gum ho gaya hai non cognizable report chahiye.,Lost Documents,Hinglish
-Property ke registry papers kho gaye hain NCR darj karwani hai.,Lost Documents,Hinglish
-Three men assaulted me with iron rods and wooden sticks near the liquor store over a parking dispute.,Physical Assault,English
-Landlord and his sons attacked my father physically causing head injury and bleeding.,Physical Assault,English
-Bystander attacked with sharp knife outside cinema hall resulting in deep wound on left arm.,Physical Assault,English
-Violent brawl erupted in pub where bouncers beaten up my friend causing fractured nose.,Physical Assault,English
-Road rage incident where cab driver punched me on the face and damaged my windshield.,Physical Assault,English
-Shopkeeper physically beaten by local goons demanding extortion money weekly hafta.,Physical Assault,English
-Group of rowdies attacked our society watchman with cricket bat when asked for entry pass.,Physical Assault,English
-Domestic violence by husband and in-laws inflicting severe physical burns and injuries.,Physical Assault,English
-College senior brutally beat up first year student in hostel room causing hospitalization.,Physical Assault,English
-Delivery partner was assaulted and kicked by customer over delay in food delivery.,Physical Assault,English
-Physical fight at petrol pump where attendant was punched and kicked by car occupants.,Physical Assault,English
-Neighbor struck my mother with a brick on her head during boundary wall argument.,Physical Assault,English
-Violent attack on journalist with sticks while covering local municipal election polling booth.,Physical Assault,English
-Security guard attacked by trespassers who hit him on head with glass bottle.,Physical Assault,English
-Brother-in-law attacked me with machete over ancestral property division dispute.,Physical Assault,English
-Accused physically assaulted me in public market causing head fracture and blood loss.,Physical Assault,English
-Violent physical attack by two attackers who assaulted and hit my brother with iron pipe.,Physical Assault,English
-Physical assault and battery inside restaurant premises where customer was severely punched.,Physical Assault,English
-Severe assault and grievous hurt inflicted by local thugs with wooden sticks.,Physical Assault,English
-Assault case where victim was brutally beaten and kicked on the road.,Physical Assault,English
-पार्किंग विवाद को लेकर शराब की दुकान के पास तीन लोगों ने मुझ पर लोहे की रॉड से हमला किया।,Physical Assault,Hindi
-पड़ोसी ने दीवार के विवाद में मेरी मां के सिर पर ईंट से वार कर दिया जिससे गंभीर चोट आई।,Physical Assault,Hindi
-दुकानदार से हफ्ता वसूली के नाम पर स्थानीय बदमाशों ने लाठी-डंडों से बेरहमी से मारपीट की।,Physical Assault,Hindi
-रोड रेज की घटना में कार चालक ने गाड़ी से उतरकर मेरे चेहरे पर घूंसा मारा और आंख फोड़ने की कोशिश की।,Physical Assault,Hindi
-सोसाइटी के सुरक्षा गार्ड को कुछ आवारा लड़कों ने क्रिकेट के बल्ले से बुरी तरह पीटा।,Physical Assault,Hindi
-सिनेमा हॉल के बाहर किसी अज्ञात व्यक्ति ने चाकू से हमला कर हाथ में गहरा घाव कर दिया।,Physical Assault,Hindi
-कॉलेज हॉस्टल में रैगिंग के दौरान सीनियर्स ने छात्र को इतना पीटा कि वह अस्पताल में भर्ती है।,Physical Assault,Hindi
-ससुराल वालों ने दहेज के लिए मारपीट की और गर्म चिमटे से शरीर पर गंभीर चोटें पहुंचाईं।,Physical Assault,Hindi
-पेट्रोल पंप कर्मचारी के साथ कार सवार युवकों ने मारपीट की और दांत तोड़ दिए।,Physical Assault,Hindi
-जमीन के झगड़े में रिश्तेदार ने धारदार हथियार से हमला करके गंभीर रूप से घायल कर दिया।,Physical Assault,Hindi
-सरेआम लाठी डंडों से जानलेवा हमला और मारपीट की गई सिर से खून बह रहा है।,Physical Assault,Hindi
-Road rage me car wale ne utarkar mujhe maara aur car ka kanch tod diya.,Physical Assault,Hinglish
-Gali ke ladkon ne milkar mere bhai par lathi dande se attack kiya.,Physical Assault,Hinglish
-Dukaan par aakar goons ne hafta manga aur mana karne par physical assault kiya.,Physical Assault,Hinglish
-Society guard ko kuch logon ne buri tarah peeta hospital me admit hai.,Physical Assault,Hinglish
-Property dispute me chacha ke ladke ne lohe ki rod se sar par mara.,Physical Assault,Hinglish
-Market me physical attack aur assault hua hai lathi se mara gaya.,Physical Assault,Hinglish
-Illegal high volume loudspeakers playing all night in residential area disturbing sleep.,Other,English
-Commercial restaurant dumping rotten food and garbage on residential footpath creating health hazard.,Other,English
-Pet dog of neighbor barking continuously and biting delivery boys without leash or vaccination.,Other,English
-Illegal chemical factory operating in basement releasing toxic smoke and bad odor.,Other,English
-Water supply pipeline intentionally blocked by builder to force residents to buy private tankers.,Other,English
-Stray cattle roaming on main road causing recurring traffic accidents and road blockage.,Other,English
-Open burning of plastic and rubber tires near school ground causing breathing difficulty for kids.,Other,English
-Illegal liquor consumption and gambling in deserted public park after sunset.,Other,English
-Unauthorized road digging by private telecom company without safety barricades leaving open pits.,Other,English
-Neighbor constructed illegal balcony extension encroaching public street space.,Other,English
-Loud noise and fireworks burst past 1 AM celebrating birthday in residential apartment.,Other,English
-Tree branches intentionally cut and dumped in front of our main gate blocking garage entrance.,Other,English
-Car mechanic repairing commercial vehicles on public footpath preventing pedestrians from walking.,Other,English
-Hoarding advertisement installed precariously on electricity pole threatening to collapse.,Other,English
-Commercial gym operating heavy weights on top floor causing structural vibrations in our flat.,Other,English
-आवासीय कॉलोनी में देर रात तक तेज आवाज में डीजे और लाउडस्पीकर बजाया जा रहा है।,Other,Hindi
-पड़ोसी रेस्टोरेंट सड़क पर सड़ा-गला कचरा फेंक रहा है जिससे भयंकर दुर्गंध और बीमारी फैल रही है।,Other,Hindi
-गली में आवारा कुत्तों का आतंक है जो आने-जाने वाले लोगों और बच्चों को काटते हैं।,Other,Hindi
-अवैध रूप से प्लास्टिक और कचरा जलाने से स्कूल के बच्चों को सांस लेने में तकलीफ हो रही है।,Other,Hindi
-पार्क में शाम के बाद असामाजिक तत्व शराब पीते हैं और जुआ खेलते हैं।,Other,Hindi
-निजी ठेकेदार ने सड़क पर गहरा गड्ढा खोदकर बिना बैरिकेड छोड़ दिया है जिससे दुर्घटना का डर है।,Other,Hindi
-पड़ोसी ने सरकारी नाली पर अवैध कब्जा करके पानी की निकासी रोक दी है।,Other,Hindi
-मुख्य मार्ग पर बीच सड़क पर गाड़ियां पार्क करने से दिनभर भारी ट्रैफिक जाम रहता है।,Other,Hindi
-अवैध गैस रिफिलिंग का धंधा चल रहा है जिससे कभी भी बड़ा अग्निकांड हो सकता है।,Other,Hindi
-अपार्टमेंट की छत पर अवैध टावर लगाया गया है जिससे इमारत को खतरा है।,Other,Hindi
-Raat 2 baje tak DJ baj raha hai colony me noise pollution ki complaint hai.,Other,Hinglish
-Road par kachra feka ja raha hai municipal authorities sun nahi rahi.,Other,Hinglish
-Neighbor ka kutta bina leash ghumta hai aur logon ko kaatne daudta hai.,Other,Hinglish
-Park me openly drinking aur gambling ho rahi hai police patrol bhejiye.,Other,Hinglish
-Footpath par illegal stalls lag gaye hain paidal chalne ki jagah nahi hai.,Other,Hinglish
+complaint_text,category,language,source
+My black Wildcraft laptop bag containing Lenovo ThinkPad was stolen at Indiranagar Metro Station.,Theft,en,hand_written
+Someone broke the side window of my car parked outside Phoenix Mall and stole my camera.,Theft,en,hand_written
+Pickpocket stole my iPhone 13 from my jacket pocket while boarding crowded BMTC bus at Majestic.,Theft,en,hand_written
+Two men on a black Pulsar motorcycle snatched my mother's gold chain in Jayanagar 4th Block.,Theft,en,hand_written
+My parked Honda Activa scooter registration KA-03-JM-4921 was stolen from Commercial Street parking.,Theft,en,hand_written
+Bicycle stolen from apartment basement parking overnight in Koramangala.,Theft,en,hand_written
+Thieves broke the padlock of our grocery shop at midnight and took cash from the drawer.,Theft,en,hand_written
+My leather wallet containing cash of 5000 rupees was stolen in KR Market vegetable area.,Theft,en,hand_written
+Stolen luggage trolley from platform 2 of Bangalore City Railway Station while waiting for train.,Theft,en,hand_written
+Office premises burglarized over the weekend and four Dell desktop monitors are missing.,Theft,en,hand_written
+Someone stole the spare tire and battery from my Maruti Swift parked outside house.,Theft,en,hand_written
+My wristwatch and gold ring kept on hotel bedside table were stolen by housekeeping staff.,Theft,en,hand_written
+Delivery partner took the package inside the building gate and ran away with expensive shoes.,Theft,en,hand_written
+Generator diesel fuel tank siphon theft during night at our construction site.,Theft,en,hand_written
+Stolen purse with credit cards from shopping trolley at D-Mart supermarket.,Theft,en,hand_written
+मेट्रो स्टेशन पर टिकट लेते समय मेरा लैपटॉप बैग चोरी हो गया।,Theft,hi,hand_written
+कल रात हमारी दुकान का ताला तोड़कर चोर गल्ले से 45000 रुपये ले गए।,Theft,hi,hand_written
+सब्जी मंडी में भीड़ का फायदा उठाकर किसी ने मेरी जेब से मोबाइल निकाल लिया।,Theft,hi,hand_written
+घर के बाहर खड़ी मेरी हीरो स्प्लेंडर मोटरसाइकिल चोरी हो गई है।,Theft,hi,hand_written
+बस स्टैंड पर बस में चढ़ते समय किसी ने गले से सोने की चेन खींच ली।,Theft,hi,hand_written
+"सोसाइटी की पार्किंग से मेरी साइकिल कल रात से गायब है, चोरी हो गई है।",Theft,hi,hand_written
+कार का शीशा तोड़कर सीट पर रखा बैग और पैसे चोरी कर लिए गए।,Theft,hi,hand_written
+रेलवे स्टेशन वेटिंग रूम में सूटकेस चोरी हो गया जिसमें कपड़े और गहने थे।,Theft,hi,hand_written
+दुकान के काउंटर से ग्राहक बनकर आया लड़का मोबाइल उठाकर भाग गया।,Theft,hi,hand_written
+मंदिर दर्शन के दौरान जूते और गाड़ी की चाबी चोरी हो गई।,Theft,hi,hand_written
+Mera purse bus stand par kisi ne pocket maar liya usme 3000 cash tha.,Theft,hinglish,hand_written
+Ghar ke bahar khadi bike raat ko chori ho gayi.,Theft,hinglish,hand_written
+Market me shopping karte waqt mera iPhone chori ho gaya.,Theft,hinglish,hand_written
+Dukaan ka shutter todkar cash aur samaan chori hua hai.,Theft,hinglish,hand_written
+Auto me mera bag chhut gaya tha aur auto wala lekar bhaag gaya.,Theft,hinglish,hand_written
+Received fake electricity bill SMS and clicked link which deducted 34500 rupees via UPI.,Cyber Fraud,en,hand_written
+Scammer called posing as SBI bank manager and tricked me into sharing OTP for KYC update.,Cyber Fraud,en,hand_written
+Credit card cloned and unauthorized international transactions of 85000 rupees occurred.,Cyber Fraud,en,hand_written
+Invested 2 lakh rupees in fake Telegram crypto trading group promising daily 20 percent returns.,Cyber Fraud,en,hand_written
+Part-time job review scam where I was cheated of 65000 rupees for liking YouTube videos.,Cyber Fraud,en,hand_written
+Fake customer care number on Google search cheated me of 18000 rupees during refund request.,Cyber Fraud,en,hand_written
+Phishing email pretending to be income tax refund drained my savings account balance.,Cyber Fraud,en,hand_written
+"OLX buyer sent fake QR code asking me to scan to receive payment, but money got debited.",Cyber Fraud,en,hand_written
+Online loan app extorting money and sending morphed photos to all my contacts.,Cyber Fraud,en,hand_written
+Matrimonial profile fraud where a person claiming to be a UK doctor cheated 4 lakh rupees.,Cyber Fraud,en,hand_written
+My Instagram account was hacked and scammer is asking my followers for emergency money.,Cyber Fraud,en,hand_written
+Unauthorized netbanking transfer of 150000 rupees without my consent or OTP.,Cyber Fraud,en,hand_written
+Lottery winning email fraud asking for processing fee of 25000 rupees.,Cyber Fraud,en,hand_written
+Fake airline ticket booking website took 42000 rupees and issued fraudulent PNR.,Cyber Fraud,en,hand_written
+SIM swap fraud resulted in loss of 95000 rupees from mobile banking app.,Cyber Fraud,en,hand_written
+बिजली बिल अपडेट का फर्जी मैसेज आया और लिंक पर क्लिक करते ही खाते से 35000 कट गए।,Cyber Fraud,hi,hand_written
+बैंक अधिकारी बनकर कॉल किया और ओटीपी पूछकर 50000 रुपये निकाल लिए।,Cyber Fraud,hi,hand_written
+टेलीग्राम पर ऑनलाइन वर्क फ्रॉम होम जॉब के नाम पर 1 लाख 20 हजार रुपये की ठगी हुई।,Cyber Fraud,hi,hand_written
+ओएलएक्स पर सामान बेचने के नाम पर क्यूआर कोड स्कैन कराकर पैसे काट लिए।,Cyber Fraud,hi,hand_written
+फेक लोन ऐप वाले मेरे कॉन्टैक्ट्स को आपत्तिजनक तस्वीरें भेजकर ब्लैकमेल कर रहे हैं।,Cyber Fraud,hi,hand_written
+कस्टमर केयर का गलत नंबर सर्च किया और रिफंड के बहाने खाते से 22000 साफ कर दिए।,Cyber Fraud,hi,hand_written
+बिना किसी ओटीपी के मेरे क्रेडिट कार्ड से 60000 रुपये का अनधिकृत लेनदेन हुआ।,Cyber Fraud,hi,hand_written
+इंस्टाग्राम आईडी हैक करके मेरी पहचान से दोस्तों से पैसे मांगे जा रहे हैं।,Cyber Fraud,hi,hand_written
+लॉटरी निकलने का झांसा देकर प्रोसेसिंग फीस के नाम पर 25000 रुपये ट्रांसफर करा लिए।,Cyber Fraud,hi,hand_written
+शेयर मार्केट में भारी मुनाफे का झांसा देकर व्हाट्सएप ग्रुप पर 3 लाख रुपये हड़प लिए।,Cyber Fraud,hi,hand_written
+Electricity bill ke fake SMS se 25000 rupees account se debit ho gaye.,Cyber Fraud,hinglish,hand_written
+Bank KYC update ke naam par OTP liya aur saare paise nikaal liye.,Cyber Fraud,hinglish,hand_written
+Telegram task fraud me 50000 ka loss ho gaya scammer ne block kar diya.,Cyber Fraud,hinglish,hand_written
+OLX par QR code scan karwaya aur mere account se 15000 cut gaye.,Cyber Fraud,hinglish,hand_written
+Loan app wale contact list hack karke blackmail kar rahe hain.,Cyber Fraud,hinglish,hand_written
+An unknown man on a motorcycle has been following me home from the bus stop every evening.,Harassment,en,hand_written
+Ex-colleague sending vulgar messages and threatening calls on WhatsApp despite being blocked.,Harassment,en,hand_written
+"Neighbor continuously abuses, passes derogatory remarks, and spits outside our main door.",Harassment,en,hand_written
+Persistent cyberstalking with fake social media profiles posting defamatory claims about me.,Harassment,en,hand_written
+Group of young men loitering near ladies college passing lewd remarks and eve teasing daily.,Harassment,en,hand_written
+Landlord entering premises without permission and mentally harassing my family to vacate.,Harassment,en,hand_written
+Repeated obscene phone calls from multiple unregistered numbers late at night.,Harassment,en,hand_written
+Taxi driver locked the car doors and misbehaved during night ride from airport.,Harassment,en,hand_written
+Supervisor at workplace making inappropriate sexual advances and threatening termination.,Harassment,en,hand_written
+Former acquaintance created fake matrimonial profile with my phone number causing harassment.,Harassment,en,hand_written
+Men drinking alcohol on public road passing vulgar comments at women walking by.,Harassment,en,hand_written
+Stalker standing outside my coaching institute recording videos of me on his mobile.,Harassment,en,hand_written
+Continuous verbal intimidation and threatening messages sent to my teenage daughter.,Harassment,en,hand_written
+Obscene pictures sent from unknown Instagram account directly into my direct messages.,Harassment,en,hand_written
+Delivery boy made vulgar remarks and returned repeatedly to ring door bell inappropriately.,Harassment,en,hand_written
+एक अज्ञात लड़का रोज शाम को कोचिंग से आते वक्त मेरा पीछा करता है और फब्तियां कसता है।,Harassment,hi,hand_written
+व्हाट्सएप पर अनजान नंबरों से लगातार अश्लील मैसेज और धमकियां भेजी जा रही हैं।,Harassment,hi,hand_written
+कॉलेज के बाहर कुछ लड़के खड़े होकर लड़कियों से छेड़छाड़ और बदतमीजी करते हैं।,Harassment,hi,hand_written
+पड़ोसी रोज गालियां बकता है और हमारे दरवाजे पर गंदगी फेंककर मानसिक रूप से प्रताड़ित करता है।,Harassment,hi,hand_written
+सोशल मीडिया पर फर्जी प्रोफाइल बनाकर मेरी चरित्र हनन की कोशिश और मानसिक उत्पीड़न हो रहा है।,Harassment,hi,hand_written
+ऑफिस में वरिष्ठ अधिकारी द्वारा अनुचित व्यवहार और नौकरी से निकालने की धमकी दी जा रही है।,Harassment,hi,hand_written
+रात के समय बार-बार अश्लील वीडियो कॉल करके परेशान किया जा रहा है।,Harassment,hi,hand_written
+ऑटो चालक ने रास्ते में बदतमीजी की और सुनसान रास्ते पर ले जाने की कोशिश की।,Harassment,hi,hand_written
+मेरी बेटी के स्कूल के रास्ते पर आवारा लड़के खड़े होकर अश्लील इशारे करते हैं।,Harassment,hi,hand_written
+मकान मालिक बिना अनुमति कमरे में घुस आता है और गाली-गलौज करता है।,Harassment,hi,hand_written
+Ek ladka roz sham ko metro station se peecha karta hai aur chhedta hai.,Harassment,hinglish,hand_written
+WhatsApp par gande messages aur threat calls aa rahe hain roz raat ko.,Harassment,hinglish,hand_written
+Neighbor roz gaali galoch karta hai aur darwaze par kooda phekta hai.,Harassment,hinglish,hand_written
+Fake Instagram account banakar meri photos ke sath harassment kiya ja raha hai.,Harassment,hinglish,hand_written
+College ke gate par eve teasing ho rahi hai complaint darj kijiye.,Harassment,hinglish,hand_written
+My 14-year-old nephew Aryan went to tuition at 4 PM yesterday and has not returned home.,Missing Person,en,hand_written
+My elderly father aged 74 suffering from dementia walked out of the house in morning and is missing.,Missing Person,en,hand_written
+My sister Sunita aged 22 went to college in Jayanagar yesterday morning and her phone is switched off.,Missing Person,en,hand_written
+Domestic maid left our residence on Sunday morning to visit relatives and has not been traceable.,Missing Person,en,hand_written
+"My son Rahul aged 17 had an argument at home and left with a backpack, missing since 24 hours.",Missing Person,en,hand_written
+Mentally challenged brother disappeared from market area around 3 PM wearing blue shirt.,Missing Person,en,hand_written
+My husband went to office on Friday morning but did not reach workplace and phone is unreachable.,Missing Person,en,hand_written
+"Daughter did not return from school bus stop, last seen near Green Glen Apartments.",Missing Person,en,hand_written
+"College student staying in PG missing for three days, room is locked and roommate unaware.",Missing Person,en,hand_written
+Old grandfather wearing white kurta pajama missing from temple premises since noon.,Missing Person,en,hand_written
+Missing report for factory worker Ramesh who left night shift at 6 AM and never arrived home.,Missing Person,en,hand_written
+Tenant vacated room without notice leaving elderly mother behind who is now untraceable.,Missing Person,en,hand_written
+"Girl aged 16 missing from coaching center, CCTV shows her walking alone towards railway station.",Missing Person,en,hand_written
+"Delivery partner missing along with company bike since last night, family deeply concerned.",Missing Person,en,hand_written
+Relative who came from village to visit hospital got separated in crowd and is missing.,Missing Person,en,hand_written
+मेरा 14 वर्षीय भतीजा कल दोपहर 4 बजे ट्यूशन गया था और अब तक घर नहीं लौटा है।,Missing Person,hi,hand_written
+"मेरे 72 वर्षीय वृद्ध पिता सुबह टहलने निकले थे, याददाश्त कमजोर है और वे लापता हैं।",Missing Person,hi,hand_written
+"मेरी 20 वर्षीय बहन कॉलेज गई थी लेकिन वापस नहीं आई, उसका मोबाइल बंद आ रहा है।",Missing Person,hi,hand_written
+"हमारा बेटा घर से नाराज होकर कल रात निकल गया, 24 घंटे से कोई अता-पता नहीं है।",Missing Person,hi,hand_written
+"बाजार से मानसिक रूप से अस्वस्थ भाई अचानक गायब हो गया, उसने नीली शर्ट पहनी है।",Missing Person,hi,hand_written
+"पति सुबह दफ्तर के लिए निकले थे पर दफ्तर नहीं पहुंचे, उनका फोन भी नहीं लग रहा है।",Missing Person,hi,hand_written
+"स्कूल से घर लौटते समय 12 साल की बच्ची लापता हो गई, बस स्टैंड पर आखिरी बार देखा गया।",Missing Person,hi,hand_written
+गांव से आए हमारे दादाजी भीड़ में बिछड़ गए और शहर में रास्ता भटक गए हैं।,Missing Person,hi,hand_written
+"हॉस्टल में रहने वाला छात्र तीन दिन से लापता है, कमरे का ताला लगा हुआ है।",Missing Person,hi,hand_written
+"नाइट ड्यूटी से लौटते समय हमारा कर्मचारी रास्ते से ही गायब हो गया, परिवार परेशान है।",Missing Person,hi,hand_written
+Mera 15 saal ka bhai kal dopahar se missing hai phone switched off hai.,Missing Person,hinglish,hand_written
+Grandfather subah walking par nikle the abhi tak ghar nahi laute.,Missing Person,hinglish,hand_written
+Meri friend college se ghar nahi aayi kal sham se laapata hai.,Missing Person,hinglish,hand_written
+Beta coaching gaya tha wahan se gayab ho gaya hai police complaint likhiye.,Missing Person,hinglish,hand_written
+Elderly father hospital ke bahar se missing ho gaye hain unhe dhoondiye.,Missing Person,hinglish,hand_written
+I lost my brown leather wallet containing original Aadhaar card and PAN card at BDA Complex.,Lost Documents,en,hand_written
+Lost original Indian Passport and US Visa papers while traveling in auto from Indiranagar to Airport.,Lost Documents,en,hand_written
+Driving licence and vehicle Registration Certificate RC lost somewhere near Koramangala traffic signal.,Lost Documents,en,hand_written
+Lost original 10th and 12th CBSE marks card certificates while shifting houses.,Lost Documents,en,hand_written
+Original property sale deed and Khata documents misplaced while visiting sub-registrar office.,Lost Documents,en,hand_written
+Lost my SBI cheque book and fixed deposit receipts during transit in metro train.,Lost Documents,en,hand_written
+"Folder containing Voter ID card, ration card, and birth certificate lost in government office.",Lost Documents,en,hand_written
+Lost original MBBS degree certificate and medical council registration during commute.,Lost Documents,en,hand_written
+Company access identity badge and health insurance card lost in bus route 335E.,Lost Documents,en,hand_written
+Lost original vehicle insurance policy document and pollution certificate PUC.,Lost Documents,en,hand_written
+Misplaced file containing pension sanction order and bank passbook at post office.,Lost Documents,en,hand_written
+Lost my father's death certificate and legal heir certificate original copies.,Lost Documents,en,hand_written
+University transfer certificate and character certificate lost near Majestic bus stand.,Lost Documents,en,hand_written
+Lost my arm license booklet and gun permit papers during travel.,Lost Documents,en,hand_written
+Lost envelope containing duplicate key papers and vehicle warranty card.,Lost Documents,en,hand_written
+बीडीए कॉम्प्लेक्स में मेरा चमड़े का पर्स गिर गया जिसमें आधार कार्ड और पैन कार्ड थे।,Lost Documents,hi,hand_written
+एयरपोर्ट जाते समय ऑटो रिक्शा में मेरा मूल पासपोर्ट और वीजा दस्तावेज छूट गया।,Lost Documents,hi,hand_written
+गाड़ी की मूल आरसी बुक और ड्राइविंग लाइसेंस बाजार में कहीं गिर गए हैं।,Lost Documents,hi,hand_written
+घर बदलते समय दसवीं और बारहवीं कक्षा की मूल अंकतालिकाएं और प्रमाण पत्र खो गए।,Lost Documents,hi,hand_written
+सब-रजिस्ट्रार ऑफिस में जमीन की मूल रजिस्ट्री और खतौनी के कागजात गुम हो गए हैं।,Lost Documents,hi,hand_written
+मेट्रो यात्रा के दौरान वोटर आईडी कार्ड और राशन कार्ड का फोल्डर खो गया।,Lost Documents,hi,hand_written
+बैंक की चेकबुक और फिक्स डिपॉजिट रसीदें रास्ते में कहीं गिर गईं।,Lost Documents,hi,hand_written
+कॉलेज का ओरिजिनल डिग्री सर्टिफिकेट और माइग्रेशन सर्टिफिकेट गुम हो गया है।,Lost Documents,hi,hand_written
+सरकारी कार्यालय में पेंशन पासबुक और जरूरी कागजात का लिफाफा खो गया।,Lost Documents,hi,hand_written
+दफ्तर का आईडी कार्ड और स्वास्थ्य बीमा कार्ड बस में सफर करते समय गिर गया।,Lost Documents,hi,hand_written
+Mera Aadhaar card aur PAN card wallet ke sath metro me gir gaya.,Lost Documents,hinglish,hand_written
+Original driving licence aur bike ki RC road par kho gayi hai.,Lost Documents,hinglish,hand_written
+Passport aur visa documents airport jaate waqt cab me chhut gaye.,Lost Documents,hinglish,hand_written
+10th aur 12th marksheet ka original certificate gum ho gaya hai non cognizable report chahiye.,Lost Documents,hinglish,hand_written
+Property ke registry papers kho gaye hain NCR darj karwani hai.,Lost Documents,hinglish,hand_written
+Three men assaulted me with iron rods and wooden sticks near the liquor store over a parking dispute.,Physical Assault,en,hand_written
+Landlord and his sons attacked my father physically causing head injury and bleeding.,Physical Assault,en,hand_written
+Bystander attacked with sharp knife outside cinema hall resulting in deep wound on left arm.,Physical Assault,en,hand_written
+Violent brawl erupted in pub where bouncers beaten up my friend causing fractured nose.,Physical Assault,en,hand_written
+Road rage incident where cab driver punched me on the face and damaged my windshield.,Physical Assault,en,hand_written
+Shopkeeper physically beaten by local goons demanding extortion money weekly hafta.,Physical Assault,en,hand_written
+Group of rowdies attacked our society watchman with cricket bat when asked for entry pass.,Physical Assault,en,hand_written
+Domestic violence by husband and in-laws inflicting severe physical burns and injuries.,Physical Assault,en,hand_written
+College senior brutally beat up first year student in hostel room causing hospitalization.,Physical Assault,en,hand_written
+Delivery partner was assaulted and kicked by customer over delay in food delivery.,Physical Assault,en,hand_written
+Physical fight at petrol pump where attendant was punched and kicked by car occupants.,Physical Assault,en,hand_written
+Neighbor struck my mother with a brick on her head during boundary wall argument.,Physical Assault,en,hand_written
+Violent attack on journalist with sticks while covering local municipal election polling booth.,Physical Assault,en,hand_written
+Security guard attacked by trespassers who hit him on head with glass bottle.,Physical Assault,en,hand_written
+Brother-in-law attacked me with machete over ancestral property division dispute.,Physical Assault,en,hand_written
+Accused physically assaulted me in public market causing head fracture and blood loss.,Physical Assault,en,hand_written
+Violent physical attack by two attackers who assaulted and hit my brother with iron pipe.,Physical Assault,en,hand_written
+Physical assault and battery inside restaurant premises where customer was severely punched.,Physical Assault,en,hand_written
+Severe assault and grievous hurt inflicted by local thugs with wooden sticks.,Physical Assault,en,hand_written
+Assault case where victim was brutally beaten and kicked on the road.,Physical Assault,en,hand_written
+पार्किंग विवाद को लेकर शराब की दुकान के पास तीन लोगों ने मुझ पर लोहे की रॉड से हमला किया।,Physical Assault,hi,hand_written
+पड़ोसी ने दीवार के विवाद में मेरी मां के सिर पर ईंट से वार कर दिया जिससे गंभीर चोट आई।,Physical Assault,hi,hand_written
+दुकानदार से हफ्ता वसूली के नाम पर स्थानीय बदमाशों ने लाठी-डंडों से बेरहमी से मारपीट की।,Physical Assault,hi,hand_written
+रोड रेज की घटना में कार चालक ने गाड़ी से उतरकर मेरे चेहरे पर घूंसा मारा और आंख फोड़ने की कोशिश की।,Physical Assault,hi,hand_written
+सोसाइटी के सुरक्षा गार्ड को कुछ आवारा लड़कों ने क्रिकेट के बल्ले से बुरी तरह पीटा।,Physical Assault,hi,hand_written
+सिनेमा हॉल के बाहर किसी अज्ञात व्यक्ति ने चाकू से हमला कर हाथ में गहरा घाव कर दिया।,Physical Assault,hi,hand_written
+कॉलेज हॉस्टल में रैगिंग के दौरान सीनियर्स ने छात्र को इतना पीटा कि वह अस्पताल में भर्ती है।,Physical Assault,hi,hand_written
+ससुराल वालों ने दहेज के लिए मारपीट की और गर्म चिमटे से शरीर पर गंभीर चोटें पहुंचाईं।,Physical Assault,hi,hand_written
+पेट्रोल पंप कर्मचारी के साथ कार सवार युवकों ने मारपीट की और दांत तोड़ दिए।,Physical Assault,hi,hand_written
+जमीन के झगड़े में रिश्तेदार ने धारदार हथियार से हमला करके गंभीर रूप से घायल कर दिया।,Physical Assault,hi,hand_written
+सरेआम लाठी डंडों से जानलेवा हमला और मारपीट की गई सिर से खून बह रहा है।,Physical Assault,hi,hand_written
+Road rage me car wale ne utarkar mujhe maara aur car ka kanch tod diya.,Physical Assault,hinglish,hand_written
+Gali ke ladkon ne milkar mere bhai par lathi dande se attack kiya.,Physical Assault,hinglish,hand_written
+Dukaan par aakar goons ne hafta manga aur mana karne par physical assault kiya.,Physical Assault,hinglish,hand_written
+Society guard ko kuch logon ne buri tarah peeta hospital me admit hai.,Physical Assault,hinglish,hand_written
+Property dispute me chacha ke ladke ne lohe ki rod se sar par mara.,Physical Assault,hinglish,hand_written
+Market me physical attack aur assault hua hai lathi se mara gaya.,Physical Assault,hinglish,hand_written
+Illegal high volume loudspeakers playing all night in residential area disturbing sleep.,Other,en,hand_written
+Commercial restaurant dumping rotten food and garbage on residential footpath creating health hazard.,Other,en,hand_written
+Pet dog of neighbor barking continuously and biting delivery boys without leash or vaccination.,Other,en,hand_written
+Illegal chemical factory operating in basement releasing toxic smoke and bad odor.,Other,en,hand_written
+Water supply pipeline intentionally blocked by builder to force residents to buy private tankers.,Other,en,hand_written
+Stray cattle roaming on main road causing recurring traffic accidents and road blockage.,Other,en,hand_written
+Open burning of plastic and rubber tires near school ground causing breathing difficulty for kids.,Other,en,hand_written
+Illegal liquor consumption and gambling in deserted public park after sunset.,Other,en,hand_written
+Unauthorized road digging by private telecom company without safety barricades leaving open pits.,Other,en,hand_written
+Neighbor constructed illegal balcony extension encroaching public street space.,Other,en,hand_written
+Loud noise and fireworks burst past 1 AM celebrating birthday in residential apartment.,Other,en,hand_written
+Tree branches intentionally cut and dumped in front of our main gate blocking garage entrance.,Other,en,hand_written
+Car mechanic repairing commercial vehicles on public footpath preventing pedestrians from walking.,Other,en,hand_written
+Hoarding advertisement installed precariously on electricity pole threatening to collapse.,Other,en,hand_written
+Commercial gym operating heavy weights on top floor causing structural vibrations in our flat.,Other,en,hand_written
+आवासीय कॉलोनी में देर रात तक तेज आवाज में डीजे और लाउडस्पीकर बजाया जा रहा है।,Other,hi,hand_written
+पड़ोसी रेस्टोरेंट सड़क पर सड़ा-गला कचरा फेंक रहा है जिससे भयंकर दुर्गंध और बीमारी फैल रही है।,Other,hi,hand_written
+गली में आवारा कुत्तों का आतंक है जो आने-जाने वाले लोगों और बच्चों को काटते हैं।,Other,hi,hand_written
+अवैध रूप से प्लास्टिक और कचरा जलाने से स्कूल के बच्चों को सांस लेने में तकलीफ हो रही है।,Other,hi,hand_written
+पार्क में शाम के बाद असामाजिक तत्व शराब पीते हैं और जुआ खेलते हैं।,Other,hi,hand_written
+निजी ठेकेदार ने सड़क पर गहरा गड्ढा खोदकर बिना बैरिकेड छोड़ दिया है जिससे दुर्घटना का डर है।,Other,hi,hand_written
+पड़ोसी ने सरकारी नाली पर अवैध कब्जा करके पानी की निकासी रोक दी है।,Other,hi,hand_written
+मुख्य मार्ग पर बीच सड़क पर गाड़ियां पार्क करने से दिनभर भारी ट्रैफिक जाम रहता है।,Other,hi,hand_written
+अवैध गैस रिफिलिंग का धंधा चल रहा है जिससे कभी भी बड़ा अग्निकांड हो सकता है।,Other,hi,hand_written
+अपार्टमेंट की छत पर अवैध टावर लगाया गया है जिससे इमारत को खतरा है।,Other,hi,hand_written
+Raat 2 baje tak DJ baj raha hai colony me noise pollution ki complaint hai.,Other,hinglish,hand_written
+Road par kachra feka ja raha hai municipal authorities sun nahi rahi.,Other,hinglish,hand_written
+Neighbor ka kutta bina leash ghumta hai aur logon ko kaatne daudta hai.,Other,hinglish,hand_written
+Park me openly drinking aur gambling ho rahi hai police patrol bhejiye.,Other,hinglish,hand_written
+Footpath par illegal stalls lag gaye hain paidal chalne ki jagah nahi hai.,Other,hinglish,hand_written
+my mobile phone was snatched by two boys on a black pulsar bike near indiranagar metro station exit a,Theft,en,hand_written
+someone broke the side window of my hyundai car parked outside the restaurant and stole my office laptop bag,Theft,en,hand_written
+while traveling on the dtc bus route 534 from lajpat nagar to nehru place my wallet containing cash was pickpocketed,Theft,en,hand_written
+i left my royal enfield classic 350 parked outside the gym for one hour and when i came back it was missing,Theft,en,hand_written
+gold chain snatching near temple two men on motorcycle pulled chain from my mothers neck and sped away,Theft,en,hand_written
+burglary at my flat while we were attending a family function in jaipur they broke the main lock and took gold ornaments and fifty thousand cash,Theft,en,hand_written
+my apple macbook pro was stolen from the university reading room when i went to the washroom for five minutes,Theft,en,hand_written
+someone stole my parked hero splendor motorcycle from the railway station parking lot ticket slip number 4410,Theft,en,hand_written
+delivery partner delivered package to building security but before i could collect it someone took the parcel containing expensive watch,Theft,en,hand_written
+pocket picked at dadar railway station platform number 3 lost twenty five hundred rupees cash and metro card,Theft,en,hand_written
+thieves entered my grocery shop at night by cutting the shutter lock and emptied the cash counter taking 45000 rupees,Theft,en,hand_written
+my trek hybrid bicycle locked at the basement cycle stand of my apartment was stolen last night wire lock was cut,Theft,en,hand_written
+while boarding crowded local train at kurla someone pulled my handbag and ran away with my purse and smartphone,Theft,en,hand_written
+two men on scooty snatched my smartphone while i was speaking on call walking on the pedestrian footpath,Theft,en,hand_written
+stolen suitcase from sleeper coach s4 berth 23 in karnataka express between solapur and pune containing silk sarees and jewelry,Theft,en,hand_written
+house burglary in broad daylight thieves broke window grill and took away canon dslr camera lenses and cash,Theft,en,hand_written
+someone stole the copper cables and water pump motor from our under construction site during midnight,Theft,en,hand_written
+my brother parked his activa scooter outside bank and within ten minutes it was taken away by unknown thief,Theft,en,hand_written
+purse stolen from shopping trolley at dmart superstore while billing items lost cash and credit cards,Theft,en,hand_written
+two youths snatched my mobile near bus stop and ran into the narrow alley please help track location,Theft,en,hand_written
+laptop charger and office badge stolen from car boot after lock tampering at public parking ground,Theft,en,hand_written
+stolen maruti swift car white color registration number dl8ca9921 parked outside my residence in rohini,Theft,en,hand_written
+battery and stereo player stolen from my parked truck overnight parked near transport nagar warehouse,Theft,en,hand_written
+pickpocket took my leather wallet in chandni chowk market crowd containing four thousand rupees,Theft,en,hand_written
+someone took my backpack from luggage rack of shatabdi express train near new delhi station,Theft,en,hand_written
+my domestic helper stole thirty thousand cash and silver coins from bedroom cupboard and has stopped coming to work,Theft,en,hand_written
+construction tools drill machine and angle grinder stolen from locked storage shed at site,Theft,en,hand_written
+someone snatched my shopping bag containing newly purchased mobile phone while getting down from auto,Theft,en,hand_written
+stolen brass idols and donation box cash from our neighborhood community temple last night,Theft,en,hand_written
+electric meter and service wire cut and stolen from our commercial building entrance overnight,Theft,en,hand_written
+my sister diamond ring kept on table at beauty parlour was stolen by unknown person while she was getting haircut,Theft,en,hand_written
+car catalytic converter stolen from under my parked car outside society gate,Theft,en,hand_written
+thief grabbed my oneplus phone through open auto window at traffic red signal and escaped on foot,Theft,en,hand_written
+burglars opened kitchen window mesh entered house while we were asleep upstairs and took twenty thousand cash and wristwatches,Theft,en,hand_written
+spare wheel and toolkit stolen from dickey of my cab parked near airport terminal taxi stand,Theft,en,hand_written
+my daughter school bag and bicycle stolen from school parking area,Theft,en,hand_written
+stolen television and music system from our locked farmhouse near chhatarpur,Theft,en,hand_written
+unknown person stole money from cashier drawer during rush hour at medical shop,Theft,en,hand_written
+stolen motorcycle bajaj pulsar black color from office basement parking lot,Theft,en,hand_written
+passenger bag stolen at inter state bus terminal kashmere gate platform 7,Theft,en,hand_written
+someone unzipped my backpack in metro train and took out my lenovo laptop without my knowledge,Theft,en,hand_written
+stolen gold earrings from my six year old daughter by an unknown woman in market crowd,Theft,en,hand_written
+gas cylinder stolen from front veranda of our house overnight,Theft,en,hand_written
+shoplifting incident at clothing boutique three ladies stole five designer suits caught on cctv footage,Theft,en,hand_written
+stolen camera and gimbal from photo shoot van parked near india gate,Theft,en,hand_written
+my helmet and mobile holder mounted on bike stolen at mall parking,Theft,en,hand_written
+two thieves climbed pipe entered first floor balcony and stole cash from drawer,Theft,en,hand_written
+generator battery and diesel stolen from telecom tower site near bypass road,Theft,en,hand_written
+leather jacket and ray ban sunglasses stolen from parked car after quarter glass broken,Theft,en,hand_written
+mobile phone picked from coat pocket while walking through sarojini nagar flea market,Theft,en,hand_written
+राजीव चौक मेट्रो स्टेशन पर भीड़ में किसी ने मेरी जेब से मोबाइल निकाल लिया,Theft,hi,hand_written
+मार्केट में खरीदारी करते समय मेरे हाथ से पर्स छीनकर दो लड़के बाइक से भाग गए,Theft,hi,hand_written
+घर के बाहर खड़ी मेरी हीरो स्प्लेंडर मोटरसाइकिल रात को चोरी हो गई,Theft,hi,hand_written
+सोने की चेन गले से झपट कर भाग गए दो बाइक सवार बदमाश मंदिर के सामने,Theft,hi,hand_written
+दुकान का शटर काटकर गल्ले में रखे साठ हजार रुपये और सिगरेट के पैकेट चोरी हो गए,Theft,hi,hand_written
+फ्लैट का ताला तोड़कर चोरों ने अलमारी से जेवरात और एक लाख नकद चोरी कर लिए,Theft,hi,hand_written
+बस में सफर के दौरान मेरा बैग ब्लेड से काटकर पैसे और मोबाइल चोरी कर लिया,Theft,hi,hand_written
+ऑटो रिक्शा में पीछे से हाथ डालकर किसी ने मेरा बैग खींच लिया जिसमें लैपटॉप था,Theft,hi,hand_written
+कोचिंग क्लास के बाहर खड़ी मेरी नई साइकिल का लॉक काटकर चोरी कर ली गई,Theft,hi,hand_written
+रेलवे स्टेशन पर ट्रेन में चढ़ते समय जेबकतरा मेरा पर्स मार ले गया,Theft,hi,hand_written
+रात के समय सोसाइटी की पार्किंग से कार के चारों पहिए और टायर चोरी हो गए,Theft,hi,hand_written
+सब्जी मंडी में भीड़ के दौरान मेरी मां के गले से मंगलसूत्र छीन लिया गया,Theft,hi,hand_written
+खेत में लगा पानी का पंप और बिजली की केबल रात में चोर काट ले गए,Theft,hi,hand_written
+होटल के कमरे से मेरा आईफोन और पर्स चोरी हो गया जब मैं नाश्ता करने नीचे गया था,Theft,hi,hand_written
+डिलीवरी बॉय पार्सल छोड़ कर गया था लेकिन सीढ़ियों से कोई अज्ञात व्यक्ति पार्सल उठा ले गया,Theft,hi,hand_written
+मंदिर परिसर से चांदी का छत्र और दानपात्र से नकदी चोरी होने की शिकायत,Theft,hi,hand_written
+कार का शीशा तोड़कर डैशबोर्ड में रखा लैपटॉप और बीस हजार नकद चोरी कर लिया,Theft,hi,hand_written
+कॉलेज हॉस्टल के कमरे से मेरा डेल लैपटॉप और ईयरबड्स चोरी हो गए,Theft,hi,hand_written
+रात में छत के रास्ते घर में घुसकर अलमारी से सोने की अंगूठी और नकदी ले गए चोर,Theft,hi,hand_written
+लाल बत्ती पर खड़े ऑटो में सवार यात्री का फोन झपटकर पैदल ही संकरी गली में भागा चोर,Theft,hi,hand_written
+मकान में किराएदार ने जाने से पहले मकान मालिक का एसी और पानी की मोटर चोरी कर ली,Theft,hi,hand_written
+पेट्रोल पंप के पास खड़ी मेरी होंडा एक्टिवा स्कूटर को कोई अज्ञात व्यक्ति चुरा ले गया,Theft,hi,hand_written
+दुकान के बाहर रखा लोहे का सामान और सरिया रात में गाड़ी में भरकर चुराया गया,Theft,hi,hand_written
+ट्रेन की बर्थ के नीचे जंजीर से बंधी अटैची को काटकर जेवर चोरी कर लिए गए,Theft,hi,hand_written
+अस्पताल के वार्ड में मरीज के तकिए के नीचे रखा मोबाइल फोन किसी ने चुरा लिया,Theft,hi,hand_written
+बस स्टैंड पर चाय पीते समय टेबल पर रखा मेरा बैग किसी ने पार कर दिया,Theft,hi,hand_written
+मेरी दुकान से ग्राहक बनकर आए दो युवकों ने कीमती घड़ियां चुरा लीं,Theft,hi,hand_written
+घर के सामने खड़ी मारुति कार रात को चोरी हो गई सुबह देखा तो गाड़ी गायब थी,Theft,hi,hand_written
+पार्क में टहलते समय दो युवकों ने चाकू दिखाकर हाथ की घड़ी और मोबाइल छीन लिया,Theft,hi,hand_written
+सिनेमा हॉल के अंदर शो खत्म होने पर देखा तो सीट के पास रखा बैग चोरी हो चुका था,Theft,hi,hand_written
+गोदाम का ताला तोड़कर पचास गत्ते तांबे का तार चोरी कर लिया गया,Theft,hi,hand_written
+शादी समारोह में दूल्हे के पिता का नकदी भरा बैग सोफे से चोरी हो गया,Theft,hi,hand_written
+मेट्रो लिफ्ट के अंदर धक्का-मुक्की करके किसी ने जेब से पर्स साफ कर दिया,Theft,hi,hand_written
+रिक्शा चालक सवारी का सूटकेस लेकर फरार हो गया जिसमें कीमती सामान था,Theft,hi,hand_written
+सब्जी की दुकान का गल्ला तोड़कर दिनदहाड़े पंद्रह हजार रुपये चुराए,Theft,hi,hand_written
+रात में ट्रांसफार्मर से तेल और कॉपर कॉइल चोरी कर ली गई,Theft,hi,hand_written
+घर के आंगन में रखी पानी की मोटर और पीतल के बर्तन चोरी हो गए,Theft,hi,hand_written
+बैंक से पचास हजार निकालकर बाहर निकलते ही बाइक सवारों ने रुपयों का थैला झपट लिया,Theft,hi,hand_written
+फ्लैट की बालकनी से सूख रहे कीमती कपड़े और जूते कोई डंडे से खींच कर ले गया,Theft,hi,hand_written
+किराने की दुकान से रात में तेल के पीपे और रिफाइंड के डिब्बे चोरी,Theft,hi,hand_written
+अज्ञात चोरों ने घर के ताले चटका कर पैंतीस हजार नकद और चांदी के सिक्के चुरा लिए,Theft,hi,hand_written
+मेरी स्कूटी की डिक्की खोलकर उसमें रखा सैमसंग फोन और पर्स चोरी कर लिया,Theft,hi,hand_written
+मेले में झूला झूलते समय जेब से बटुआ कट गया जिसमें आधार कार्ड और नकद था,Theft,hi,hand_written
+हॉस्टल के पार्किंग एरिया से मोटरसाइकिल चोरी होने बाबत तहरीर,Theft,hi,hand_written
+कार सर्विस सेंटर से ग्राहक की गाड़ी के पार्ट्स चोरी करने का मामला,Theft,hi,hand_written
+सार्वजनिक शौचालय में टंगा हुआ बैग कोई अज्ञात व्यक्ति उठा ले गया,Theft,hi,hand_written
+शोरूम के बाहर से डिस्प्ले में रखी साइकिल चोरी हो गई सीसीटीवी में आरोपी दिख रहा है,Theft,hi,hand_written
+ट्रक ड्राइवर का आरोप है कि ढाबे पर खाना खाते समय ट्रक से डीजल चोरी हो गया,Theft,hi,hand_written
+घर के बाहर बंधा हुआ इनवर्टर और बैटरी चोर खोलकर ले गए,Theft,hi,hand_written
+पैदल जा रही महिला का पर्स छीनकर भागे बदमाश पर्स में दस हजार रुपये थे,Theft,hi,hand_written
+bhaiya indiranagar metro gate ke paas mera oneplus phone chori ho gaya,Theft,hinglish,hand_written
+do ladke bike par aaye aur meri mummy ke gale se sone ki chain kheench kar bhaag gaye,Theft,hinglish,hand_written
+ghar ke bahar khadi bullet bike raat ko chori ho gayi subah dekha toh lock toota mila,Theft,hinglish,hand_written
+bus mein bheed ka fayda uthakar kisi ne pocket maar liya wallet mein teen hazar cash tha,Theft,hinglish,hand_written
+auto mein baithte waqt mera bag kisi ne peeche se jhapata maar ke cheen liya,Theft,hinglish,hand_written
+market mein shop ke bahar se meri activa scooter chori ho gayi number dl4s9021,Theft,hinglish,hand_written
+library mein padhai karte waqt mera bag chori ho gaya jisme lenovo laptop tha,Theft,hinglish,hand_written
+raat ko choro ne ghar ka tala tod diya aur almari se chalis hazar cash aur gehne chura liye,Theft,hinglish,hand_written
+car ka kanch tod kar chor mera bag aur laptop le gaya parking se,Theft,hinglish,hand_written
+metro train ke andar kisi ne mera phone pocket se nikal liya mujhe pata bhi nahi chala,Theft,hinglish,hand_written
+delivery boy ne parcel stairs par rakha aur koi unknown aadmi parcel utha kar le gaya,Theft,hinglish,hand_written
+dukan ka shutter todkar chor cash counter se pachas hazar le gaye,Theft,hinglish,hand_written
+subah walk karte waqt bike wale ne hath se phone chheen liya aur flyover ki taraf bhag gaya,Theft,hinglish,hand_written
+society ke basement cycle stand se meri hero cycle ka lock kaat kar chori kar li,Theft,hinglish,hand_written
+railway station platform 4 par mera suitcase chori ho gaya shatabdi train pakadte waqt,Theft,hinglish,hand_written
+gym ke bahar bike park ki thi aadhe ghante baad aaya toh bike gayab thi,Theft,hinglish,hand_written
+red light par auto ruki thi kisi ne hath daal kar hath se phone chheen liya,Theft,hinglish,hand_written
+hostel room se mera laptop aur earphone chori ho gaya darwaza khula tha,Theft,hinglish,hand_written
+hospital ke ICU ward ke bahar se mera bag chori ho gaya jisme paise the,Theft,hinglish,hand_written
+shadi hall mein se bride ke father ka cash bag kisi ne gayab kar diya,Theft,hinglish,hand_written
+commercial street par shopping karte waqt purse pickpocket ho gaya,Theft,hinglish,hand_written
+khet par lagi paani ki motor aur taar choro ne raat ko kaat li,Theft,hinglish,hand_written
+scooty ki dicky khol kar chor ne purse aur watch nikal li,Theft,hinglish,hand_written
+flat ka main door lock tod kar chor chori kar le gaye jab hum gaon gaye the,Theft,hinglish,hand_written
+chaat ki dukaan par khade the tabhi kisi ne pant ki pocket se mobile nikal liya,Theft,hinglish,hand_written
+tempo se samaan unload karte waqt ek carton electronic items chori ho gaya,Theft,hinglish,hand_written
+dost ke room se mera camera aur lens chori ho gaya koi bahar ka aaya tha,Theft,hinglish,hand_written
+park mein bench par bag rakh kar pani peene gaya peeche se bag chori ho gaya,Theft,hinglish,hand_written
+office cab mein mera phone chhoot gaya tha par driver bol raha hai ki usko nahi mila chori ka shak hai,Theft,hinglish,hand_written
+car ke tyre aur alloy wheels raat ko choro ne khol kar le gaye eent par khadi kar di car,Theft,hinglish,hand_written
+footpath par chalte waqt do ladke achanak aaye aur jhapta maar kar mobile le bhage,Theft,hinglish,hand_written
+hotel lobby mein se trolley bag gayab ho gaya cctv mein ek anjan aadmi bag le jate dikha,Theft,hinglish,hand_written
+petrol pump par tel dalwate waqt dicky mein rakha bag chori ho gaya,Theft,hinglish,hand_written
+metro counter par ticket lete time kisi ne purse maar liya,Theft,hinglish,hand_written
+factory ke store room ka lock todkar copper wires chori ho gayi,Theft,hinglish,hand_written
+bhaiya mera mobile chori ho gaya market se please report likh lo,Theft,hinglish,hand_written
+kisi ne meri activa ka lock todkar chura li station parking se,Theft,hinglish,hand_written
+snatching hui hai bus stand par do bike wale purse cheen ke bhaag gaye,Theft,hinglish,hand_written
+ghar ke bahar se paani ki motor chori ho gayi raat me,Theft,hinglish,hand_written
+bag cut karke metro mein phone chori kar liya gaya,Theft,hinglish,hand_written
+dukan ke gulle se chori ho gayi hai naukar par shak hai,Theft,hinglish,hand_written
+building ke bahar khadi cycle chori ho gayi subah dekha toh nahi thi,Theft,hinglish,hand_written
+auto mein laptop bag chori ho gaya peeche se jhapta mara kisi ne,Theft,hinglish,hand_written
+railway station par bheed mein purse nikal liya kisi jebkatre ne,Theft,hinglish,hand_written
+car ka kanch tod ke dashboard se paise aur ghadi chori kar li,Theft,hinglish,hand_written
+mera phone chori ho gya hai coaching class ke bahar se,Theft,hinglish,hand_written
+bike ki chori ho gayi hai number dl3sb1234 splendor black color,Theft,hinglish,hand_written
+mummy ke gale se sone ki chain cheen li bike sawaron ne,Theft,hinglish,hand_written
+dada ji ki cycle chori ho gayi mandir ke bahar se,Theft,hinglish,hand_written
+shutter todkar choro ne dukan se samaan chura liya,Theft,hinglish,hand_written
+i received an sms that my electricity power will be disconnected tonight clicked on link and lost 48000 rupees via upi,Cyber Fraud,en,hand_written
+caller posed as sbi credit card representative asked for card verification and otp debited 75000 from my savings account,Cyber Fraud,en,hand_written
+telegram part time job scam where they asked to like youtube videos and then lured me into depositing 2 lakh rupees for crypto returns,Cyber Fraud,en,hand_written
+seller on olx pretended to buy my sofa sent a qr code saying scan to receive payment and debited 30000 rupees instead,Cyber Fraud,en,hand_written
+got a call on skype from someone claiming to be mumbai cyber police said my aadhaar was used in money laundering and extorted 150000 rupees,Cyber Fraud,en,hand_written
+fake customer care number on google search for swiggy refund agent asked me to install anydesk app and transferred 54000 rupees,Cyber Fraud,en,hand_written
+received fake link regarding pan aadhaar card linking and within minutes three unauthorized imps transactions occurred,Cyber Fraud,en,hand_written
+unauthorized transactions of 90000 rupees on my hdfc credit card while the physical card was in my wallet,Cyber Fraud,en,hand_written
+instant loan app charged hidden fees and now threatening to send morphed photos to all my whatsapp contacts unless i pay 40000,Cyber Fraud,en,hand_written
+someone hacked my friend instagram account sent me urgent message requesting 15000 google pay transfer which i paid and later found out it was hacked,Cyber Fraud,en,hand_written
+fraudulent email claiming to be from income tax department with refund link resulted in 62000 rupees debited from icici account,Cyber Fraud,en,hand_written
+lottery prize winner sms claiming 25 lakh reward asked for 25000 registration fee which was transferred to fraudster account,Cyber Fraud,en,hand_written
+fake airline ticket booking website took 38000 rupees for delhi to london flight and never issued ticket customer care unreachable,Cyber Fraud,en,hand_written
+caller claimed my sim card kyc was pending and threatened disconnection asked to recharge 10 rupees and stole netbanking credentials,Cyber Fraud,en,hand_written
+unauthorized atm withdrawal of 20000 rupees occurred in another city while i possess my debit card,Cyber Fraud,en,hand_written
+invested 3 lakh rupees in fake share trading application recommended on whatsapp group now withdrawal is blocked and admin demanding more tax,Cyber Fraud,en,hand_written
+received fraudulent qr code on whatsapp for rent payment scanned it and money got deducted instead of received,Cyber Fraud,en,hand_written
+caller claiming to be customs officer said parcel containing drugs caught at airport and extorted 85000 through upi,Cyber Fraud,en,hand_written
+fake wedding card apk sent on whatsapp once downloaded all bank otps were forwarded and 110000 transferred,Cyber Fraud,en,hand_written
+fraudulent transaction on phonepe account without sharing otp or pin lost eighteen thousand rupees,Cyber Fraud,en,hand_written
+hotel booking scam on fake website paid full advance amount of 22000 hotel said no booking exists,Cyber Fraud,en,hand_written
+scammer impersonated my company director on email asked me to purchase 50000 rupees worth of amazon gift cards urgently,Cyber Fraud,en,hand_written
+fake work from home data entry job asked for security deposit of 12000 and then blocked my phone number,Cyber Fraud,en,hand_written
+card cloning incident at fuel station my debit card was skimmed and 40000 withdrawn from atm next morning,Cyber Fraud,en,hand_written
+online shopping website took payment of 14500 for air conditioner and never delivered item fake website,Cyber Fraud,en,hand_written
+received call from fake courier company fedex claiming illegal parcel under my name demanding verification deposit of 50000,Cyber Fraud,en,hand_written
+fake bank customer service agent asked to update netbanking password through phished form lost 80000,Cyber Fraud,en,hand_written
+scammed by online astrologer who took 35000 online promising to cure health problems and disappeared,Cyber Fraud,en,hand_written
+fraudster promised cheap car on olx army officer quota took 45000 advance transport fee and switched off phone,Cyber Fraud,en,hand_written
+fake fastag recharge message with malicious link resulted in multiple unauthorized wallet debits totaling 16000,Cyber Fraud,en,hand_written
+friend whatsapp account was hacked received urgent request for medical emergency money sent 25000 via paytm,Cyber Fraud,en,hand_written
+credit card reward points redemption sms led to fake web portal where card credentials were stolen and 65000 spent,Cyber Fraud,en,hand_written
+fake franchise offer of amul parlour cheated me of two lakh rupees deposited into fraud accounts in patna,Cyber Fraud,en,hand_written
+call from person claiming to be army man transferring money for furniture sent qr code and debited 28000,Cyber Fraud,en,hand_written
+unauthorized net banking transfer of ninety five thousand rupees to unknown beneficiary in yes bank,Cyber Fraud,en,hand_written
+online trading robot scam promised guaranteed daily profits took 150000 and shut down application,Cyber Fraud,en,hand_written
+fake epfo provident fund claim update link led to credential theft and fraudulent transfer of 70000 rupees,Cyber Fraud,en,hand_written
+phishing email mimicking netflix subscription renewal card entered and charged 500 dollars internationally,Cyber Fraud,en,hand_written
+call claiming to provide high interest fixed deposit cheated elderly pensioner of four lakh rupees,Cyber Fraud,en,hand_written
+fake gas subsidy link received on sms entered otp and lost 24000 rupees from sbi account,Cyber Fraud,en,hand_written
+unauthorized google play store in-app purchases of 32000 rupees on my credit card without my authorization,Cyber Fraud,en,hand_written
+fraudulent upi collect request accepted by mistake thinking it was incoming payment lost 19999,Cyber Fraud,en,hand_written
+caller claimed my vehicle challan was pending sent apk file on whatsapp that drained 42000 rupees,Cyber Fraud,en,hand_written
+fake scholarship portal took 5000 application fee from fifty students and disappeared,Cyber Fraud,en,hand_written
+fake reliance jio 5g tower installation offer asked for registration fee of 65000 rupees,Cyber Fraud,en,hand_written
+received malicious link regarding electricity bill payment account emptied within ten minutes,Cyber Fraud,en,hand_written
+unauthorized transaction through fake payment gateway during movie ticket booking lost 15000,Cyber Fraud,en,hand_written
+fake crypto exchange platform refused withdrawal of 180000 demanding additional security deposit,Cyber Fraud,en,hand_written
+swiggy customer care fake number scammer initiated screen sharing via rustdesk and stole 33000,Cyber Fraud,en,hand_written
+fraudulent debit card transaction of 50000 rupees at pos terminal in another state,Cyber Fraud,en,hand_written
+बिजली का बिल अपडेट ना होने पर कनेक्शन काटने का मैसेज आया और लिंक खोलते ही खाते से 45000 कट गए,Cyber Fraud,hi,hand_written
+बैंक मैनेजर बनकर कॉल किया और क्रेडिट कार्ड बंद होने का डर दिखाकर ओटीपी पूछा फिर 70000 निकाल लिए,Cyber Fraud,hi,hand_written
+टेलीग्राम पर यूट्यूब वीडियो लाइक करके पैसे कमाने का झांसा देकर मुझसे दो लाख रुपये ठग लिए,Cyber Fraud,hi,hand_written
+ओएलएक्स पर पुरानी वाशिंग मशीन बेचने के लिए विज्ञापन डाला था खरीदार ने क्यूआर कोड स्कैन करवा कर 25000 काट लिए,Cyber Fraud,hi,hand_written
+कस्टमर केयर का फर्जी नंबर गूगल से निकाला रिफंड के नाम पर एनीडेस्क ऐप डाउनलोड करवा कर खाता खाली कर दिया,Cyber Fraud,hi,hand_written
+अज्ञात व्यक्ति ने खुद को मुंबई पुलिस अधिकारी बताकर मनी लॉन्ड्रिंग केस में फंसाने की धमकी दी और डिजिटल अरेस्ट कर डेढ़ लाख ऐंठ लिए,Cyber Fraud,hi,hand_written
+पैन कार्ड को आधार से लिंक करने का फर्जी मैसेज आया लिंक पर क्लिक करते ही नेटबैंकिंग से 60000 रुपये ट्रांसफर हो गए,Cyber Fraud,hi,hand_written
+इंस्टाग्राम पर शेयर मार्केट में ट्रेडिंग के नाम पर मुनाफा कमाने का लालच देकर मुझसे तीन लाख रुपये की ठगी की गई,Cyber Fraud,hi,hand_written
+मेरे खाते से बिना किसी ओटीपी या मैसेज के अचानक 35000 रुपये कट गए और अज्ञात खाते में चले गए,Cyber Fraud,hi,hand_written
+फेक लोन ऐप से दस हजार लिए थे अब वे मेरे कॉन्टैक्ट्स को न्यूड फोटो भेजने की धमकी देकर पचास हजार मांग रहे हैं,Cyber Fraud,hi,hand_written
+दोस्त का व्हाट्सएप हैक करके इमरजेंसी में इलाज के नाम पर 20000 रुपये यूपीआई से ट्रांसफर करवा लिए,Cyber Fraud,hi,hand_written
+लॉटरी में पच्चीस लाख जीतने का मैसेज आया और टैक्स के नाम पर 30000 रुपये जमा करवा कर नंबर ब्लॉक कर दिया,Cyber Fraud,hi,hand_written
+सिम कार्ड ब्लॉक होने की धमकी देकर 10 रुपये का रिचार्ज करवाया और पूरे बैंक खाते की जानकारी चुरा कर 85000 निकाल लिए,Cyber Fraud,hi,hand_written
+क्रेडिट कार्ड के रिवॉर्ड पॉइंट कैश में बदलने का लालच देकर कार्ड डिटेल्स लेकर 55000 की ऑनलाइन शॉपिंग कर ली,Cyber Fraud,hi,hand_written
+फर्जी शादी का कार्ड एपीके फाइल व्हाट्सएप पर भेजा जिसे खोलते ही फोन हैक हो गया और पैसे कट गए,Cyber Fraud,hi,hand_written
+एटीएम से पैसे निकालते समय किसी ने धोखे से मेरा कार्ड बदल लिया और बाद में खाते से 40000 निकाल लिए,Cyber Fraud,hi,hand_written
+फर्जी गैस सब्सिडी का लिंक भेजकर खाते से 18000 रुपये साफ कर दिए साइबर ठगों ने,Cyber Fraud,hi,hand_written
+फर्जी जॉब ऑफर का लेटर देकर सिक्योरिटी डिपॉजिट के नाम पर 15000 रुपये ठग लिए गए,Cyber Fraud,hi,hand_written
+फेडेक्स कूरियर में नशीली दवाएं मिलने का डर दिखाकर सीबीआई अफसर बनकर 90000 रुपये की उगाही की,Cyber Fraud,hi,hand_written
+ऑनलाइन होटल बुकिंग की फर्जी वेबसाइट बनाकर एडवांस के 22000 रुपये हड़प लिए होटल पहुंचने पर पता चला फर्जी है,Cyber Fraud,hi,hand_written
+फोनपे पर कैशबैक का मैसेज आया लिंक दबाया तो कैशबैक आने की जगह खाते से 12000 रुपये कट गए,Cyber Fraud,hi,hand_written
+क्रिप्टोकरेंसी में निवेश के नाम पर टेलीग्राम ग्रुप में जोड़कर चार लाख रुपये की धोखाधड़ी की गई,Cyber Fraud,hi,hand_written
+ऑनलाइन सस्ती बाइक बेचने का झांसा देकर आर्मी ऑफिसर के नाम पर 40000 रुपये एडवांस लेकर फोन बंद कर लिया,Cyber Fraud,hi,hand_written
+फर्जी चालान का लिंक व्हाट्सएप पर भेजा जिसमें चालान भरने के नाम पर 30000 रुपये खाते से गायब हो गए,Cyber Fraud,hi,hand_written
+बैंक की फर्जी वेबसाइट बनाकर लॉग इन आईडी और पासवर्ड चुराया और एक लाख रुपये निकाल लिए,Cyber Fraud,hi,hand_written
+घर बैठे पार्ट टाइम वर्क फ्रॉम होम के नाम पर रेटिंग का काम देकर 1.5 लाख ठगे,Cyber Fraud,hi,hand_written
+क्रेडिट कार्ड की लिमिट बढ़ाने का कॉल आया ओटीपी शेयर करते ही खाते से 80000 रुपये कट गए,Cyber Fraud,hi,hand_written
+अनजान नंबर से वीडियो कॉल आई और रिकॉर्डिंग करके ब्लैकमेल करके यूपीआई से पैसे मांगे जा रहे हैं,Cyber Fraud,hi,hand_written
+अमेज़न गिफ्ट कार्ड खरीदने के नाम पर कंपनी के एमडी की फर्जी ईमेल आईडी बनाकर पचास हजार ठगे,Cyber Fraud,hi,hand_written
+पीएम किसान सम्मान निधि की फर्जी साइट बनाकर किसानों से 2000-2000 रुपये की अवैध वसूली,Cyber Fraud,hi,hand_written
+ऑनलाइन शॉपिंग में मोबाइल ऑर्डर किया था लेकिन बॉक्स में साबुन निकला और रिफंड भी नहीं मिला,Cyber Fraud,hi,hand_written
+अनजान नंबर से फोन आया और बोला कि आपके बेटे का एक्सीडेंट हो गया है तुरंत 25000 गूगल पे करो,Cyber Fraud,hi,hand_written
+पेट्रोल पंप पर कार्ड क्लोनिंग करके मेरे खाते से साठ हजार रुपये निकाल लिए गए,Cyber Fraud,hi,hand_written
+फेसबुक पर पुराने दोस्त की फर्जी प्रोफाइल बनाकर इलाज के नाम पर 15000 रुपये ठग लिए,Cyber Fraud,hi,hand_written
+फर्जी एयर टिकट वेबसाइट पर पैसे कट गए लेकिन टिकट जारी नहीं हुई और फोन भी नहीं लग रहा,Cyber Fraud,hi,hand_written
+मोबाइल टावर लगाने के नाम पर एग्रीमेंट फीस बताकर 75000 रुपये बैंक खाते में डलवा लिए,Cyber Fraud,hi,hand_written
+यूपीआई कलेक्ट रिक्वेस्ट को गलती से एक्सेप्ट कर लिया जिससे 20000 रुपये कट गए,Cyber Fraud,hi,hand_written
+फर्जी म्यूचुअल फंड एजेंट ने अच्छी रिटर्न का झांसा देकर तीन लाख रुपये जमा करवाए और भाग गया,Cyber Fraud,hi,hand_written
+अज्ञात व्यक्ति ने नेटबैंकिंग हैक करके फिक्स्ड डिपॉजिट तोड़कर पैसे ट्रांसफर कर लिए,Cyber Fraud,hi,hand_written
+ऑनलाइन दवा मंगाने के चक्कर में फर्जी मेडिकल स्टोर को पेमेंट किया और दवा नहीं भेजी गई,Cyber Fraud,hi,hand_written
+स्कॉलरशिप के नाम पर छात्रों से ऑनलाइन फॉर्म फीस के नाम पर लाखों की धोखाधड़ी,Cyber Fraud,hi,hand_written
+ईपीएफओ का फर्जी एसएमएस भेजकर खाते से पचास हजार रुपये उड़ा लिए साइबर अपराधियों ने,Cyber Fraud,hi,hand_written
+फास्टैग रिचार्ज का फर्जी लिंक भेजकर पेटीएम वॉलेट से 14000 रुपये की ठगी,Cyber Fraud,hi,hand_written
+अनजान खाते में यूपीआई से 33000 रुपये ट्रांसफर हो गए लिंक क्लिक करने के बाद,Cyber Fraud,hi,hand_written
+कस्टमर केयर एग्जीक्यूटिव बनकर क्विक सपोर्ट ऐप इंस्टॉल कराया और बैंक बैलेंस शून्य कर दिया,Cyber Fraud,hi,hand_written
+ऑनलाइन शादी के रिश्ते की बात करके एनआरआई बताकर कस्टम क्लीयरेंस के नाम पर दो लाख ऐंठे,Cyber Fraud,hi,hand_written
+बिजली बिल का मैसेज भेजकर खाते से सारे पैसे निकाल लिए तुरंत कार्रवाई की जाए,Cyber Fraud,hi,hand_written
+क्रेडिट कार्ड की सीवीवी और ओटीपी पूछकर 65000 की धोखाधड़ी करने वाले पर केस दर्ज करें,Cyber Fraud,hi,hand_written
+फर्जी यूट्यूब लाइक जॉब में टास्क पूरा करने के नाम पर जमा कराए पैसे वापस नहीं मिल रहे,Cyber Fraud,hi,hand_written
+ओएलएक्स पर सेना का जवान बनकर ठगी करने वाले गिरोह के खिलाफ एफआईआर दर्ज करें,Cyber Fraud,hi,hand_written
+bijli bill connection cut hone ka fake sms aaya aur link par click karte hi 45000 kat gaye account se,Cyber Fraud,hinglish,hand_written
+caller ne bola sbi bank se bol raha hoon card block ho jayega otp batao aur 60000 nikal liye,Cyber Fraud,hinglish,hand_written
+telegram par part time job ka jhasa dekar youtube like karne ke naam par 150000 deposit karwa ke loot liya,Cyber Fraud,hinglish,hand_written
+olx par bed bechne ke liye ad dala tha kharidar ne qr code bheja aur scan karte hi mere paise kat gaye,Cyber Fraud,hinglish,hand_written
+mumbai police bankar skype call par digital arrest kiya aur drug case ka dar dikha kar do lakh transfer karwaye,Cyber Fraud,hinglish,hand_written
+zomato refund ke liye google se customer care number nikala anydesk download karwa kar pura account khali kar diya,Cyber Fraud,hinglish,hand_written
+pan card aadhaar link karne ka fake link aaya netbanking se 75000 transfer ho gaye fraud account mein,Cyber Fraud,hinglish,hand_written
+bina kisi otp ya call ke mere hdfc credit card se 40000 ka international transaction ho gaya,Cyber Fraud,hinglish,hand_written
+fake loan app walo ne contacts ko morphed photos bhejne ki dhamki dekar 30000 zabardasti vasool kiye,Cyber Fraud,hinglish,hand_written
+mere dost ki instagram id hack karke emergency ka msg bheja aur mujhse 12000 google pay karwa liye,Cyber Fraud,hinglish,hand_written
+income tax refund ka fake mail aaya link click karne par 50000 kat gaye mere icici account se,Cyber Fraud,hinglish,hand_written
+lottery jeetne ka message aaya tha registration fee ke naam par 20000 transfer karwaye phir phone band kar liya,Cyber Fraud,hinglish,hand_written
+sim kyc update ke naam par 10 rupaye recharge karwaya aur poora bank account khali kar diya,Cyber Fraud,hinglish,hand_written
+credit card reward points redeem karne ka msg aaya tha card details daali toh 54000 ki shopping ho gayi,Cyber Fraud,hinglish,hand_written
+whatsapp par shaadi ka card apk file aayi thi click karte hi phone hack ho gaya aur otps forward ho gaye,Cyber Fraud,hinglish,hand_written
+atm card clone karke mere account se 30000 nikal liye jabki card mere paas hi tha,Cyber Fraud,hinglish,hand_written
+gas subsidy ke naam par link bheja aur 18000 rupaye saaf kar diye cyber criminals ne,Cyber Fraud,hinglish,hand_written
+online work from home data entry ke naam par 10000 deposit liya aur phir block kar diya,Cyber Fraud,hinglish,hand_written
+fedex courier mein illegal parcel hone ka bolkar police officer bankar 80000 upi se loot liye,Cyber Fraud,hinglish,hand_written
+fake hotel booking site par 20000 advance pay kiya hotel gaye toh pata chala fraud site thi,Cyber Fraud,hinglish,hand_written
+phonepe par cashback claim karne ke link par click kiya toh wallet se 15000 kat gaye,Cyber Fraud,hinglish,hand_written
+crypto investment telegram group mein 2 lakh lagwaye ab withdrawal block kar diya aur tax maang rahe hain,Cyber Fraud,hinglish,hand_written
+olx par army officer bankar bike bechne ka jhasa diya 35000 advance lene ke baad number band kar diya,Cyber Fraud,hinglish,hand_written
+traffic challan payment ka fake apk file bheja whatsapp par aur 25000 account se gayab ho gaye,Cyber Fraud,hinglish,hand_written
+bank ki fake website par login kiya netbanking se 90000 transfer ho gaye kisi unknown account me,Cyber Fraud,hinglish,hand_written
+sir mere sath online cyber fraud ho gaya hai account se paise kat gaye,Cyber Fraud,hinglish,hand_written
+fake call aayi thi otp liya aur paise nikal liye cyber crime ki report likho,Cyber Fraud,hinglish,hand_written
+online fraud hua hai mere sath upi se transfer karwa liye jhooth bolkar,Cyber Fraud,hinglish,hand_written
+kisi ne mera account hack karke saare paise transfer kar liye online,Cyber Fraud,hinglish,hand_written
+task complete karne ke naam par telegram par fraud hua hai 80000 ka,Cyber Fraud,hinglish,hand_written
+qr code scan karwa ke olx par paise kat gaye mere sath fraud hua,Cyber Fraud,hinglish,hand_written
+fake loan app wale dhamki dekar blackmail kar rahe hain paise maang rahe hain,Cyber Fraud,hinglish,hand_written
+electricity bill disconnection ka fake link bhej kar 40000 chura liye,Cyber Fraud,hinglish,hand_written
+bina otp ke mere credit card se transaction ho gaya cyber complaint karni hai,Cyber Fraud,hinglish,hand_written
+fedex parcel digital arrest ka drama karke online paise thag liye,Cyber Fraud,hinglish,hand_written
+an unknown man on a motorcycle follows me every day from the metro station to my housing society passing obscene comments,Harassment,en,hand_written
+my ex-boyfriend is constantly sending abusive messages and threatening to leak my private photographs on social media,Harassment,en,hand_written
+someone created a fake instagram account with my photos and my phone number calling me for sexual escort services,Harassment,en,hand_written
+a group of boys standing near the tuition center passing vulgar remarks and catcalling female students every evening,Harassment,en,hand_written
+my senior manager at office is demanding sexual favors in exchange for promotion and sending inappropriate whatsapp texts late at night,Harassment,en,hand_written
+neighbor continuously bangs on my door late at night shouts vulgar abuses and peeps through my window causing severe mental trauma,Harassment,en,hand_written
+unknown person making repeated missed calls and sending vulgar messages from international virtual numbers despite blocking,Harassment,en,hand_written
+person rejected on matrimonial site is stalking me threatening to throw acid on my face if i marry someone else,Harassment,en,hand_written
+landlord son peeping into my rented room through bathroom ventilator and taking unauthorized photographs,Harassment,en,hand_written
+in-laws mentally torturing my sister demanding dowry and locking her in a dark room without food,Harassment,en,hand_written
+cab driver refused to let me get down locked car doors and misbehaved using abusive language on the way from airport,Harassment,en,hand_written
+delivery boy took my phone number from delivery packet and sending romantic texts and calling me at midnight,Harassment,en,hand_written
+gym trainer inappropriately touched me during exercise session despite multiple warnings and made lewd remarks,Harassment,en,hand_written
+former colleague stalking me outside my apartment complex taking pictures of my daily movements without consent,Harassment,en,hand_written
+someone morphed my face on vulgar pictures and circulating them in college whatsapp groups to defame me,Harassment,en,hand_written
+neighbor continuously abuses my elderly mother using dirty words and throws garbage at our balcony daily,Harassment,en,hand_written
+auto driver took wrong dark route at night passed vulgar comments and threatened to harm me when i shouted,Harassment,en,hand_written
+stranger continuously following my daughter school van on scooter making vulgar gestures with hand,Harassment,en,hand_written
+someone created fake facebook profile with my details and sending abusive messages to my relatives,Harassment,en,hand_written
+college senior ragging and verbally abusing junior students in hostel forcing them to do degrading acts,Harassment,en,hand_written
+co-passenger on night sleeper bus touched me inappropriately while i was asleep and fled when i raised alarm,Harassment,en,hand_written
+shopkeeper passing sexually explicit comments whenever i visit the local market,Harassment,en,hand_written
+man following me in public park while morning jogging trying to block my pathway repeatedly,Harassment,en,hand_written
+threatened by local goons who stand outside our street corner passing lewd comments on passing women,Harassment,en,hand_written
+husband family constantly harassing my daughter demanding cash and threatening to ruin her life,Harassment,en,hand_written
+man exposing himself in public near women college bus stop causing panic among girls,Harassment,en,hand_written
+continuous threatening phone calls from unknown person saying they will kidnap my daughter from school,Harassment,en,hand_written
+cyberstalker posting defamatory comments on all my linkedin posts and emailing my office hr with false allegations,Harassment,en,hand_written
+security guard at apartment complex stalking my sister and peeping through window blinds,Harassment,en,hand_written
+rejected suitor created fake telegram channel sharing my contact details with vulgar captions,Harassment,en,hand_written
+group of youth drinking beer in car outside girls hostel shouting vulgar slogans and honking loudly,Harassment,en,hand_written
+someone posting abusive comments and stalking my personal youtube channel making death threats,Harassment,en,hand_written
+doctor assistant misbehaved and touched inappropriately during medical examination at clinic,Harassment,en,hand_written
+delivery partner standing outside my door for twenty minutes after delivery calling my phone repeatedly,Harassment,en,hand_written
+in-laws subjecting my sister to domestic cruelty verbal humiliation and threatening to disown her,Harassment,en,hand_written
+neighbor deliberately playing pornographic audio loudly whenever my children are studying,Harassment,en,hand_written
+man following my teenage daughter on her bicycle to tuition center making obscene signs,Harassment,en,hand_written
+ex-fiance sending threatening audio notes threatening to ruin my marriage with anyone else,Harassment,en,hand_written
+two men in white car following our ladies group walking in park and rolling down window with vulgar comments,Harassment,en,hand_written
+landlord making persistent unwanted late night calls and asking inappropriate personal questions,Harassment,en,hand_written
+someone created fake tinder account with my sister pictures and office address,Harassment,en,hand_written
+stranger sending pornographic pictures and videos on whatsapp from unlisted number,Harassment,en,hand_written
+college classmate continuously stalking and making threats after i refused his proposal,Harassment,en,hand_written
+neighbor abusing my wife and threatening to beat her when she asked him not to park blocking our gate,Harassment,en,hand_written
+man taking photos of women on metro train secretly using hidden camera phone,Harassment,en,hand_written
+harassed by previous employer who is calling new company and spreading fake character assassination rumors,Harassment,en,hand_written
+man continuously following me on metro blue line and trying to sit next to me touching arms,Harassment,en,hand_written
+ex-husband sending threatening legal notices and abusive emails every day to my workplace,Harassment,en,hand_written
+local street rowdies eve-teasing school students and blocking pedestrian foot over bridge,Harassment,en,hand_written
+unknown person posted my phone number on adult classifieds website causing hundreds of abusive calls daily,Harassment,en,hand_written
+एक अज्ञात लड़का रोज कॉलेज जाते समय मेरा पीछा करता है और अश्लील फब्तियां कसता है,Harassment,hi,hand_written
+मेरे पूर्व मंगेतर ने रिश्ता टूटने के बाद मेरी निजी तस्वीरें सोशल मीडिया पर डालने की धमकी देकर ब्लैकमेल कर रहा है,Harassment,hi,hand_written
+पड़ोसी रोज रात को शराब पीकर हमारे दरवाजे पर आकर गंदी-गंदी गालियां बकता है और धमकी देता है,Harassment,hi,hand_written
+किसी ने इंस्टाग्राम पर मेरी फर्जी आईडी बनाकर मेरी तस्वीरों के साथ मेरा नंबर कॉलगर्ल लिखकर पोस्ट कर दिया,Harassment,hi,hand_written
+कार्यालय में सीनियर अधिकारी पदोन्नति के बदले अनुचित मांग कर रहा है और देर रात अश्लील संदेश भेजता है,Harassment,hi,hand_written
+अज्ञात नंबर से बार-बार कॉल करके अश्लील बातें की जा रही हैं नंबर ब्लॉक करने पर दूसरे नंबर से फोन आता है,Harassment,hi,hand_written
+लड़की के मना करने पर एक मनचला उस पर तेजाब फेंकने और जान से मारने की धमकी दे रहा है,Harassment,hi,hand_written
+मकान मालिक का बेटा बाथरूम के रोशनदान से झांकता है और छेड़छाड़ करने की कोशिश करता है,Harassment,hi,hand_written
+ससुराल वाले मेरी बहन को दहेज के लिए प्रताड़ित कर रहे हैं और मारपीट कर मानसिक यातनाएं दे रहे हैं,Harassment,hi,hand_written
+कोचिंग से लौटते समय दो बाइक सवार लड़के रास्ता रोककर छेड़खानी करते हैं और फोन नंबर मांगते हैं,Harassment,hi,hand_written
+डिलीवरी बॉय खाना देने के बाद से रोज रात को व्हाट्सएप पर आपत्तिजनक मैसेज भेजकर परेशान कर रहा है,Harassment,hi,hand_written
+जिम ट्रेनर ने एक्सरसाइज कराने के बहाने गलत तरीके से छुआ और विरोध करने पर करियर खराब करने की धमकी दी,Harassment,hi,hand_written
+सार्वजनिक बस में यात्रा के दौरान सहयात्री ने अनुचित तरीके से स्पर्श किया और अश्लील हरकत की,Harassment,hi,hand_written
+किसी अज्ञात व्यक्ति ने मेरी बेटी की फोटो को मॉर्फ करके अश्लील बना दिया और रिश्तेदारों को भेज रहा है,Harassment,hi,hand_written
+गली के मोड़ पर खड़े आवारा लड़के स्कूल से आती बच्चियों पर गंदे कमेंट पास करते हैं,Harassment,hi,hand_written
+महिला के पति की मृत्यु के बाद जेठ और देवर संपत्ति हड़पने के लिए उसे मानसिक रूप से प्रताड़ित कर रहे हैं,Harassment,hi,hand_written
+ऑटो चालक ने रात में गलत रास्ता पकड़ लिया और छेड़खानी करने की कोशिश की चीखने पर छोड़कर भागा,Harassment,hi,hand_written
+पार्क में टहलने वाली महिलाओं का अज्ञात व्यक्ति द्वारा छुप-छुप कर वीडियो बनाने का मामला,Harassment,hi,hand_written
+व्हाट्सएप पर अज्ञात विदेशी नंबरों से अश्लील वीडियो और तस्वीरें भेजकर परेशान किया जा रहा है,Harassment,hi,hand_written
+सड़क चलते युवक ने हाथ पकड़कर खींचने की कोशिश की और विरोध पर गाली-गलौज की,Harassment,hi,hand_written
+हॉस्टल में सीनियर छात्राओं द्वारा जूनियर छात्राओं का मानसिक और शारीरिक उत्पीड़न करने की शिकायत,Harassment,hi,hand_written
+शादी से इंकार करने पर लड़का लड़की के घर के चक्कर लगा रहा है और परिजनों को धमकियां दे रहा है,Harassment,hi,hand_written
+दुकानदार महिला ग्राहक को देखकर अश्लील इशारे करता है और अभद्र भाषा का प्रयोग करता है,Harassment,hi,hand_written
+पड़ोसी खिड़की से घर के अंदर ताक-झांक करता है और टोकने पर मारपीट पर आमादा हो जाता है,Harassment,hi,hand_written
+मेरी बहन को ससुराल में लगातार तानों और धमकियों से मानसिक रूप से प्रताड़ित किया जा रहा है,Harassment,hi,hand_written
+सोशल मीडिया पर फर्जी प्रोफाइल बनाकर मेरी छवि धूमिल करने और अभद्र टिप्पणियां करने की शिकायत,Harassment,hi,hand_written
+टैक्सी में सफर के दौरान ड्राइवर ने अभद्रता की और आपत्तिजनक बातें करके डराया,Harassment,hi,hand_written
+स्कूल वैन का पीछा करके छात्रा को डराने-धमकाने वाले युवक पर सख्त कार्रवाई की मांग,Harassment,hi,hand_written
+अज्ञात व्यक्ति द्वारा फोन पर अपहरण और जान से मारने की धमकी देकर मानसिक शांति भंग करना,Harassment,hi,hand_written
+अपार्टमेंट की लिफ्ट में युवती के साथ छेड़खानी और बदसलूकी की घटना,Harassment,hi,hand_written
+कॉलेज की छात्रा पर धर्म परिवर्तन का दबाव बनाकर पीछा करने और तंग करने का आरोप,Harassment,hi,hand_written
+पूर्व पति तलाक के बाद भी रास्ते में रोककर धमकियां देता है और गाली-गलौज करता है,Harassment,hi,hand_written
+क्लीनिक में डॉक्टर के सहायक द्वारा इलाज के दौरान गलत नीयत से छूने की शिकायत,Harassment,hi,hand_written
+फेसबुक पर अभद्र भाषा का प्रयोग करके लगातार ट्रोलिंग और चरित्र हनन करने की शिकायत,Harassment,hi,hand_written
+गांव में दबंगों द्वारा कमजोर वर्ग की महिला को सार्वजनिक रूप से अपमानित और प्रताड़ित करना,Harassment,hi,hand_written
+किराएदार महिला को मकान मालिक द्वारा अनुचित बातें कहकर मानसिक रूप से परेशान करने का मामला,Harassment,hi,hand_written
+छात्रा का पीछा कर जबरन दोस्ती का दबाव बनाने और मना करने पर बदनाम करने की धमकी देना,Harassment,hi,hand_written
+ससुराल वालों द्वारा दहेज की खातिर नवविवाहिता को भूखा रखकर प्रताड़ित करने की शिकायत,Harassment,hi,hand_written
+मंदिर के बाहर फूल बेचने वाली बच्ची के साथ एक अधेड़ उम्र के व्यक्ति द्वारा अश्लील हरकत,Harassment,hi,hand_written
+मेट्रो स्टेशन की सीढ़ियों पर एक युवक द्वारा युवती का वीडियो बनाने और पकड़े जाने पर भागने का मामला,Harassment,hi,hand_written
+महिला सहकर्मी को व्हाट्सएप पर बार-बार आपत्तिजनक सामग्री भेजना और असहज करना,Harassment,hi,hand_written
+पड़ोस का युवक छत से लगातार अश्लील इशारे करता है जिससे घर की महिलाओं का निकलना मुश्किल हो गया,Harassment,hi,hand_written
+दहेज न मिलने पर पति द्वारा पत्नी को घर से निकालने और चरित्रहीन बताने की शिकायत,Harassment,hi,hand_written
+रास्ते में आते-जाते समय मनचलों द्वारा फब्तियां कसने और रास्ता रोकने की तहरीर,Harassment,hi,hand_written
+अज्ञात व्यक्ति ने मेरा फोन नंबर एडल्ट साइट पर डाल दिया जिससे सैकड़ों कॉल आ रही हैं,Harassment,hi,hand_written
+ससुराल में ननद और सास द्वारा लगातार मानसिक उत्पीड़न और ताने देने का मामला,Harassment,hi,hand_written
+सोशल मीडिया पर अश्लील मैसेज भेजने वाले अज्ञात हैंडल के विरुद्ध कानूनी कार्रवाई की मांग,Harassment,hi,hand_written
+बस स्टैंड पर खड़ी युवती के साथ छेड़छाड़ करने वाले शराबी युवक के खिलाफ शिकायत,Harassment,hi,hand_written
+मेरी बेटी को कोचिंग जाते वक्त एक लड़का परेशान करता है कृपया सुरक्षा प्रदान करें,Harassment,hi,hand_written
+घर के बाहर खड़े होकर गंदी नजर रखने वाले और कमेंट पास करने वाले युवकों पर कार्रवाई करें,Harassment,hi,hand_written
+ek ladka roz college aate jaate mera peecha karta hai aur chhedta hai,Harassment,hinglish,hand_written
+ex boyfriend private photos viral karne ki dhamki de raha hai aur blackmail kar raha hai,Harassment,hinglish,hand_written
+neighbor roz raat ko daru peekar darwaza peetta hai aur gandi gandi gaaliyan deta hai,Harassment,hinglish,hand_written
+kisi ne fake instagram account banakar meri photos ke sath harassment shuru kar di hai,Harassment,hinglish,hand_written
+office mein boss promotion ke badle physical relation ka pressure bana raha hai aur late night texts bhejta hai,Harassment,hinglish,hand_written
+unknown number se continuous missed calls aur gande whatsapp messages aa rahe hain block karne ke baad bhi,Harassment,hinglish,hand_written
+shadi todne par ladka acid attack karne aur jaan se maarne ki dhamki de raha hai,Harassment,hinglish,hand_written
+delivery partner khana deliver karne ke baad se roz raat ko call aur message bhej kar pareshan kar raha hai,Harassment,hinglish,hand_written
+sasural wale meri behan ko dahej ke liye mental torture kar rahe hain aur dhamki de rahe hain,Harassment,hinglish,hand_written
+metro station se ghar aate waqt do ladke roz bike par peecha karte hain aur vulgar comments pass karte hain,Harassment,hinglish,hand_written
+gym trainer ne inappropriate touch kiya aur oppose karne par dhamki di,Harassment,hinglish,hand_written
+auto driver ne raat ko galat raste par gadi daal di aur misbehave karne laga,Harassment,hinglish,hand_written
+kisi ne meri photos morph karke college groups mein daal di hai character assassination ke liye,Harassment,hinglish,hand_written
+neighbor roz gali galoch karta hai aur hamari balcony par kachra phekta hai,Harassment,hinglish,hand_written
+unknown number se whatsapp par pornographic video aur photos bhej kar harassment kar raha hai koi,Harassment,hinglish,hand_written
+bhaiya ek aadmi roz metro mein mere peeche khada hokar galat touch karta hai,Harassment,hinglish,hand_written
+ladkiyon ke coaching ke bahar kuch ladke roz aate hain aur chhedte hain,Harassment,hinglish,hand_written
+fake matrimonial profile banakar mera phone number daal diya kisi ne,Harassment,hinglish,hand_written
+ex husband roz raaste mein rok kar dhamki deta hai aur gali bakta hai,Harassment,hinglish,hand_written
+sir ek ladka meri beti ka peecha karta hai tuition jaate waqt please action lo,Harassment,hinglish,hand_written
+chhedkhani ki complaint karni hai market mein ek ladke ne badtameezi ki,Harassment,hinglish,hand_written
+social media par abusive messages bhej kar dhamki di ja rahi hai,Harassment,hinglish,hand_written
+call karke gaaliyan deta hai aur dhamki deta hai unknown person,Harassment,hinglish,hand_written
+sasural mein maar peet aur mental torture kiya ja raha hai dahej ke liye,Harassment,hinglish,hand_written
+bus mein chhedkhani hui hai ek aadmi ne galat harkat ki,Harassment,hinglish,hand_written
+makan malik peeping karta hai aur inappropriate demands karta hai,Harassment,hinglish,hand_written
+acid attack ki dhamki di hai ek ladke ne propose reject karne par,Harassment,hinglish,hand_written
+office mein sexual harassment ho raha hai senior colleague dwara,Harassment,hinglish,hand_written
+photo viral karne ki dhamki dekar paise aur favors maange ja rahe hain,Harassment,hinglish,hand_written
+stalking ho rahi hai roz roz raste par peecha karta hai wo ladka,Harassment,hinglish,hand_written
+gandi gandi gaaliyan deta hai padosi aur darwaza peetta hai,Harassment,hinglish,hand_written
+beti ko school bus tak follow karta hai scooter par ek ladka,Harassment,hinglish,hand_written
+whatsapp par threatening calls aa rahi hain jaan se maarne ki,Harassment,hinglish,hand_written
+fake profile banakar photos upload karke badnaam kiya ja raha hai,Harassment,hinglish,hand_written
+eve teasing hui hai main road par police complaint likhiye,Harassment,hinglish,hand_written
+my 7-year-old son went missing from the weekly vegetable market yesterday evening wearing a blue t-shirt and grey shorts,Missing Person,en,hand_written
+my 72-year-old grandfather suffering from alzheimers memory loss went for morning walk at 6 am and has not returned home,Missing Person,en,hand_written
+my 16-year-old daughter left home for physics tuition at 4 pm yesterday and never reached coaching her phone is switched off,Missing Person,en,hand_written
+my college roommate left the boys hostel room three days ago leaving behind his wallet and books and is completely untraceable,Missing Person,en,hand_written
+my brother who is mentally challenged wandered away from the community temple around noon wearing green kurta and pajama,Missing Person,en,hand_written
+my husband went to office on bike at 9 am yesterday but did not reach office his phone last location shows near ring road then switched off,Missing Person,en,hand_written
+my sister aged 24 left home after a minor disagreement with mother two days ago and has not contacted any relative,Missing Person,en,hand_written
+daily wage laborer father went to construction site 48 hours ago has not returned and site contractor says he never arrived,Missing Person,en,hand_written
+my 14-year-old nephew went to play cricket in the neighborhood park at 4 pm and has been missing since then,Missing Person,en,hand_written
+elderly grandmother aged 80 walked out of the apartment building gate while watchman was away she cannot speak properly,Missing Person,en,hand_written
+my uncle who came from bihar to delhi railway station got separated in the platform crowd and is missing since morning,Missing Person,en,hand_written
+young boy aged 11 went missing from outside our residence while playing with street friends,Missing Person,en,hand_written
+my mother aged 65 suffering from depression went out to buy groceries at 11 am and has not come back,Missing Person,en,hand_written
+engineering student son did not board the train home from kota coaching institute and his mobile is unreachable for 24 hours,Missing Person,en,hand_written
+our domestic cook did not return after visiting his village and his family says he left for our house four days ago,Missing Person,en,hand_written
+my 19-year-old cousin went for evening walk in rohini sector 15 and has been missing since last night,Missing Person,en,hand_written
+speech impaired teenager missing from village religious fair since yesterday afternoon please help search,Missing Person,en,hand_written
+my sister in law went to the local bank branch to withdraw cash at 10 am and has not returned home her phone is off,Missing Person,en,hand_written
+cab driver father did not return home after night shift cab was found parked abandoned near highway,Missing Person,en,hand_written
+my 9-year-old daughter went missing from the shopping mall playground area during weekend crowd,Missing Person,en,hand_written
+autistic teenage boy ran away from home when front door was unlocked wearing yellow shirt and blue slippers,Missing Person,en,hand_written
+married sister missing from her matrimonial house for past three days in-laws giving evasive answers,Missing Person,en,hand_written
+my 70-year-old father who has hearing disability went missing from the bus terminal while boarding bus to dehradun,Missing Person,en,hand_written
+young man aged 22 went for job interview in gurugram yesterday morning and never returned or called,Missing Person,en,hand_written
+my daughter aged 15 left school bag at gate and disappeared during school recess period,Missing Person,en,hand_written
+elderly retired teacher missing from morning walk route near yamuna sports complex since 5 am,Missing Person,en,hand_written
+my younger brother aged 18 did not return home after college exams his bike found parked outside metro station,Missing Person,en,hand_written
+pregnant woman aged 26 missing from hospital waiting area while husband was buying medicines,Missing Person,en,hand_written
+migrant worker brother missing in delhi for five days phone ringing but no one answering,Missing Person,en,hand_written
+child aged 6 went missing from neighborhood birthday party in apartment club house,Missing Person,en,hand_written
+my father aged 68 went to bank in sector 18 noida and has been untraceable since noon,Missing Person,en,hand_written
+school boy aged 13 failed to return home on school bus school says he boarded the bus but driver has no information,Missing Person,en,hand_written
+my wife went to market to purchase groceries at 5 pm and has not returned mobile phone is switched off,Missing Person,en,hand_written
+young girl aged 17 missing from government girls school campus since afternoon,Missing Person,en,hand_written
+elderly woman aged 75 with memory loss walked out of home wearing white saree please register missing report,Missing Person,en,hand_written
+my brother aged 28 left home in angry mood last evening after argument has not contacted anyone,Missing Person,en,hand_written
+factory worker husband missing after evening shift did not reach home all night,Missing Person,en,hand_written
+teenage boy missing from orphanage home since yesterday night window was found open,Missing Person,en,hand_written
+my sister aged 21 went to submit college project at university and is missing since 2 pm,Missing Person,en,hand_written
+handicapped brother on wheelchair went missing from outside community hall,Missing Person,en,hand_written
+nephew aged 16 went missing after going to cyber cafe in evening,Missing Person,en,hand_written
+my grandfather aged 82 wandered away during wedding procession and cannot be located anywhere,Missing Person,en,hand_written
+young mother and two-year-old child missing from home since morning family worried,Missing Person,en,hand_written
+student missing from iit campus hostel room for past 48 hours phone unreachable,Missing Person,en,hand_written
+my maternal uncle aged 55 suffering from neurological disorder missing from house since yesterday,Missing Person,en,hand_written
+girl aged 12 went missing from crowded festival procession on main road,Missing Person,en,hand_written
+security guard father missing from his duty post at commercial complex since midnight,Missing Person,en,hand_written
+cousin sister aged 19 missing from bus stop while waiting for morning college bus,Missing Person,en,hand_written
+elderly person with walking stick missing from housing society premises,Missing Person,en,hand_written
+my son aged 10 went missing from public library children section please trace immediately,Missing Person,en,hand_written
+मेरा सात वर्षीय बेटा कल शाम सब्जी मंडी से लापता हो गया है उसने नीली टीशर्ट पहनी हुई है,Missing Person,hi,hand_written
+मेरे 75 वर्षीय दादाजी जिन्हें भूलने की बीमारी अल्जाइमर है सुबह टहलने निकले थे और वापस नहीं लौटे,Missing Person,hi,hand_written
+मेरी 16 साल की बेटी कल दोपहर कोचिंग के लिए निकली थी लेकिन वहां नहीं पहुंची उसका फोन बंद आ रहा है,Missing Person,hi,hand_written
+हॉस्टल में रहने वाला मेरा भाई पिछले तीन दिनों से लापता है उसका कमरा खुला है और फोन नहीं लग रहा,Missing Person,hi,hand_written
+मानसिक रूप से कमजोर मेरा छोटा भाई मंदिर से अचानक गायब हो गया है कृपया तलाश करें,Missing Person,hi,hand_written
+मेरे पति कल सुबह ड्यूटी के लिए निकले थे लेकिन शाम को घर नहीं लौटे उनका मोबाइल स्विच ऑफ है,Missing Person,hi,hand_written
+मेरी बहन उम्र 22 वर्ष घर से बाजार गई थी सामान लेने लेकिन 24 घंटे बीत जाने पर भी वापस नहीं आई,Missing Person,hi,hand_written
+बुजुर्ग माताजी उम्र 80 वर्ष सुबह घर का दरवाजा खुला देखकर बाहर निकल गईं और रास्ता भटक गईं,Missing Person,hi,hand_written
+मजदूरी करने गया मेरा भाई दो दिन से ठेकेदार के पास से लापता है उसका कोई सुराग नहीं मिल रहा,Missing Person,hi,hand_written
+12 वर्षीय भांजा पार्क में क्रिकेट खेलने गया था शाम से घर नहीं लौटा परिवार वाले परेशान हैं,Missing Person,hi,hand_written
+रेलवे स्टेशन पर ट्रेन पकड़ते समय मेरा 18 साल का बेटा भीड़ में बिछड़ गया और लापता है,Missing Person,hi,hand_written
+मेरी पत्नी कल दोपहर बैंक जाने के लिए निकली थी और अभी तक घर नहीं लौटी है,Missing Person,hi,hand_written
+गूंगा-बहरा बालक उम्र 10 वर्ष मेले में से अचानक गायब हो गया है कृपया गुमशुदगी दर्ज करें,Missing Person,hi,hand_written
+कोटा में नीट की तैयारी कर रहा छात्र अपने कमरे से लापता है और फोन बंद आ रहा है,Missing Person,hi,hand_written
+ससुराल से मेरी विवाहिता बहन पिछले दो दिनों से गायब है ससुराल वाले कोई सही जानकारी नहीं दे रहे,Missing Person,hi,hand_written
+स्कूल की छुट्टी के बाद मेरी 14 वर्षीय बेटी घर नहीं पहुंची स्कूल का कहना है कि वह निकल चुकी थी,Missing Person,hi,hand_written
+कार चालक पिता रात की ड्यूटी के बाद घर नहीं पहुंचे उनकी गाड़ी लावारिस हालत में सड़क किनारे मिली,Missing Person,hi,hand_written
+अस्पताल में दवा लेने गया मरीज पर्चा कटवाने के बाद से ओपीडी से लापता है,Missing Person,hi,hand_written
+घर में मामूली कहासुनी के बाद 19 वर्षीय युवक बिना बताए कहीं चला गया और फोन बंद कर लिया,Missing Person,hi,hand_written
+शादी समारोह से 5 वर्षीय बच्ची अचानक गायब हो गई है तुरंत तलाश करवाई जाए,Missing Person,hi,hand_written
+वृद्ध चाचा जी उम्र 70 वर्ष जो सुनने में असमर्थ हैं बस स्टैंड से लापता हैं,Missing Person,hi,hand_written
+कॉलेज का छात्र परीक्षा देने निकला था लेकिन परीक्षा केंद्र नहीं पहुंचा और लापता है,Missing Person,hi,hand_written
+मॉल के गेमिंग जोन से 8 साल का बच्चा गायब हो गया है सीसीटीवी फुटेज चेक करवाएं,Missing Person,hi,hand_written
+फैक्ट्री में काम करने वाले पति रात की शिफ्ट खत्म होने के बाद से घर नहीं पहुंचे,Missing Person,hi,hand_written
+गर्भवती महिला मायके से ससुराल के लिए निकली थी लेकिन रास्ते से लापता हो गई,Missing Person,hi,hand_written
+दसवीं का छात्र रिजल्ट आने के बाद से डर के मारे घर से भाग गया है और लापता है,Missing Person,hi,hand_written
+गांव से दिल्ली मजदूरी करने आया युवक पिछले एक हफ्ते से संपर्क विहीन है,Missing Person,hi,hand_written
+अनाथालय से दो नाबालिग बच्चे रात में खिड़की तोड़कर लापता हो गए हैं,Missing Person,hi,hand_written
+मेरे ताऊजी उम्र 85 वर्ष सुबह दूध लेने निकले थे और रास्ता भूलकर कहीं चले गए हैं,Missing Person,hi,hand_written
+किशोरी उम्र 15 वर्ष स्कूल बैग छोड़कर घर से अचानक लापता हो गई है,Missing Person,hi,hand_written
+सब्जी विक्रेता पिता रात दस बजे मंडी से निकले थे लेकिन अभी तक घर नहीं पहुंचे,Missing Person,hi,hand_written
+धार्मिक यात्रा पर गया परिवार का सदस्य हरिद्वार घाट से अचानक बिछड़ गया,Missing Person,hi,hand_written
+सहेली के घर जाने की बात कहकर निकली युवती तीन दिन से लापता है,Missing Person,hi,hand_written
+मेरा नौ साल का बेटा छत पर पतंग उड़ाते वक्त नीचे उतरा और फिर वापस नहीं आया,Missing Person,hi,hand_written
+सुरक्षा गार्ड अपनी ड्यूटी पोस्ट से रात दो बजे से लापता है हथियार वहीं पड़ा मिला,Missing Person,hi,hand_written
+मानसिक रोगी महिला उम्र 40 वर्ष अस्पताल के वार्ड से अचानक लापता हो गई,Missing Person,hi,hand_written
+ट्यूशन से लौटते समय कक्षा आठ का छात्र लापता हो गया साइकिल सड़क किनारे मिली,Missing Person,hi,hand_written
+ससुराल से नाराज होकर निकली महिला अपने दो मासूम बच्चों सहित लापता है,Missing Person,hi,hand_written
+नौकरी के इंटरव्यू के लिए गुरुग्राम गया युवक 36 घंटे से लापता है,Missing Person,hi,hand_written
+बुजुर्ग पेंशनर बैंक से पेंशन निकालने गए थे और लापता हो गए हैं,Missing Person,hi,hand_written
+हॉस्टल से कॉलेज जाने निकली छात्रा वापस हॉस्टल नहीं लौटी सहेलियों को कोई जानकारी नहीं,Missing Person,hi,hand_written
+खेत पर पानी लगाने गए किसान का 24 घंटे से कोई अता-पता नहीं है,Missing Person,hi,hand_written
+बस यात्रा के दौरान ढाबे पर बस रुकने पर उतरा यात्री बस में वापस नहीं चढ़ा और लापता है,Missing Person,hi,hand_written
+11 वर्षीय अनाथ बालक स्कूल से लापता है रिश्तेदारों ने अपहरण की आशंका जताई है,Missing Person,hi,hand_written
+घर के बाहर खेलते-खेलते तीन साल का मासूम गायब हो गया तुरंत एफआईआर दर्ज करें,Missing Person,hi,hand_written
+मेरा भाई दिल्ली आया था इंटरव्यू देने लेकिन उसका फोन स्विच ऑफ है और वो लापता है,Missing Person,hi,hand_written
+माता-पिता की डांट से नाराज होकर 17 साल का लड़का घर छोड़कर चला गया है,Missing Person,hi,hand_written
+ऑटिस्टिक बच्चा सोसाइटी के गेट से बाहर निकल गया और लापता है,Missing Person,hi,hand_written
+कॉलेज ट्रिप से वापस लौटते समय बस से एक छात्र लापता हो गया है,Missing Person,hi,hand_written
+मेरी बहन कल सुबह से लापता है उसका फोन नहीं लग रहा कृपया मदद करें,Missing Person,hi,hand_written
+mera 7 saal ka beta kal shaam vegetable market se laapata ho gaya hai blue shirt pehni thi,Missing Person,hinglish,hand_written
+dada ji jinhe memory loss ki bimari hai subah walk par gaye the aur laut kar nahi aaye,Missing Person,hinglish,hand_written
+meri 16 saal ki behan tuition ke liye nikli thi par waha nahi pahunchi uska phone switched off hai,Missing Person,hinglish,hand_written
+hostel room mein rehne wala roommate teen din se gayab hai uska bag aur phone room mein hi hai,Missing Person,hinglish,hand_written
+mentally challenged bhai mandir ke paas se laapata ho gaya hai please dhoondhne me madad karo,Missing Person,hinglish,hand_written
+pati kal subah office gaye the par raat ko ghar nahi laute unka phone band aa raha hai,Missing Person,hinglish,hand_written
+meri behan ghar se naraz hokar chali gayi hai aur do din se koi contact nahi ho raha,Missing Person,hinglish,hand_written
+father construction site par kaam karne gaye the 48 hours se ghar nahi aaye aur thekedar bol raha hai nahi aaya,Missing Person,hinglish,hand_written
+14 saal ka bhatija park mein khelne gaya tha shaam se laapata hai,Missing Person,hinglish,hand_written
+dadi ji aged 80 years society gate se bahar nikal gayi aur rasta bhatak gayi hain,Missing Person,hinglish,hand_written
+railway station par bheed mein mera beta bichhad gaya hai aur mil nahi raha,Missing Person,hinglish,hand_written
+wife kal afternoon bank gayi thi par abhi tak ghar nahi aayi phone switch off hai,Missing Person,hinglish,hand_written
+kota mein coaching kar raha student hostel room se laapata hai parents bohot pareshan hain,Missing Person,hinglish,hand_written
+school bus se meri beti ghar nahi pahunchi driver bol raha hai utar gayi thi par ghar nahi aayi,Missing Person,hinglish,hand_written
+cab driver father raat se missing hain unki gaadi highway par abandoned mili hai,Missing Person,hinglish,hand_written
+hospital se medicine lene gaya tha bhai aur tab se missing hai,Missing Person,hinglish,hand_written
+sir mera chhota bhai missing hai kal shaam se please report likho,Missing Person,hinglish,hand_written
+bhaiya meri mummy subah mandir gayi thi aur wapas nahi aayi hain laapata hain,Missing Person,hinglish,hand_written
+10 saal ka bacha khelte khelte gayab ho gaya hai gali se,Missing Person,hinglish,hand_written
+interview dene gaya tha ladka 24 ghante se phone nahi lag raha missing person report karni hai,Missing Person,hinglish,hand_written
+sasural se behan gayab hai aur sasural wale kuch batane ko tayar nahi hain,Missing Person,hinglish,hand_written
+metro station par utarne ke baad se dost missing hai phone unreachable hai,Missing Person,hinglish,hand_written
+subah se beta ghar nahi aaya school bag gate par chhod kar chala gaya,Missing Person,hinglish,hand_written
+old age pensioner bank gaye the tab se gayab hain rasta bhool gaye honge,Missing Person,hinglish,hand_written
+autistic bacha ghar se nikal gaya gate khula dekh kar please trace karo,Missing Person,hinglish,hand_written
+behan college gayi thi par wapas nahi aayi sham ho gayi hai phone band hai,Missing Person,hinglish,hand_written
+mera bhai laapata hai 3 din se koi khabar nahi hai,Missing Person,hinglish,hand_written
+bacha market mein kho gaya hai bheed ke andar please announcement karwao,Missing Person,hinglish,hand_written
+roommate room lock karke kahi chala gaya aur abhi tak nahi aaya missing hai,Missing Person,hinglish,hand_written
+pati raat ki shift ke baad ghar nahi pahuche unka pata nahi chal raha,Missing Person,hinglish,hand_written
+dada ji walk par nikle the 4 ghante ho gaye wapas nahi aaye,Missing Person,hinglish,hand_written
+beti tuition se wapas nahi aayi hai family wale sab jagah dhoondh rahe hain,Missing Person,hinglish,hand_written
+railway platform se bhai gayab ho gaya bheed mein,Missing Person,hinglish,hand_written
+gumshuda ki report darj karwani hai mera chhota bhai nahi mil raha,Missing Person,hinglish,hand_written
+mall se 6 saal ka bacha missing ho gaya hai cctv check kijiye,Missing Person,hinglish,hand_written
+lost my leather wallet containing original aadhaar card pan card and driving licence while traveling in dtc bus route 419,Lost Documents,en,hand_written
+i lost my indian passport at the international airport terminal 3 taxi counter need police acknowledgement for re-issue,Lost Documents,en,hand_written
+original class 10 and 12 cbse mark sheets and btech degree certificate folder lost in an auto-rickshaw between silk board and hsr layout,Lost Documents,en,hand_written
+vehicle registration certificate rc smart card fell out of my pocket while riding motorcycle on outer ring road,Lost Documents,en,hand_written
+lost original property sale deed papers and possession letter folder while traveling from sub-registrar office to home in cab,Lost Documents,en,hand_written
+lost my sbi bank passbook and signed cheque book somewhere in the market area during shopping,Lost Documents,en,hand_written
+voter identity card and ration card lost during house shifting from indiranagar to whitefield,Lost Documents,en,hand_written
+my corporate company employee id badge and rfid access keycard dropped somewhere in tech park campus,Lost Documents,en,hand_written
+lost my driving licence issued by rto delhi while traveling on the yellow line metro between kashmere gate and vishvavidyalaya,Lost Documents,en,hand_written
+folder containing my army discharge book pension certificate and canteen card lost during auto travel,Lost Documents,en,hand_written
+lost my pan card and voter id card while getting down from train at new delhi railway station,Lost Documents,en,hand_written
+original caste certificate and domicile certificate file lost while attending document verification counseling,Lost Documents,en,hand_written
+commercial driving licence and vehicle insurance certificate misplaced during interstate truck transit,Lost Documents,en,hand_written
+lost folder containing original birth certificate and immunization records of my newborn daughter in taxi,Lost Documents,en,hand_written
+lost my wallet with pan card hdfc debit card and driving licence need non-traceable certificate for duplicate licence,Lost Documents,en,hand_written
+passport lost somewhere between embassy visa center and hotel in chanakyapuri,Lost Documents,en,hand_written
+two fixed deposit receipts and post office savings certificate documents misplaced during shifting,Lost Documents,en,hand_written
+lost my government health scheme cghs card and pensioner identity card at hospital reception,Lost Documents,en,hand_written
+original university migration certificate and character certificate misplaced in bus,Lost Documents,en,hand_written
+lost two wheeler pollution under control puc certificate and vehicle fitness certificate,Lost Documents,en,hand_written
+plastic folder containing original marks cards and internship certificate forgotten in metro coach,Lost Documents,en,hand_written
+lost my aadhaar card and pan card while visiting district court complex,Lost Documents,en,hand_written
+lost my passport while returning from airport in cab driver says he did not find it need complaint report,Lost Documents,en,hand_written
+original share certificates of tata motors misplaced from house files during renovation,Lost Documents,en,hand_written
+lost armed forces dependent identity card and ex-servicemen contributory health scheme card,Lost Documents,en,hand_written
+folder containing land survey map and mutation document lost during travel on state transport bus,Lost Documents,en,hand_written
+lost my driving licence smart card somewhere near petrol pump while refuelling car,Lost Documents,en,hand_written
+lost original death certificate of my father and succession certificate papers in metro station,Lost Documents,en,hand_written
+bar council enrollment certificate and advocate identity card lost in high court premises,Lost Documents,en,hand_written
+lost vehicle registration book and national permit papers for my commercial tourist bus,Lost Documents,en,hand_written
+chartered accountant ca final pass certificate and articleship completion letter lost in transit,Lost Documents,en,hand_written
+lost original municipal property tax receipts and khata certificate file,Lost Documents,en,hand_written
+lost my voter id card during general election voting at polling booth,Lost Documents,en,hand_written
+medical council registration certificate and mbbs degree certificate folder lost in cab,Lost Documents,en,hand_written
+lost my postal savings bank passbook and kisan vikas patra certificates,Lost Documents,en,hand_written
+driving licence and pan card lost while walking in park need report for duplicate application,Lost Documents,en,hand_written
+lost original rent agreement stamp paper and security deposit receipt during relocation,Lost Documents,en,hand_written
+lost my overseas citizen of india oci card and foreign passport booklet,Lost Documents,en,hand_written
+original vehicle hypothecation cancellation noc letter from bank lost in transit,Lost Documents,en,hand_written
+lost my aadhaar card printed copy and pan card laminated card in auto,Lost Documents,en,hand_written
+school transfer certificate tc and conduct certificate lost while traveling to admissions office,Lost Documents,en,hand_written
+lost gun licence booklet issued by licensing authority during house cleaning,Lost Documents,en,hand_written
+lost railway concession pass and retired railway employee medical book,Lost Documents,en,hand_written
+commercial pilot licence logbook and medical assessment certificate lost in airport lounge,Lost Documents,en,hand_written
+lost building plan sanction approval letter and fire department noc certificate,Lost Documents,en,hand_written
+original post graduation degree diploma certificate forgotten on college library table,Lost Documents,en,hand_written
+lost my pan card at railway ticket reservation counter while filling form,Lost Documents,en,hand_written
+lost voter identity card and ration card folder in market crowd,Lost Documents,en,hand_written
+lost vehicle rc book and insurance cover note need lost report for rto submission,Lost Documents,en,hand_written
+original allotment letter of dda flat misplaced during packing of goods,Lost Documents,en,hand_written
+मेरा बटुआ खो गया है जिसमें मूल आधार कार्ड पैन कार्ड और ड्राइविंग लाइसेंस था बस में सफर के दौरान,Lost Documents,hi,hand_written
+अंतरराष्ट्रीय हवाई अड्डे के टर्मिनल 3 पर मेरा भारतीय पासपोर्ट कहीं गिरकर खो गया है डुप्लीकेट हेतु रिपोर्ट दर्ज करें,Lost Documents,hi,hand_written
+कक्षा 10वीं और 12वीं की मूल मार्कशीट और कॉलेज डिग्री का फोल्डर ऑटो में छूट गया है,Lost Documents,hi,hand_written
+मोटरसाइकिल चलाते समय जेब से गाड़ी की आरसी आरसी स्मार्ट कार्ड गिर गया,Lost Documents,hi,hand_written
+सब-रजिस्ट्रार ऑफिस से घर लौटते समय मकान की मूल रजिस्ट्री के दस्तावेज और बैनामा खो गया है,Lost Documents,hi,hand_written
+बाजार में खरीदारी करते समय मेरा एसबीआई बैंक का पासबुक और चेकबुक कहीं गुम हो गया है,Lost Documents,hi,hand_written
+मकान बदलते समय मेरा वोटर पहचान पत्र और राशन कार्ड कहीं खो गया है,Lost Documents,hi,hand_written
+ऑफिस का आईकार्ड और मेट्रो स्मार्ट कार्ड कहीं गिर गया है कृपया गुमशुदगी की रसीद दें,Lost Documents,hi,hand_written
+दिल्ली मेट्रो में यात्रा के दौरान मेरा ड्राइविंग लाइसेंस गिर गया डुप्लीकेट बनवाने के लिए रिपोर्ट चाहिए,Lost Documents,hi,hand_written
+सेना का पेंशन प्रमाण पत्र और डिस्चार्ज बुक का फोल्डर ऑटो में भूल गया हूं,Lost Documents,hi,hand_written
+नई दिल्ली रेलवे स्टेशन पर ट्रेन से उतरते वक्त मेरा पैन कार्ड और आधार कार्ड गिर गया,Lost Documents,hi,hand_written
+काउंसलिंग में जाते समय मूल जाति प्रमाण पत्र और मूल निवास प्रमाण पत्र का लिफाफा खो गया,Lost Documents,hi,hand_written
+कमर्शियल गाड़ी का ड्राइविंग लाइसेंस और फिटनेस सर्टिफिकेट कहीं गुम हो गया है,Lost Documents,hi,hand_written
+अस्पताल में बच्चे का जन्म प्रमाण पत्र और टीकाकरण कार्ड का फोल्डर छूट गया है,Lost Documents,hi,hand_written
+पैन कार्ड और ड्राइविंग लाइसेंस खो जाने के संबंध में डुप्लीकेट जारी करवाने हेतु सूचना,Lost Documents,hi,hand_written
+दूतावास से वीजा लगवा कर लौटते समय पासपोर्ट कैब में छूट गया और नहीं मिल रहा,Lost Documents,hi,hand_written
+डाकघर की दो एफडी की रसीदें और राष्ट्रीय बचत पत्र एनएससी गुम हो गए हैं,Lost Documents,hi,hand_written
+सीजीएचएस स्वास्थ्य कार्ड और पेंशनर पहचान पत्र अस्पताल परिसर में खो गया है,Lost Documents,hi,hand_written
+विश्वविद्यालय का माइग्रेशन सर्टिफिकेट और चरित्र प्रमाण पत्र बस में गिर गया,Lost Documents,hi,hand_written
+गाड़ी का प्रदूषण प्रमाण पत्र और इंश्योरेंस की मूल प्रति पेट्रोल पंप पर गुम हो गई,Lost Documents,hi,hand_written
+प्लास्टिक के फोल्डर में रखी बीटेक की डिग्री मेट्रो कोच में भूल गया हूं,Lost Documents,hi,hand_written
+कोर्ट परिसर में वकालतनामे के साथ आधार कार्ड और पैन कार्ड कहीं गिरकर खो गया,Lost Documents,hi,hand_written
+हवाई अड्डे से लौटते वक्त पासपोर्ट कहीं गिर गया कृपया मिसिंग रिपोर्ट दर्ज करें,Lost Documents,hi,hand_written
+शेयर सर्टिफिकेट और बैंक बॉन्ड के कागजात घर की सफ़ाई के दौरान गुम हो गए,Lost Documents,hi,hand_written
+पूर्व सैनिक कैंटीन कार्ड और ईसीएचएस कार्ड खोने की सूचना दर्ज करवाने बाबत,Lost Documents,hi,hand_written
+जमीन का नक्शा और दाखिल खारिज के सरकारी दस्तावेज बस यात्रा में गुम हो गए,Lost Documents,hi,hand_written
+पेट्रोल डलवाते समय ड्राइविंग लाइसेंस स्मार्ट कार्ड सड़क पर गिर गया,Lost Documents,hi,hand_written
+पिताजी का मृत्यु प्रमाण पत्र और वारिसान प्रमाण पत्र की मूल प्रतियां खो गई हैं,Lost Documents,hi,hand_written
+बार काउंसिल का पंजीकरण प्रमाण पत्र और अधिवक्ता पहचान पत्र कोर्ट में खो गया,Lost Documents,hi,hand_written
+बस का राष्ट्रीय परमिट और गाड़ी के कागजात खोने के संबंध में तहरीर,Lost Documents,hi,hand_written
+सीए की परीक्षा पास होने की मूल अंकतालिका रास्ते में खो गई है,Lost Documents,hi,hand_written
+नगर निगम की हाउस टैक्स रसीद और नामांतरण प्रमाण पत्र गुम हो गया है,Lost Documents,hi,hand_written
+मतदान केंद्र पर वोट डालते समय वोटर आईडी कार्ड कहीं छूट गया,Lost Documents,hi,hand_written
+एमबीबीएस डॉक्टर की मेडिकल काउंसिल पंजीकरण प्रति ऑटो में गुम हो गई,Lost Documents,hi,hand_written
+किसान विकास पत्र और बैंक की पासबुक खो जाने की सूचना,Lost Documents,hi,hand_written
+पार्क में टहलते समय ड्राइविंग लाइसेंस और आधार कार्ड गिर गया,Lost Documents,hi,hand_written
+किरायानामा का मूल स्टांप पेपर और रसीद घर बदलते वक्त खो गई,Lost Documents,hi,hand_written
+ओल्ड पेंशन स्कीम का फॉर्म और सेवा पुस्तिका का फोल्डर गुम हो गया,Lost Documents,hi,hand_written
+बैंक से वाहन लोन चुकता होने का एनओसी पत्र डाक में खो गया,Lost Documents,hi,hand_written
+आधार कार्ड की मूल लेमिनेटेड कॉपी और पैन कार्ड खोने की रिपोर्ट,Lost Documents,hi,hand_written
+स्कूल का ट्रांसफर सर्टिफिकेट टीसी और कैरेक्टर सर्टिफिकेट रास्ते में गुम हो गया,Lost Documents,hi,hand_written
+लाइसेंसी रिवाल्वर की लाइसेंस बुक घर में कहीं रखकर भूल गए हैं जो मिल नहीं रही,Lost Documents,hi,hand_written
+रेलवे पास और मेडिकल कार्ड यात्रा के दौरान खोने बाबत सूचना,Lost Documents,hi,hand_written
+पायलट का लॉगबुक और मेडिकल फिटनेस सर्टिफिकेट एयरपोर्ट लाउंज में छूट गया,Lost Documents,hi,hand_written
+मकान का नक्शा पास होने का स्वीकृति पत्र और एनओसी खो गई है,Lost Documents,hi,hand_written
+एमए की डिग्री का मूल प्रमाण पत्र कॉलेज लाइब्रेरी में छूट गया,Lost Documents,hi,hand_written
+रेलवे आरक्षण खिड़की पर फॉर्म भरते समय पैन कार्ड गिर गया,Lost Documents,hi,hand_written
+बाजार में भीड़ के दौरान वोटर कार्ड और राशन कार्ड का थैला गुम हो गया,Lost Documents,hi,hand_written
+गाड़ी की आरसी बुक और बीमा पॉलिसी की प्रति खोने की सूचना दर्ज करें,Lost Documents,hi,hand_written
+डीडीए फ्लैट का मूल आवंटन पत्र सामान की शिफ्टिंग में गुम हो गया है,Lost Documents,hi,hand_written
+mera wallet kho gaya hai jisme aadhaar card pan card aur driving licence tha dtc bus mein,Lost Documents,hinglish,hand_written
+airport terminal par indian passport kho gaya hai duplicate apply karne ke liye report chahiye,Lost Documents,hinglish,hand_written
+class 10th aur 12th ki original marksheet aur degree folder auto mein chhoot gaya hai,Lost Documents,hinglish,hand_written
+bike chalate waqt pocket se gadi ki rc smart card gir gayi road par,Lost Documents,hinglish,hand_written
+registry office se aate waqt makan ke original registry papers kho gaye hain cab mein,Lost Documents,hinglish,hand_written
+sbi bank passbook aur chequebook market mein kahi gir gaya hai shopping ke time,Lost Documents,hinglish,hand_written
+shifting ke time voter id card aur ration card ka folder gum ho gaya hai,Lost Documents,hinglish,hand_written
+office ka id card aur metro card kahi drop ho gaya hai non-traceable report chahiye,Lost Documents,hinglish,hand_written
+metro mein travel karte waqt driving licence gir gaya duplicate licence ke liye apply karna hai,Lost Documents,hinglish,hand_written
+army pension certificate aur discharge book auto mein bhool gaya hu please report likho,Lost Documents,hinglish,hand_written
+railway station par pan card aur aadhaar card gir gaya bheed mein,Lost Documents,hinglish,hand_written
+counseling mein jaate waqt original caste certificate aur domicile certificate kho gaya,Lost Documents,hinglish,hand_written
+truck ka commercial driving licence aur fitness certificate gum ho gaya hai,Lost Documents,hinglish,hand_written
+hospital mein bache ka birth certificate folder chhoot gaya tha mil nahi raha,Lost Documents,hinglish,hand_written
+pan card aur driving licence kho gaya rto submit karne ke liye complaint report chahiye,Lost Documents,hinglish,hand_written
+passport cab mein chhoot gaya tha airport se aate waqt lost report darj karein,Lost Documents,hinglish,hand_written
+post office nsc aur kisan vikas patra certificates ghar shifting mein gum ho gaye,Lost Documents,hinglish,hand_written
+cghs medical card hospital mein kahi gir gaya duplicate banwana hai,Lost Documents,hinglish,hand_written
+university migration certificate aur character certificate bus mein bhool gaya,Lost Documents,hinglish,hand_written
+bike ka pollution certificate aur insurance paper petrol pump par kho gaya,Lost Documents,hinglish,hand_written
+sir mera aadhaar card aur pan card kho gaya hai please ncr report kaat dijiye,Lost Documents,hinglish,hand_written
+driving licence gir gaya hai rto mein duplicate apply karna hai police report chahiye,Lost Documents,hinglish,hand_written
+gadi ki rc book kho gayi hai auto me chhoot gayi thi,Lost Documents,hinglish,hand_written
+marksheet kho gayi hai college ki duplicate nikalwane ke liye missing report chahiye,Lost Documents,hinglish,hand_written
+passport kho gaya hai embassy mein dikhane ke liye police acknowledgement de do,Lost Documents,hinglish,hand_written
+voter id card kho gaya market mein,Lost Documents,hinglish,hand_written
+bank ki passbook aur chequebook gum ho gayi hai raste mein,Lost Documents,hinglish,hand_written
+original property documents registry paper kho gaye hain travel karte waqt,Lost Documents,hinglish,hand_written
+mera wallet kho gaya jisme sabhi original cards the,Lost Documents,hinglish,hand_written
+birth certificate ka original document auto mein chhoot gaya,Lost Documents,hinglish,hand_written
+office employee id card gir gaya raste mein,Lost Documents,hinglish,hand_written
+caste certificate document folder gum ho gaya hai,Lost Documents,hinglish,hand_written
+ration card aur voter card shifting ke waqt kho gaye,Lost Documents,hinglish,hand_written
+car ke original papers insurance aur rc gum ho gaye,Lost Documents,hinglish,hand_written
+degree certificate kho gaya hai university verification ke liye ncr chahiye,Lost Documents,hinglish,hand_written
+road rage incident where two men in an scorpio pulled me out of my car punched my face broke my nose and kicked me on the road,Physical Assault,en,hand_written
+four men attacked my brother with iron rods and cricket bats outside the gym over parking dispute fracturing his left arm,Physical Assault,en,hand_written
+shopkeeper and his two sons attacked customer with heavy wooden lathis on head causing profuse bleeding requiring ten stitches,Physical Assault,en,hand_written
+a group of drunk men stabbed my friend with knife in abdomen and forearm outside liquor vend after an argument,Physical Assault,en,hand_written
+landlord brought three bouncers and physically assaulted tenants beating them with belts and sticks causing bone fractures,Physical Assault,en,hand_written
+neighbor and his relatives attacked our house with stones and iron pipes hit my elderly father on chest admitted to icu,Physical Assault,en,hand_written
+attacked by five youths in dark alley near metro pillar they beat me mercilessly with brass knuckles and stomped on ribs,Physical Assault,en,hand_written
+two motorcycle riders intercepted my car smashed windshield with iron wrench and assaulted me when i honked,Physical Assault,en,hand_written
+security guards at club beat customer with wooden batons causing serious head injury and internal bleeding,Physical Assault,en,hand_written
+attacked with sharp sickle over agricultural land boundary dispute three family members sustained deep cut wounds,Physical Assault,en,hand_written
+recovery agents forcefully entered house beat my husband with fists and helmet causing multiple bruises and bleeding,Physical Assault,en,hand_written
+mob lynching attempt where rumor triggered crowd to beat delivery driver with sticks and stones hospitalised in critical condition,Physical Assault,en,hand_written
+domestic violence where husband beat wife brutally with iron rod and electric wire causing severe head hematoma,Physical Assault,en,hand_written
+street fight over minor bike scratch resulted in accused hitting victim with brick on forehead causing unconsciousness,Physical Assault,en,hand_written
+rival shopkeeper hired goons who attacked my store staff with hockey sticks breaking glass counters and beating salesman,Physical Assault,en,hand_written
+attacked by three men with beer bottle stabbed in neck outside restaurant bleeding heavily admitted to trauma center,Physical Assault,en,hand_written
+school bus driver assaulted by car owner with metal rod in front of school children causing fractured wrist,Physical Assault,en,hand_written
+assault on on-duty doctor by patient relatives who punched threw chairs and fractured doctor finger,Physical Assault,en,hand_written
+bouncers at private party assaulted two guests dragging them out and kicking them on stomach and face,Physical Assault,en,hand_written
+man attacked with razor blade on cheek during quarrel at barber shop causing permanent facial disfigurement,Physical Assault,en,hand_written
+quarrel over dog barking led to neighbor attacking our family with iron chain and baseball bat,Physical Assault,en,hand_written
+construction contractor beaten up by local extortionists with iron pipe for refusing to pay protection money,Physical Assault,en,hand_written
+toll plaza staff brutally assaulted by car occupants who jumped barrier and beat attendants with lathis,Physical Assault,en,hand_written
+attacked with sharp edged chopper knife over business rivalry sustained cut injuries on hands and chest,Physical Assault,en,hand_written
+drunk youth attacked traffic constable on duty tore uniform and punched on face when stopped for drink and drive check,Physical Assault,en,hand_written
+violent clash between two groups in market both sides used iron rods glass bottles and bricks three hospitalised,Physical Assault,en,hand_written
+tenant physically beaten by building owner with cane stick sustaining back bruises and ear bleeding,Physical Assault,en,hand_written
+attacked by five men outside wedding banquet hall with hockey sticks and knives due to personal enmity,Physical Assault,en,hand_written
+food delivery rider beaten mercilessly by customer and his friends with cricket bat over twenty minutes late delivery,Physical Assault,en,hand_written
+man stabbed in chest with ice pick by unknown assailant during crowded market quarrel,Physical Assault,en,hand_written
+assault on elderly couple in their home by trespassers who tied them with ropes and beat them with lathis,Physical Assault,en,hand_written
+factory supervisor attacked by dismissed workers with iron wrenches outside factory gate causing head trauma,Physical Assault,en,hand_written
+neighbor threw boiling oil during argument causing second degree burn injuries to complainant and his son,Physical Assault,en,hand_written
+violent assault with lathis and knives over cattle grazing dispute four persons injured admitted to district hospital,Physical Assault,en,hand_written
+cab driver attacked by intoxicated passengers with knife when asked to pay fare sustained neck injuries,Physical Assault,en,hand_written
+college students clashed on campus using iron rods and cycle chains resulting in severe head injuries to two boys,Physical Assault,en,hand_written
+attacked by moneylender goons who broke my arm and threatened to murder my family if loan not paid immediately,Physical Assault,en,hand_written
+two men entered grocery shop assaulted shopkeeper with iron weights from weighing scale breaking jaw bone,Physical Assault,en,hand_written
+person hit on back of head with stone while walking near railway tracks unconscious for two hours,Physical Assault,en,hand_written
+severe domestic assault where father in law and husband beat woman with wooden stool causing rib fracture,Physical Assault,en,hand_written
+clash over water tanker filling led to accused hitting complainant with iron bucket and steel rod on head,Physical Assault,en,hand_written
+auto driver assaulted by three youths with helmet when asked for standard meter fare,Physical Assault,en,hand_written
+attacked with knife by estranged brother over ancestral house division cut wound on shoulder,Physical Assault,en,hand_written
+man assaulted with heavy bamboo sticks by four brothers sustaining multiple body contusions and lacerations,Physical Assault,en,hand_written
+cyclist beaten with iron rod by speeding motorist after argument regarding right of way,Physical Assault,en,hand_written
+gang of boys beat college student in public park with wooden planks and iron knuckles hospitalised,Physical Assault,en,hand_written
+accused attacked complainant with razor blade on arm and throat during gambling argument,Physical Assault,en,hand_written
+parking fight escalated into physical assault three men punched and kicked complainant fracturing ribs,Physical Assault,en,hand_written
+attacked inside cinema hall by rowdy group who hit complainant with glass bottle on forehead,Physical Assault,en,hand_written
+brutal beating by police informers and local goons with belts and sticks causing deep tissue trauma,Physical Assault,en,hand_written
+गाड़ी आगे निकालने को लेकर विवाद में स्कॉर्पियो सवार युवकों ने मुझे कार से खींचकर बुरी तरह पीटा और नाक की हड्डी तोड़ दी,Physical Assault,hi,hand_written
+पार्किंग को लेकर हुए झगड़े में चार युवकों ने लोहे की रॉड और लाठियों से मेरे भाई पर हमला कर उसका बायां हाथ तोड़ दिया,Physical Assault,hi,hand_written
+दुकानदार और उसके बेटों ने डंडे से सिर पर वार किया जिससे गहरा घाव हुआ और अस्पताल में बारह टांके आए हैं,Physical Assault,hi,hand_written
+ठेके के बाहर शराबियों ने मेरे दोस्त के पेट और जांघ में चाकू घोंप दिया खून से लथपथ हालत में ट्रॉमा सेंटर में भर्ती है,Physical Assault,hi,hand_written
+मकान खाली कराने को लेकर मकान मालिक ने बाउंसर बुलाकर किराएदार को बेल्ट और डंडों से बेरहमी से पीटा,Physical Assault,hi,hand_written
+जमीन के विवाद में पड़ोसियों ने घर में घुसकर लोहे की पाइप और पत्थरों से जानलेवा हमला किया जिसमें पिताजी गंभीर रूप से घायल हैं,Physical Assault,hi,hand_written
+अंधेरी गली में पांच अज्ञात बदमाशों ने घेरकर पीटा और मुंह पर पंच मारकर दो दांत तोड़ दिए,Physical Assault,hi,hand_written
+हॉर्न बजाने पर बाइक सवारों ने कार का शीशा तोड़ा और ड्राइवर को बाहर खींचकर हेलमेट से सिर पर वार किया,Physical Assault,hi,hand_written
+क्लब के बाउंसरों ने मामूली कहासुनी पर युवक को डंडों से इतना मारा कि उसकी पसली टूट गई और अंदरूनी रक्तस्राव हो रहा है,Physical Assault,hi,hand_written
+खेत की मेड़ को लेकर हुए खूनी संघर्ष में कुल्हाड़ी और दरांती से हमला कर तीन लोगों को गंभीर रूप से घायल कर दिया,Physical Assault,hi,hand_written
+लोन रिकवरी एजेंटों ने घर में घुसकर पति को लात-घूंसों से पीटा और सिर दीवार में दे मारा,Physical Assault,hi,hand_written
+सड़क हादसे के बाद बेकाबू भीड़ ने ऑटो चालक को लाठी-डंडों से पीट-पीटकर अधमरा कर दिया,Physical Assault,hi,hand_written
+शराबी पति ने लोहे के तवे और डंडे से पत्नी की बेरहमी से पिटाई की जिससे सिर फट गया और हाथ टूट गया,Physical Assault,hi,hand_written
+बच्चों के झगड़े में बड़े कूद पड़े और ईंट-पत्थर मारकर एक युवक का सिर फोड़ दिया जो बेहोश हो गया,Physical Assault,hi,hand_written
+पुरानी रंजिश के चलते बाजार में दुकान में घुसकर हॉकी स्टिक से हमला कर गल्ला संचालक को लहूलुहान कर दिया,Physical Assault,hi,hand_written
+ढाबे पर खाना खाने के दौरान विवाद में बीयर की टूटी बोतल से गर्दन पर वार कर जानलेवा हमला किया गया,Physical Assault,hi,hand_written
+कार सवार दबंगों ने स्कूली बस के ड्राइवर को लोहे की रॉड से मारकर हाथ में फ्रैक्चर कर दिया,Physical Assault,hi,hand_written
+अस्पताल में मरीज के परिजनों ने डॉक्टर और नर्सिंग स्टाफ पर हमला कर दिया और कुर्सियों से पीटा,Physical Assault,hi,hand_written
+सैलून में दाढ़ी बनाने के दौरान विवाद होने पर उस्तरे से गाल पर हमला कर गहरा घाव बना दिया,Physical Assault,hi,hand_written
+कुत्ते के भौंकने की बात पर पड़ोसियों ने लोहे की जंजीर और डंडे से पूरे परिवार पर हमला कर दिया,Physical Assault,hi,hand_written
+रंगदारी न देने पर बदमाशों ने ठेकेदार को लोहे के पाइप से पीटकर अस्पताल पहुंचा दिया,Physical Assault,hi,hand_written
+टोल टैक्स मांगने पर गाड़ी सवार युवकों ने बैरियर तोड़कर टोल कर्मियों को लाठियों से पीटा,Physical Assault,hi,hand_written
+व्यापारिक रंजिश में चापड़ से हमला कर हाथ की उंगलियां काट दीं गंभीर हालत में भर्ती,Physical Assault,hi,hand_written
+चेकिंग के दौरान नशेड़ी युवक ने ट्रैफिक सिपाही की वर्दी फाड़ दी और चेहरे पर घूंसा मारकर घायल कर दिया,Physical Assault,hi,hand_written
+दो पक्षों के बीच खूनी संघर्ष में धारदार हथियारों और कांच की बोतलों का प्रयोग हुआ पांच लोग घायल,Physical Assault,hi,hand_written
+मकान मालिक ने किराएदार पर लाठी से हमला कर पीठ और हाथ पर गंभीर चोटें पहुंचाईं,Physical Assault,hi,hand_written
+शादी समारोह के बाहर पुरानी दुश्मनी को लेकर तीन युवकों पर चाकू और हॉकी से हमला,Physical Assault,hi,hand_written
+डिलीवरी देर से पहुंचने पर ग्राहक ने डिलीवरी बॉय को क्रिकेट बैट से मारकर अधमरा कर दिया,Physical Assault,hi,hand_written
+बाजार में विवाद के दौरान किसी ने बर्फ तोड़ने वाले सुए से छाती में वार कर दिया,Physical Assault,hi,hand_written
+बुजुर्ग दंपत्ति के घर में घुसकर बंधक बनाकर लाठियों से पीटा और जान से मारने की धमकी दी,Physical Assault,hi,hand_written
+हटाए गए कर्मचारियों ने फैक्ट्री गेट पर मैनेजर पर लोहे के पाना से हमला कर सिर फोड़ दिया,Physical Assault,hi,hand_written
+विवाद में पड़ोसी ने खौलता हुआ तेल फेंक दिया जिससे हाथ और चेहरा बुरी तरह झुलस गया,Physical Assault,hi,hand_written
+मवेशी चराने के विवाद में लाठी-डंडों से पीटकर दो भाइयों को लहूलुहान कर दिया गया,Physical Assault,hi,hand_written
+किराया मांगने पर ऑटो चालक पर चाकू से हमला कर घायल कर दिया गया,Physical Assault,hi,hand_written
+कॉलेज कैंपस में छात्रों के दो गुटों में लोहे की रॉड और साइकिल की चेन से खूनी झड़प,Physical Assault,hi,hand_written
+ब्याज माफिया के गुर्गों ने घर में घुसकर लात-घूंसों से पीटा और हाथ की हड्डी तोड़ दी,Physical Assault,hi,hand_written
+दुकान में घुसकर तराजू के बाट से दुकानदार के चेहरे पर हमला कर जबड़ा तोड़ दिया,Physical Assault,hi,hand_written
+रेलवे लाइन के पास पैदल जा रहे युवक के सिर पर पीछे से भारी पत्थर मारकर बेहोश कर दिया,Physical Assault,hi,hand_written
+ससुराल में पति और ससुर ने लकड़ी के पीढ़े से विवाहिता को पीट-पीटकर लहूलुहान कर दिया,Physical Assault,hi,hand_written
+पानी भरने को लेकर हुए विवाद में बाल्टी और लोहे की रॉड से सिर पर जानलेवा हमला,Physical Assault,hi,hand_written
+मीटर से किराया मांगने पर तीन युवकों ने हेलमेट से ऑटो चालक का सिर फोड़ दिया,Physical Assault,hi,hand_written
+भाई-भाई में बंटवारे को लेकर चाकूबाजी छोटे भाई ने बड़े भाई के कंधे में चाकू घोंपा,Physical Assault,hi,hand_written
+चार लोगों ने घेरकर लाठी-डंडों से बेरहमी से पीटा शरीर पर कई जगह फ्रैक्चर हुए हैं,Physical Assault,hi,hand_written
+साइकिल सवार को तेज रफ्तार कार वाले ने टक्कर मारी और विरोध पर रॉड से पीटा,Physical Assault,hi,hand_written
+पार्क में बैठे छात्र पर युवकों के गिरोह ने लकड़ी के फट्टे और पंच से हमला किया,Physical Assault,hi,hand_written
+जुआ खेलने के दौरान विवाद में उस्तरा मारकर चेहरे और गर्दन पर गहरा घाव कर दिया,Physical Assault,hi,hand_written
+गाड़ी पार्क करने को लेकर विवाद में तीन भाइयों ने मिलकर सिर पर लोहे का तवा दे मारा,Physical Assault,hi,hand_written
+सिनेमा हॉल के अंदर हुड़दंगियों ने कांच की बोतल मारकर सिर फोड़ दिया,Physical Assault,hi,hand_written
+दबंगों ने लाठी और बेल्ट से बुरी तरह पीटा तुरंत मेडिकल करवाकर केस दर्ज करें,Physical Assault,hi,hand_written
+road rage mein scorpio wale do ladko ne mujhe car se kheench kar mara peeta aur naak tod di,Physical Assault,hinglish,hand_written
+parking ke jhagde mein char ladko ne iron rod aur lathi se mere bhai par hamla kar hath tod diya,Physical Assault,hinglish,hand_written
+shopkeeper ne dande se sar par mara jisse bohot khoon nikla aur hospital mein taanke lage,Physical Assault,hinglish,hand_written
+theke ke bahar sharabiyon ne mere dost ke pet mein chaku maar diya trauma center mein bharti hai,Physical Assault,hinglish,hand_written
+makan malik ne bouncers bula kar rent ke piche tenants ko belt aur dande se mara fracture ho gaya,Physical Assault,hinglish,hand_written
+padosi ne ghar mein ghus kar lohe ke pipe se hamla kiya pitaji ko icu mein admit karwaya hai,Physical Assault,hinglish,hand_written
+gali mein paanch gundo ne gher kar brass knuckle se maara aur muh par laat ghuse barsaye,Physical Assault,hinglish,hand_written
+horn bajane par bike walo ne car ka kanch tod diya aur helmet se sar par attack kiya,Physical Assault,hinglish,hand_written
+club ke bouncers ne customer ko hockey stick se maara sar phat gaya aur bleeding ho rahi hai,Physical Assault,hinglish,hand_written
+khet ke vivad mein kulhadi aur daranti se attack kiya deep cut wounds aaye hain,Physical Assault,hinglish,hand_written
+recovery agents ne ghar mein aakar pati ko mara peeta aur sir deewar par maar diya,Physical Assault,hinglish,hand_written
+daru peekar pati ne lohe ke tawe se patni ko buri tarah peeta hospital mein admitted hai,Physical Assault,hinglish,hand_written
+baccho ke jhagde mein padosi ne eent fek kar sar phod diya behosh ho gaya ladka,Physical Assault,hinglish,hand_written
+dhabe par khana khate waqt beer ki tooti bottle se garden par war kiya murder attempt tha,Physical Assault,hinglish,hand_written
+school bus driver ko car wale ne lohe ki rod se maara wrist fracture ho gayi,Physical Assault,hinglish,hand_written
+hospital mein doctor ko marizon ke relatives ne mara peeta chairs fek kar maari,Physical Assault,hinglish,hand_written
+kutte ke bhaukne par padosiyo ne lohe ki chain se attack kiya pure parivar par,Physical Assault,hinglish,hand_written
+hafta na dene par gundo ne contractor ko iron pipe se mara fracture hua hai,Physical Assault,hinglish,hand_written
+traffic police wale ko sharabi car driver ne punch maara aur vardi faad di,Physical Assault,hinglish,hand_written
+delivery boy ko customer ne cricket bat se peeta delivery late hone par,Physical Assault,hinglish,hand_written
+bhaiya maar peet hui hai mere sath sar phat gaya hai hospital mein taanke lage hain,Physical Assault,hinglish,hand_written
+chaku se hamla kiya hai do ladko ne market mein bleeding ho rahi hai,Physical Assault,hinglish,hand_written
+lathi dande se mara hai padosi ne hath tod diya hai police complaint likho,Physical Assault,hinglish,hand_written
+iron rod se attack hua hai road rage ke andar sir par chot aayi hai,Physical Assault,hinglish,hand_written
+jaan leva hamla kiya hai dushmano ne hockey stick se peeta hai,Physical Assault,hinglish,hand_written
+ghar mein ghus kar maar peet ki hai aur aurton par hath uthaya hai,Physical Assault,hinglish,hand_written
+beer bottle maar kar sar phod diya theke ke bahar,Physical Assault,hinglish,hand_written
+helmet se mara mere muh par daant toot gaya hai physical assault ka case darj karo,Physical Assault,hinglish,hand_written
+paanch ladko ne gher kar laat ghuso se mara fracture kar diya,Physical Assault,hinglish,hand_written
+blade se cut mara hai chehre par khoon nikal raha hai,Physical Assault,hinglish,hand_written
+bouncers ne buri tarah peeta hai club ke bahar pasli tod di,Physical Assault,hinglish,hand_written
+zameen ke chakkar mein dande aur talwar se hamla kiya gaya hai,Physical Assault,hinglish,hand_written
+paani bharne par jhagda hua aur lohe ke pipe se sar par maar diya,Physical Assault,hinglish,hand_written
+auto wale ne passenger ko mara peeta kiraye ke piche,Physical Assault,hinglish,hand_written
+sasural walo ne belt se peeta hai meri behan ko gharelu hinsa hui hai,Physical Assault,hinglish,hand_written
+loud speakers and dj playing at extreme volume past 2 am in neighborhood banquet hall disturbing student exams and elderly patients,Other,en,hand_written
+neighbor deliberately dumping foul smelling domestic garbage and rotten food outside our entrance door daily causing health hazard,Other,en,hand_written
+pack of aggressive stray dogs being fed in apartment corridor chasing children and elderly residents causing constant fear,Other,en,hand_written
+illegal commercial car repair and spray painting workshop operating in residential basement emitting toxic paint fumes all day,Other,en,hand_written
+unauthorized construction on municipal pedestrian footpath completely blocking public pedestrian walkway and drain,Other,en,hand_written
+miscreants intentionally broke main municipal drinking water supply pipeline flooding street and cutting water to colony,Other,en,hand_written
+lost my bunch of six brass house keys with a metallic keychain somewhere in the market area during shopping,Other,en,hand_written
+neighbor carrying out heavy structural drilling and wall demolition at 3 am violating residential noise norms,Other,en,hand_written
+open drinking of alcohol in public park by group of boys creating nuisance throwing glass bottles on children swing area,Other,en,hand_written
+bursting loud firecrackers after midnight on main residential road causing noise pollution and panic among residents,Other,en,hand_written
+landlord illegally disconnected electricity and water supply to my rented shop without notice or court order,Other,en,hand_written
+commercial banquet hall parking cars haphazardly on both sides of residential lane causing complete traffic gridlock,Other,en,hand_written
+lost my prescription eyeglasses in black titan case and reading glasses while traveling in metro train,Other,en,hand_written
+neighbor illegally raised boundary wall encroaching four feet into common shared driveway blocking vehicle access,Other,en,hand_written
+open burning of dry leaves plastic and rubber tyres by municipal sweeper causing choking smoke in school area,Other,en,hand_written
+illegal cattle dairy running in residential colony with cow dung clogging open sewage drains and causing foul stench,Other,en,hand_written
+miscreants throwing firecrackers inside residential compound gates during late night hours causing fire hazard,Other,en,hand_written
+loud generator running non-stop without acoustic enclosure on rooftop of commercial coaching center shaking building,Other,en,hand_written
+lost my umbrella and woollen jacket left behind in intercity train passenger coach,Other,en,hand_written
+water leakage from upstairs flat continuously dripping through my ceiling ruining electrical fittings neighbor refuses repair,Other,en,hand_written
+unauthorized telecommunication mobile tower installation on dilapidated residential roof without structural safety noc,Other,en,hand_written
+neighbor keeping poultry chicken farm in residential backyard with foul odor and health concerns for colony,Other,en,hand_written
+commercial diesel truck parked permanently in front of my residential gate blocking car entry and exit,Other,en,hand_written
+lost a gold-plated fountain pen and leather notebook left in conference hall at hotel,Other,en,hand_written
+open manhole left uncovered by telecom cable contractor on main road posing fatal threat to two wheelers and pedestrians,Other,en,hand_written
+public nuisance caused by youths performing dangerous motorcycle stunts and wheelies on residential ring road at midnight,Other,en,hand_written
+neighbor installed high power floodlights directly facing our bedroom windows disturbing sleep throughout night,Other,en,hand_written
+unauthorized meat slaughtering and dumping animal waste in open municipal drain near residential area,Other,en,hand_written
+lost my prescription medicines bag and asthma inhaler while traveling in city auto,Other,en,hand_written
+illegal sand mining and tractor movement at odd night hours damaging colony roads and creating dust pollution,Other,en,hand_written
+building contractor dumping construction debris and concrete waste on vacant residential plot creating dust storm,Other,en,hand_written
+neighbor deliberately diverted rain water drain onto my courtyard flooding foundation,Other,en,hand_written
+loud rock band practicing in apartment flat with electric guitars and drum set till 3 am despite police warnings,Other,en,hand_written
+lost baby stroller pram and diaper bag forgotten near park entrance,Other,en,hand_written
+commercial kitchen operating next door without chimney blowing hot oily exhaust smoke into my balcony,Other,en,hand_written
+neighbor erected illegal metal gate on public street restricting vehicle entry for other colony residents,Other,en,hand_written
+unauthorized firecracker storage in residential building ground floor godown posing catastrophic fire hazard,Other,en,hand_written
+stray cattle menace owner releasing dozens of cows on main highway causing daily road accidents,Other,en,hand_written
+lost my expensive sports shoes and gym kit bag left in changing room locker of public stadium,Other,en,hand_written
+neighbor deliberately cutting internet and cable wires connected to my house from terrace poles,Other,en,hand_written
+illegal hookah parlor operating in residential basement allowing underage school students during school hours,Other,en,hand_written
+continuous sewage overflow from blocked municipal sewer line entering our ground floor house corporation not responding,Other,en,hand_written
+loud temple loudspeaker broadcasting at high decibels starting at 4 am every morning disturbing heart patients,Other,en,hand_written
+lost set of house keys and biometric padlock left in taxi cab,Other,en,hand_written
+neighbor threatening to poison my pet dog who was barking inside our private compound,Other,en,hand_written
+unauthorized gas cylinder decanting operation in residential garage transferring commercial lpg illegally,Other,en,hand_written
+public park benches broken and vandalized by hooligans who drink alcohol there every evening,Other,en,hand_written
+lost my leather briefcase containing non-official study notes and novels on metro seat,Other,en,hand_written
+neighbor burning garbage and dry leaves right in front of my gate creating toxic smoke,Other,en,hand_written
+commercial vehicle washing center on public road using municipal drinking water and creating muddy slush,Other,en,hand_written
+पड़ोस के मैरिज हॉल में रात दो बजे तक तेज आवाज में डीजे और लाउडस्पीकर बजता है जिससे पढ़ाई और नींद हराम हो रही है,Other,hi,hand_written
+पड़ोसी जानबूझकर हमारे घर के मुख्य दरवाजे के सामने सड़ा हुआ कूड़ा और कचरा फेंकता है जिससे बदबू और बीमारी फैल रही है,Other,hi,hand_written
+सोसाइटी के परिसर में आवारा कुत्तों को अवैध रूप से पाला जा रहा है जो बच्चों और बुजुर्गों को काटने दौड़ते हैं,Other,hi,hand_written
+रिहायशी कॉलोनी के बेसमेंट में अवैध रूप से केमिकल पेंट और वेल्डिंग की दुकान चल रही है जिससे जहरीला धुआं निकलता है,Other,hi,hand_written
+सार्वजनिक फुटपाथ पर पक्का निर्माण करके आम जनता का रास्ता पूरी तरह रोक दिया गया है अतिक्रमण हटाया जाए,Other,hi,hand_written
+असामाजिक तत्वों ने कॉलोनी की मुख्य पानी की पाइपलाइन तोड़ दी जिससे सड़क पर जलभराव हो गया और पानी बंद हो गया,Other,hi,hand_written
+बाजार में खरीदारी के दौरान मेरे घर की छह चाबियों का गुच्छा और कीचेन कहीं गिरकर खो गया है,Other,hi,hand_written
+पड़ोसी रात को तीन बजे भारी ड्रिलिंग मशीन चलाकर दीवार तोड़ता है जिससे ध्वनि प्रदूषण और तनाव हो रहा है,Other,hi,hand_written
+पार्क में खुलेआम शराब पीकर लड़के हुड़दंग करते हैं और खाली कांच की बोतलें बच्चों के झूले के पास फोड़ते हैं,Other,hi,hand_written
+देर रात मेन रोड पर तेज आवाज वाले पटाखे फोड़कर ध्वनि प्रदूषण फैलाने और दहशत का माहौल बनाने की शिकायत,Other,hi,hand_written
+मकान मालिक ने बिना किसी नोटिस के दुकान का बिजली और पानी का कनेक्शन अवैध रूप से काट दिया है,Other,hi,hand_written
+मैरिज हॉल की गाड़ियां सड़क के दोनों तरफ बेतरतीब खड़ी होने से पूरी कॉलोनी का रास्ता जाम हो गया है,Other,hi,hand_written
+मेट्रो ट्रेन में सफर के दौरान मेरा नजर का चश्मा और केस कहीं छूट गया है जिसकी सूचना दर्ज करानी है,Other,hi,hand_written
+पड़ोसी ने सरकारी आम रास्ते पर अवैध रूप से चार फीट दीवार खड़ी करके गाड़ी निकालने का रास्ता रोक दिया है,Other,hi,hand_written
+सफाई कर्मचारी सड़क किनारे सूखे पत्ते प्लास्टिक और टायर जलाते हैं जिससे पूरे इलाके में दमघोंटू धुआं भर जाता है,Other,hi,hand_written
+रिहायशी इलाके में अवैध डेरी चलाई जा रही है जहां गोबर की बदबू से सांस लेना दूभर हो गया है और नालियां चोक हैं,Other,hi,hand_written
+देर रात घर के गेट के अंदर जलते हुए पटाखे फेंककर आगजनी का खतरा पैदा करने वाले शरारती तत्वों पर कार्रवाई करें,Other,hi,hand_written
+कोचिंग सेंटर की छत पर बिना साइलेंसर वाला भारी जनरेटर चलने से पूरी बिल्डिंग में कंपन और तेज आवाज होती है,Other,hi,hand_written
+ट्रेन की बोगी में मेरा छाता और जैकेट छूट गई है जिसकी मिसिंग रिपोर्ट चाहिए,Other,hi,hand_written
+ऊपर के फ्लैट से लगातार गंदा पानी टपकने से मेरे घर की छत और बिजली की वायरिंग खराब हो रही है पड़ोसी ठीक नहीं कराता,Other,hi,hand_written
+पुरानी जर्जर इमारत की छत पर अवैध मोबाइल टावर लगाया जा रहा है जिससे मकान गिरने का खतरा है,Other,hi,hand_written
+रिहायशी घर के पीछे मुर्गी फार्म खोल रखा है जिससे भारी बदबू और संक्रमण का खतरा बना हुआ है,Other,hi,hand_written
+घर के गेट के ठीक सामने बड़ा ट्रक स्थाई रूप से खड़ा कर दिया गया है जिससे हमारी गाड़ी नहीं निकल पा रही,Other,hi,hand_written
+होटल के मीटिंग हॉल में मेरा महंगा पेन और डायरी छूट गई है,Other,hi,hand_written
+सड़क के बीचों-बीच टेलीकॉम वालों ने खुला मैनहोल छोड़ दिया है जिससे आए दिन दुर्घटनाएं हो रही हैं,Other,hi,hand_written
+मेन रोड पर रात को तेज आवाज वाले साइलेंसर लगाकर बाइक से खतरनाक स्टंट करने वाले युवकों पर रोक लगाई जाए,Other,hi,hand_written
+पड़ोसी ने हमारे बेडरूम की खिड़की की तरफ तेज फ्लड लाइट लगा रखी है जिससे रात में सोना मुश्किल हो गया है,Other,hi,hand_written
+खुले नाले में अवैध रूप से मीट का कचरा और हड्डियां फेंकने से महामारी फैलने की आशंका है,Other,hi,hand_written
+ऑटो में सफर के दौरान मेरी दवाओं का थैला और इनहेलर छूट गया है,Other,hi,hand_written
+अवैध रेत खनन वाले भारी डंपर रात भर तेज गति से रिहायशी सड़क से गुजरते हैं जिससे घर कांपते हैं,Other,hi,hand_written
+खाली प्लॉट पर बिल्डर द्वारा धूल भरी मिट्टी और मलबा डंप करने से सांस के मरीजों को भारी दिक्कत हो रही है,Other,hi,hand_written
+पड़ोसी ने अपने आंगन का बरसाती पानी जबरन हमारी दीवार की तरफ मोड़ दिया है जिससे नींव धंस रही है,Other,hi,hand_written
+फ्लैट में तेज आवाज में ड्रम और गिटार बजाकर रात भर न्यूसेंस फैलाने वाले लड़कों के खिलाफ शिकायत,Other,hi,hand_written
+पार्क के बाहर बच्चों की प्रैम गाड़ी छूट गई थी जो वहां से गायब हो गई है,Other,hi,hand_written
+होटल की रसोई की चिमनी की गर्म और चिकनाई युक्त हवा सीधे हमारी बालकनी में छोड़ी जा रही है,Other,hi,hand_written
+पब्लिक रोड पर अवैध लोहे का गेट लगाकर अन्य पड़ोसियों की आवाजाही रोकने की शिकायत,Other,hi,hand_written
+घनी आबादी में अवैध रूप से पटाखों का गोदाम बना रखा है जिससे भारी विस्फोट का खतरा है,Other,hi,hand_written
+हाईवे पर लावारिस मवेशियों को खुला छोड़ने वाले पशुपालकों के खिलाफ एफआईआर दर्ज करें,Other,hi,hand_written
+स्टेडियम के लॉकर रूम में मेरे स्पोर्ट्स शूज और किट बैग छूट गया जो अब नहीं मिल रहा,Other,hi,hand_written
+पड़ोसी छत पर चढ़कर जानबूझकर हमारे घर का इंटरनेट और केबल का तार काट देता है,Other,hi,hand_written
+अवैध हुक्का बार में स्कूली बच्चों को नशे की लत लगाई जा रही है छापा मारा जाए,Other,hi,hand_written
+सीवर लाइन जाम होने से घर के आंगन में गंदा नाले का पानी भर रहा है निगम कार्रवाई नहीं कर रहा,Other,hi,hand_written
+सुबह चार बजे से तेज आवाज में लाउडस्पीकर चलाकर कॉलोनी के लोगों की नींद खराब करने का मामला,Other,hi,hand_written
+टैक्सी में घर की चाबियों का गुच्छा और ताला छूट गया है मिसिंग एंट्री कर लें,Other,hi,hand_written
+पड़ोसी हमारे पालतू कुत्ते को जहर देकर मारने की धमकी दे रहा है जो घर के अंदर रहता है,Other,hi,hand_written
+घरेलू सिलेंडरों से अवैध गैस रिफिलिंग का धंधा रिहायशी गली में चल रहा है आग लगने का डर है,Other,hi,hand_written
+पार्क की सरकारी बेंच तोड़कर असामाजिक तत्वों द्वारा वहां शराबखोरी की जा रही है,Other,hi,hand_written
+मेट्रो की सीट पर मेरा किताबों का बैग और नोट्स छूट गए हैं,Other,hi,hand_written
+घर के सामने कूड़ा जलाने से निकलने वाले धुएं के संबंध में शिकायत,Other,hi,hand_written
+सड़क पर अवैध कार वाशिंग सेंटर बनाकर पानी बर्बाद करने और कीचड़ फैलाने की सूचना,Other,hi,hand_written
+bhaiya raat ko 2 baje tak pados ke banquet hall mein loud dj bajta hai exam chal rahe hain padhai nahi ho pa rahi,Other,hinglish,hand_written
+padosi roz kachra hamare main gate ke aage daal deta hai bohot badboo aati hai ladai karne par aamada hota hai,Other,hinglish,hand_written
+society mein stray dogs ka aatank hai baccho ko kaatne daudte hain koi action nahi ho raha,Other,hinglish,hand_written
+basement mein illegal car painting aur welding ka kaam chal raha hai toxic fumes se saans lena mushkil ho gaya,Other,hinglish,hand_written
+public footpath par pakka encroachment kar liya hai pedestrians ke nikalne ki jagah nahi bachi,Other,hinglish,hand_written
+badmasho ne water pipeline tod di colony ki sadak par paani bhar gaya aur supply band ho gayi,Other,hinglish,hand_written
+market mein shopping ke time ghar ki chabiyon ka bunch kahi gir gaya hai chabi gum hone ki report likho,Other,hinglish,hand_written
+padosi raat ko 3 baje drilling aur construction karta hai shor machata hai,Other,hinglish,hand_written
+park mein open drinking karte hain ladke aur botal todte hain baccho ke khelne ki jagah par,Other,hinglish,hand_written
+raat ko 12 baje ke baad road par patakhe phod kar shor macha rahe hain nuisance create kar rahe hain,Other,hinglish,hand_written
+makan malik ne shop ka bijli aur pani ka connection bina notice ke kaat diya hai,Other,hinglish,hand_written
+marriage hall ki parking road par hoti hai pura traffic jam ho jata hai gali mein,Other,hinglish,hand_written
+metro train mein mera reading glasses aur case chhoot gaya tha lost report entry chahiye,Other,hinglish,hand_written
+padosi ne aam raste par deewar khadi kar di gadi nikalne ka rasta block ho gaya,Other,hinglish,hand_written
+sweeper road par plastic aur kachra jalata hai bohot dhuan ho jata hai colony me,Other,hinglish,hand_written
+residential colony mein illegal dairy khol rakhi hai gobar se naaliyan chok ho gayi hain,Other,hinglish,hand_written
+raat ko generator ka shor bohot zyada hota hai coaching center ki chhat par,Other,hinglish,hand_written
+train mein mera jacket aur umbrella chhoot gaya tha,Other,hinglish,hand_written
+upar ke flat se paani tapak raha hai ceiling kharab ho rahi hai neighbor baat nahi sun raha,Other,hinglish,hand_written
+building ke gate ke aage badi truck park kar di hai nikalne ki jagah nahi hai,Other,hinglish,hand_written
+sir noise pollution ki complaint karni hai loud speaker baj raha hai,Other,hinglish,hand_written
+ghar ki chabi kho gayi hai market mein gir gayi thi,Other,hinglish,hand_written
+stray animals aur cattle sadak par ghoomte hain accident ho rahe hain,Other,hinglish,hand_written
+padosi gali galoch karta hai kachra phekta hai civic issue hai,Other,hinglish,hand_written
+public park mein alcohol peekar botal todte hain gunde log,Other,hinglish,hand_written
+illegal construction ho raha hai footpath par raasta band kar diya,Other,hinglish,hand_written
+water pipe tod diya kisi ne colony ka paani band ho gaya,Other,hinglish,hand_written
+night me crackers phodte hain 1 baje shor machate hain,Other,hinglish,hand_written
+generator ka dhuan aur sound bohot zyada hai complaint likhiye,Other,hinglish,hand_written
+chashma aur umbrella auto mein chhoot gaya tha lost item report,Other,hinglish,hand_written
+illegal welding shop chal rahi hai residential area mein,Other,hinglish,hand_written
+drain block ho gaya hai padosi ki wajah se pani ghar me aa raha hai,Other,hinglish,hand_written
+open drinking in park complaint darj kijiye patrol bhej kar check karo,Other,hinglish,hand_written
+speeding bike stunts karte hain raat ko colony road par,Other,hinglish,hand_written
+pet dog ko poison dene ki dhamki di hai padosi ne,Other,hinglish,hand_written
+fake credit card points redemption link resulted in 32000 rupees debit without otp,Cyber Fraud,en,hand_written
+received fake courier parcel delivery sms with payment link lost 19500 rupees,Cyber Fraud,en,hand_written
+caller pretending to be airtel agent claimed sim kyc expired and debited 40000 via screen sharing,Cyber Fraud,en,hand_written
+online trading investment telegram channel cheated me of seventy five thousand rupees,Cyber Fraud,en,hand_written
+hacked instagram account asked for 8000 rupees emergency medical money sent via phonepe,Cyber Fraud,en,hand_written
+बिजली बिल के नाम पर फर्जी लिंक भेजा और खाते से 28000 रुपये साफ कर दिए,Cyber Fraud,hi,hand_written
+बैंक अधिकारी बनकर कॉल किया और क्रेडिट कार्ड रिन्यूअल के नाम पर 52000 ठग लिए,Cyber Fraud,hi,hand_written
+ओएलएक्स पर फर्नीचर खरीदने के बहाने क्यूआर कोड भेजकर खाते से 16000 निकाल लिए,Cyber Fraud,hi,hand_written
+टेलीग्राम वर्क फ्रॉम होम में यूट्यूब लाइक करने के नाम पर 65000 का फ्रॉड हुआ,Cyber Fraud,hi,hand_written
+फेक लोन ऐप वाले अश्लील तस्वीरें वायरल करने की धमकी देकर जबरन वसूली कर रहे हैं,Cyber Fraud,hi,hand_written
+bhaiya online cyber fraud hua hai 25000 account se nikal gaye bina kisi otp ke,Cyber Fraud,hinglish,hand_written
+electricity bill disconnection fake sms par link click kiya toh 34000 kat gaye,Cyber Fraud,hinglish,hand_written
+task complete karne ke naam par telegram par 50000 deposit karwa ke scam kar diya,Cyber Fraud,hinglish,hand_written
+olx par qr code bheja aur scan karte hi mere paise kat gaye refund nahi mila,Cyber Fraud,hinglish,hand_written
+fake customer care number se phone aaya tha anydesk download karwa ke account khali kar diya,Cyber Fraud,hinglish,hand_written
+an unknown man continuously waits outside my office building and stalks me to the bus stop every evening,Harassment,en,hand_written
+ex-boyfriend sent threatening emails to my company management with private manipulated pictures,Harassment,en,hand_written
+man following my sister on his bike passing vulgar remarks and blowing horn repeatedly,Harassment,en,hand_written
+continuous abusive calls from multiple virtual voip numbers threatening physical violence,Harassment,en,hand_written
+landlord making unwelcome sexual advances and threatening eviction if not entertained,Harassment,en,hand_written
+एक युवक रोज कॉलेज के बाहर मेरी बेटी का पीछा करता है और अश्लील इशारे करता है,Harassment,hi,hand_written
+अज्ञात नंबर से बार-बार कॉल करके गंदी बातें बोली जा रही हैं और जान से मारने की धमकी दी जा रही है,Harassment,hi,hand_written
+ससुराल में दहेज के लिए मानसिक उत्पीड़न और प्रताड़ना की जा रही है पीड़िता डिप्रेशन में है,Harassment,hi,hand_written
+फेसबुक पर मेरी फोटो मॉर्फ करके अश्लील टिप्पणियां की जा रही हैं तुरंत कार्रवाई करें,Harassment,hi,hand_written
+पड़ोसी रोज रात को शराब के नशे में दरवाजे पर लात मारता है और गालियां बकता है,Harassment,hi,hand_written
+ek ladka roz tuition se aate waqt bike par peecha karta hai aur chhedkhani karta hai,Harassment,hinglish,hand_written
+ex partner blackmail kar raha hai private pictures leak karne ki dhamki dekar,Harassment,hinglish,hand_written
+unknown number se continuous abusive whatsapp messages aa rahe hain mental harassment ho raha hai,Harassment,hinglish,hand_written
+padosi roz gali galoch karta hai aur darwaza peetta hai aurton par gandi nazar rakhta hai,Harassment,hinglish,hand_written
+office mein senior manager sexual favor demand kar raha hai complaint darj kijiye,Harassment,hinglish,hand_written
+my 15-year-old school son did not return home from cricket coaching yesterday evening phone switched off,Missing Person,en,hand_written
+elderly grandmother aged 78 walked out of apartment gate while guard was eating lunch and has not returned,Missing Person,en,hand_written
+my brother working in noida has been unreachable for 48 hours his room is found locked from outside,Missing Person,en,hand_written
+young girl aged 18 missing from outside university campus since 3 pm family is extremely worried,Missing Person,en,hand_written
+father went to bank to withdraw pension at 10 am yesterday and has not returned home since then,Missing Person,en,hand_written
+मेरा 8 वर्षीय बेटा पार्क में खेलते-खेलते अचानक लापता हो गया है कृपया तलाश करें,Missing Person,hi,hand_written
+74 वर्षीय दादाजी जिन्हें भूलने की बीमारी है सुबह टहलने निकले थे और घर नहीं लौटे,Missing Person,hi,hand_written
+मेरी बहन उम्र 20 वर्ष कॉलेज से वापस नहीं आई उसका मोबाइल नंबर बंद आ रहा है,Missing Person,hi,hand_written
+फैक्ट्री में काम करने वाले पति रात की शिफ्ट के बाद से लापता हैं कोई संपर्क नहीं हो रहा,Missing Person,hi,hand_written
+हॉस्टल में रहने वाला छात्र दो दिन से गायब है कमरे का ताला लगा हुआ है,Missing Person,hi,hand_written
+sir mera chhota bhai kal shaam se missing hai market gaya tha wapas nahi aaya,Missing Person,hinglish,hand_written
+dada ji jinhe memory loss ki problem hai subah se laapata hain rasta bhatak gaye honge,Missing Person,hinglish,hand_written
+behan tuition gayi thi par wapas nahi aayi shaam ho gayi phone switched off aa raha hai,Missing Person,hinglish,hand_written
+husband office ke baad se ghar nahi pahuche unka phone band hai missing report likhiye,Missing Person,hinglish,hand_written
+10 saal ka bacha mohalle se achanak gayab ho gaya hai please gumshudgi darj karo,Missing Person,hinglish,hand_written
+lost my original driving licence smart card somewhere near metro parking lot need lost certificate,Lost Documents,en,hand_written
+folder containing my class 10 and 12 original cbse certificates forgotten in auto-rickshaw,Lost Documents,en,hand_written
+indian passport misplaced somewhere at airport check-in counter need police acknowledgement for re-issue,Lost Documents,en,hand_written
+vehicle rc smart card and insurance paper dropped from pocket while riding motorcycle,Lost Documents,en,hand_written
+lost my aadhaar card and pan card while visiting court complex need report for duplicate application,Lost Documents,en,hand_written
+मेरा ड्राइविंग लाइसेंस मेट्रो ट्रेन में सफर के दौरान कहीं गिर गया है डुप्लीकेट हेतु रिपोर्ट दर्ज करें,Lost Documents,hi,hand_written
+बस में यात्रा करते समय मूल आधार कार्ड और पैन कार्ड का पर्स कहीं छूट गया है,Lost Documents,hi,hand_written
+कक्षा 12वीं की मूल अंकतालिका और डिग्री का लिफाफा ऑटो में छूट गया है जो नहीं मिल रहा,Lost Documents,hi,hand_written
+हवाई अड्डे पर पासपोर्ट खो जाने के संबंध में डुप्लीकेट जारी करवाने हेतु पुलिस सूचना रसीद चाहिए,Lost Documents,hi,hand_written
+मोटरसाइकिल की आरसी बुक और इंश्योरेंस की प्रति सड़क पर कहीं गिर गई है,Lost Documents,hi,hand_written
+driving licence kho gaya hai rto mein duplicate apply karne ke liye report chahiye,Lost Documents,hinglish,hand_written
+aadhaar card aur pan card market mein kahi gir gaya wallet ke sath missing report kaato,Lost Documents,hinglish,hand_written
+marksheet aur degree certificate auto mein chhoot gaya tha university verification ke liye ncr chahiye,Lost Documents,hinglish,hand_written
+bike ki rc smart card pocket se gir gayi highway par lost document entry kar do,Lost Documents,hinglish,hand_written
+passport airport se aate waqt taxi mein kho gaya hai duplicate nikalwana hai,Lost Documents,hinglish,hand_written
+attacked by three men with iron pipes outside market fracturing my left forearm,Physical Assault,en,hand_written
+road rage fight where driver punched my face repeatedly causing bloody nose and broken tooth,Physical Assault,en,hand_written
+stabbed in arm with sharp knife during argument outside restaurant bleeding profusely,Physical Assault,en,hand_written
+पार्किंग विवाद में लोहे की रॉड से सिर पर वार कर गंभीर रूप से घायल कर दिया अस्पताल में छह टांके आए,Physical Assault,hi,hand_written
+दुकानदार ने डंडे से पीटकर हाथ की हड्डी तोड़ दी और जान से मारने की धमकी दी,Physical Assault,hi,hand_written
+ठेके के बाहर शराबियों ने चाकू मारकर पेट में गहरा घाव कर दिया हालत नाजुक है,Physical Assault,hi,hand_written
+road rage mein car se kheench kar mara peeta lohe ki rod se sar phod diya,Physical Assault,hinglish,hand_written
+lathi dande se hamla kiya hai dushmano ne hath aur pair mein fracture hua hai,Physical Assault,hinglish,hand_written
+chaku se hamla hua hai market ke andar bleeding bohot ho rahi hai emergency hai,Physical Assault,hinglish,hand_written
+bouncers ne club ke bahar laat ghuso se buri tarah peeta pasli tod di,Physical Assault,hinglish,hand_written
+loud speakers playing at deafening volume past 1 am in residential banquet hall disturbing sick patients,Other,en,hand_written
+neighbor continuously throwing garbage and dirty sewage water at our entrance door creating nuisance,Other,en,hand_written
+aggressive stray cattle and dogs roaming unchecked on main colony road causing traffic accidents,Other,en,hand_written
+illegal welding and chemical spray workshop operating in residential basement causing toxic fumes,Other,en,hand_written
+lost my bunch of house keys and lock somewhere in the market area during shopping,Other,en,hand_written
+पड़ोस के बैंक्वेट हॉल में रात दो बजे तक तेज आवाज में डीजे बजता है जिससे ध्वनि प्रदूषण हो रहा है,Other,hi,hand_written
+पड़ोसी जानबूझकर मुख्य दरवाजे के सामने कचरा फेंकता है और टोकने पर झगड़ा करता है,Other,hi,hand_written
+कॉलोनी के पार्क में खुलेआम शराब पीकर हुड़दंग मचाने वाले लड़कों के खिलाफ कार्रवाई करें,Other,hi,hand_written
+बाजार में मेरे घर की चाबियों का गुच्छा खो गया है जिसकी मिसिंग एंट्री दर्ज करवानी है,Other,hi,hand_written
+सरकारी फुटपाथ पर पक्का अतिक्रमण करके आम रास्ता बंद करने की शिकायत,Other,hi,hand_written
+raat ko 2 baje tak loud dj bajta hai banquet hall mein noise pollution ki complaint hai,Other,hinglish,hand_written
+padosi roz kachra gate ke aage phekta hai civic issue hai nuisance create kar raha hai,Other,hinglish,hand_written
+ghar ki chabiyon ka bunch market mein kho gaya hai missing item report likhiye,Other,hinglish,hand_written
+public park mein alcohol peekar shor machate hain botal todte hain,Other,hinglish,hand_written
+illegal construction karke colony ka main rasta block kar diya hai,Other,hinglish,hand_written

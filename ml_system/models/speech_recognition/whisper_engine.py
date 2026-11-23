@@ -13,6 +13,7 @@ from config import WHISPER_COMPUTE_TYPE, WHISPER_DEVICE, WHISPER_MODEL_DIR, WHIS
 
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
 
 # Patch PyAV if metadata_errors is rejected in av.open (PyAV v14+)
 try:
