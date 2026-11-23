@@ -39,6 +39,9 @@ export const Navbar: React.FC = () => {
     loginAsRole(role);
     setRoleDropdownOpen(false);
     setMobileMenuOpen(false);
+    if (role === 'admin') navigateTo('admin-dashboard');
+    else if (role === 'officer') navigateTo('officer-dashboard');
+    else if (role === 'complainant') navigateTo('complainant-dashboard');
   };
 
   const navigateTo = (page: string) => {
@@ -101,8 +104,8 @@ export const Navbar: React.FC = () => {
 
               <button
                 onClick={() => {
-                  if (currentUser?.role !== 'complainant') loginAsRole('complainant');
-                  else navigateTo('complainant-dashboard');
+                  loginAsRole('complainant');
+                  navigateTo('complainant-dashboard');
                 }}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                   activePage === 'complainant-dashboard'
@@ -116,8 +119,8 @@ export const Navbar: React.FC = () => {
 
               <button
                 onClick={() => {
-                  if (currentUser?.role !== 'officer') loginAsRole('officer');
-                  else navigateTo('officer-dashboard');
+                  loginAsRole('officer');
+                  navigateTo('officer-dashboard');
                 }}
                 className={`relative flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                   activePage === 'officer-dashboard'
@@ -136,8 +139,8 @@ export const Navbar: React.FC = () => {
 
               <button
                 onClick={() => {
-                  if (currentUser?.role !== 'admin') loginAsRole('admin');
-                  else navigateTo('admin-dashboard');
+                  loginAsRole('admin');
+                  navigateTo('admin-dashboard');
                 }}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                   activePage === 'admin-dashboard'
