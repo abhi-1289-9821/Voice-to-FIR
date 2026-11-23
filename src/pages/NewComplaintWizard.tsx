@@ -40,6 +40,7 @@ export const NewComplaintWizard: React.FC = () => {
   const [isRecording, setIsRecording] = useState<boolean>(false);
   const [recordingSeconds, setRecordingSeconds] = useState<number>(0);
   const [recordedAudioUrl, setRecordedAudioUrl] = useState<string | null>(null);
+  const [recordedAudioBlob, setRecordedAudioBlob] = useState<Blob | null>(null);
   const [audioFileName, setAudioFileName] = useState<string>('complaint_recording.wav');
   const [selectedLanguage, setSelectedLanguage] = useState<string>('en');
 
@@ -176,6 +177,7 @@ export const NewComplaintWizard: React.FC = () => {
         const audioBlob = new Blob(audioChunksRef.current, { type: mimeType });
         const url = URL.createObjectURL(audioBlob);
         setRecordedAudioUrl(url);
+        setRecordedAudioBlob(audioBlob);
         setAudioFileName(`voice_recording_${new Date().toISOString().slice(11, 19).replace(/:/g, '-')}.webm`);
 
         // Stop all audio tracks
@@ -307,6 +309,7 @@ export const NewComplaintWizard: React.FC = () => {
           `Transcribed in ${trans.processing_time}s (${trans.detected_language?.toUpperCase() || 'EN'}).`,
           'success'
         );
+        setCurrentStep(2);
       } else {
         // Fallback diagnostic status from backend (e.g. if audio was silent)
         if (trans.status === 'runtime_policy_blocked' || trans.error_message) {
@@ -336,6 +339,7 @@ export const NewComplaintWizard: React.FC = () => {
     }
 
     setAudioFileName(file.name);
+    setRecordedAudioBlob(file);
     const url = URL.createObjectURL(file);
     setRecordedAudioUrl(url);
 
@@ -758,12 +762,26 @@ export const NewComplaintWizard: React.FC = () => {
 
               {/* Recorded Audio Playback Preview */}
               {recordedAudioUrl && !isRecording && (
-                <div className="mt-4 p-3 bg-white border border-slate-200 rounded-xl flex items-center justify-between gap-3">
-                  <div className="text-left">
+                <div className="mt-4 p-3.5 bg-white border border-slate-200 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-3 shadow-sm">
+                  <div className="text-left w-full sm:w-auto">
                     <p className="text-xs font-semibold text-slate-800 truncate max-w-[200px]">{audioFileName}</p>
                     <p className="text-[11px] text-emerald-600 font-medium">Ready for transcription</p>
                   </div>
-                  <audio controls src={recordedAudioUrl} className="h-8 max-w-[200px]" />
+                  <div className="flex items-center gap-2.5 w-full sm:w-auto justify-between sm:justify-end">
+                    <audio controls src={recordedAudioUrl} className="h-8 max-w-[180px]" />
+                    {recordedAudioBlob && (
+                      <button
+                        type="button"
+                        onClick={() => transcribeAndAnalyzeAudioBlob(recordedAudioBlob)}
+                        disabled={isProcessingAudio}
+                        className="px-3 py-1.5 bg-police-800 hover:bg-police-900 text-white text-xs font-medium rounded-lg flex items-center gap-1.5 shadow-sm transition-all flex-shrink-0"
+                        title="Transcribe with faster-whisper"
+                      >
+                        <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                        <span>Transcribe</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
               )}
 

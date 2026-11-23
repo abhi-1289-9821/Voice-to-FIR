@@ -210,16 +210,24 @@ def generate_structured_complaint(
     """
     ref_id = f"AS-2026-{int(time.time()) % 10000:04d}"
 
-    # Safe extraction of primary attributes
-    date_val = extracted_entities.get("DATE", [None])[0]
-    time_val = extracted_entities.get("TIME", [None])[0]
-    loc_val = ", ".join(extracted_entities.get("LOCATION", [])) or "Location not specified"
-    persons_val = extracted_entities.get("PERSON", [])
+    # Safe extraction of primary attributes (robust against empty list values)
+    dates = extracted_entities.get("DATE") or []
+    date_val = dates[0] if len(dates) > 0 else None
+
+    times = extracted_entities.get("TIME") or []
+    time_val = times[0] if len(times) > 0 else None
+
+    locations = extracted_entities.get("LOCATION") or []
+    loc_val = ", ".join(locations) if len(locations) > 0 else "Location not specified"
+
+    persons_val = list(extracted_entities.get("PERSON") or [])
     if complainant_name and complainant_name not in persons_val:
         persons_val.insert(0, complainant_name)
 
-    loss_val = ", ".join(extracted_entities.get("MONEY", [])) or None
-    objects_val = extracted_entities.get("OBJECT", [])
+    losses = extracted_entities.get("MONEY") or []
+    loss_val = ", ".join(losses) if len(losses) > 0 else None
+
+    objects_val = list(extracted_entities.get("OBJECT") or [])
 
     # Template-based factual summary (Strictly no generative fabrication)
     summary_parts = [f"Complaint regarding reported {category}."]

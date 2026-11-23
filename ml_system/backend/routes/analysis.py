@@ -121,5 +121,5 @@ async def analyze_audio_complaint(
     except HTTPException:
         raise
     except Exception as e:
-        logger.error(f"Audio analysis error: {e}")
-        raise HTTPException(status_code=500, detail="Complete audio analysis failed.")
+        logger.error(f"Audio analysis error: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Complete audio analysis failed: {str(e)}")
