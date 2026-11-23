@@ -99,7 +99,21 @@ class WhisperEngine:
         temp_path: Optional[Path] = None
         if isinstance(audio_input, (bytes, io.BytesIO)):
             content = audio_input if isinstance(audio_input, bytes) else audio_input.getvalue()
-            temp_path = WHISPER_MODEL_DIR / f"temp_{int(time.time() * 1000)}.wav"
+            # Detect audio format from magic bytes to ensure correct container demuxing
+            ext = ".webm"
+            if len(content) >= 4:
+                if content[:4] == b"RIFF":
+                    ext = ".wav"
+                elif content[:3] == b"ID3" or content[:2] == b"\xff\xfb":
+                    ext = ".mp3"
+                elif content[:4] == b"OggS":
+                    ext = ".ogg"
+                elif content[:4] == b"fLaC":
+                    ext = ".flac"
+                elif content[:4] == b"\x1a\x45\xdf\xa3":
+                    ext = ".webm"
+
+            temp_path = WHISPER_MODEL_DIR / f"temp_{int(time.time() * 1000)}{ext}"
             with open(temp_path, "wb") as f:
                 f.write(content)
             audio_path = str(temp_path)
@@ -122,10 +136,24 @@ class WhisperEngine:
             # 2. Transcribe using faster-whisper if runtime is loaded
             if self.is_loaded and self.model is not None:
                 try:
+                    # Provide targeted initial prompt to prevent script hallucinations and prime police domain
+                    lang_hint = language if language in ("en", "hi") else None
+                    if lang_hint == "hi":
+                        prompt = "यह एक पुलिस शिकायत है। ऑनलाइन धोखाधड़ी, साइबर अपराध, बैंक खाता, ओटीपी, पैसे कट गए, चोरी, मारपीट।"
+                    elif lang_hint == "en":
+                        prompt = "This is a police complaint. Cyber fraud, theft, assault, harassment, missing person, stolen."
+                    else:
+                        prompt = "यह एक पुलिस शिकायत है। Police complaint: cyber fraud, theft, harassment, assault."
+
                     segments_generator, info = self.model.transcribe(
                         audio_path,
-                        language=language,
+                        language=lang_hint,
                         beam_size=5,
+                        temperature=0.0,  # Greedy decoding to eliminate hallucination loops
+                        condition_on_previous_text=False,  # Prevent error propagation across segments
+                        no_repeat_ngram_size=3,  # Prevent repetitive loop hallucinations
+                        repetition_penalty=1.1,
+                        initial_prompt=prompt,
                         vad_filter=False,  # Set to False to avoid external Silero VAD download delays
                     )
 
