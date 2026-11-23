@@ -1,7 +1,6 @@
 import React from 'react';
 import { useApp } from './context/AppContext';
 import { Navbar } from './components/common/Navbar';
-import { DisclaimerBanner } from './components/common/DisclaimerBanner';
 import { ToastContainer } from './components/common/ToastContainer';
 import { LandingPage } from './pages/LandingPage';
 import { AuthPage } from './pages/AuthPage';
@@ -37,9 +36,6 @@ export const AppContent: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans">
-      {/* Prominent Academic & Non-Legal FIR Disclaimer Banner */}
-      <DisclaimerBanner />
-
       {/* Main Navigation Bar */}
       <Navbar />
 
