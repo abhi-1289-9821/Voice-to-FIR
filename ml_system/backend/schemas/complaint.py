@@ -96,3 +96,92 @@ class HealthResponse(BaseModel):
     version: str
     models_ready: bool
     components: Dict[str, str]
+
+
+# ==========================================
+# Persistence Schemas for SQLite Complaints
+# ==========================================
+
+class ComplaintCreateRequest(BaseModel):
+    complainant_name: str = Field(..., min_length=2)
+    complainant_phone: str = Field(..., min_length=7)
+    complainant_email: Optional[str] = ""
+    complainant_address: Optional[str] = ""
+
+    incident_category: str
+    predicted_category: Optional[str] = None
+    model_confidence: Optional[float] = 0.0
+
+    incident_date: str
+    incident_time: str
+    incident_location: str
+    incident_landmark: Optional[str] = ""
+
+    description: str = Field(..., min_length=5)
+    original_transcript: Optional[str] = ""
+    corrected_transcript: Optional[str] = ""
+    is_transcript_edited: Optional[bool] = False
+
+    priority: Optional[str] = "Medium"
+    police_station: Optional[str] = "Central Police Station"
+    extracted_entities: Optional[Dict[str, Any]] = None
+
+
+class StatusUpdateRequest(BaseModel):
+    status: str
+    actor: Optional[str] = "Assigned Officer"
+    role: Optional[str] = "Police Officer"
+    note: Optional[str] = None
+
+
+class OfficerNoteCreateRequest(BaseModel):
+    officer_name: str
+    badge_number: Optional[str] = "DL-POLICE-041"
+    note: str = Field(..., min_length=3)
+
+
+class TimelineEventItem(BaseModel):
+    id: str
+    timestamp: str
+    status: str
+    actor: str
+    role: str
+    note: str
+
+
+class OfficerNoteItem(BaseModel):
+    id: str
+    timestamp: str
+    officerName: str
+    badgeNumber: str
+    note: str
+
+
+class ComplaintDetailResponse(BaseModel):
+    id: str
+    referenceNumber: str
+    complainantName: str
+    complainantPhone: str
+    complainantEmail: str
+    complainantAddress: str
+    incidentCategory: str
+    incidentDate: str
+    incidentTime: str
+    incidentLocation: str
+    incidentLandmark: Optional[str] = ""
+    description: str
+    rawTranscript: str
+    isTranscriptEdited: bool
+    status: str
+    priority: str
+    assignedOfficer: Optional[str] = ""
+    policeStation: str
+    createdAt: str
+    updatedAt: str
+    timeline: List[TimelineEventItem] = []
+    officerNotes: List[OfficerNoteItem] = []
+    mockAudioLengthSeconds: int = 42
+    predictedCategory: Optional[str] = None
+    modelConfidence: Optional[float] = 0.0
+    extractedEntities: Optional[Dict[str, Any]] = None
+

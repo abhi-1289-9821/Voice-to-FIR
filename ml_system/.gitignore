@@ -17,6 +17,11 @@ models/speech_recognition/*.model
 models/speech_recognition/*.pt
 *.h5
 
+# SQLite Database
+*.db
+*.sqlite3
+*.db-journal
+
 # Audio sample cache & temp files
 temp_audio/
 *.wav

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import {
   Shield,
@@ -7,9 +7,12 @@ import {
   AlertTriangle,
   RotateCcw,
   Search,
+  Brain,
+  RefreshCw,
 } from 'lucide-react';
 import { ConfirmationModal } from '../components/common/ConfirmationModal';
 import { UserRole, UserAccount } from '../types';
+import { mlApi, EvaluationResponse, ModelStatusResponse } from '../services/mlApi';
 
 export const AdminPage: React.FC = () => {
   const {
@@ -20,10 +23,36 @@ export const AdminPage: React.FC = () => {
     updateUserRole,
     resetDemoData,
     currentUser,
+    backendStatus,
   } = useApp();
 
   const [searchTerm, setSearchTerm] = useState('');
   const [roleFilter, setRoleFilter] = useState<string>('ALL');
+
+  // Live Machine Learning Evaluation State
+  const [evalData, setEvalData] = useState<EvaluationResponse | null>(null);
+  const [modelStatus, setModelStatus] = useState<ModelStatusResponse | null>(null);
+  const [isLoadingEvaluation, setIsLoadingEvaluation] = useState<boolean>(false);
+
+  const fetchLiveEvaluation = async () => {
+    setIsLoadingEvaluation(true);
+    try {
+      const [evaluation, models] = await Promise.all([
+        mlApi.getModelEvaluation(),
+        mlApi.getModelStatus(),
+      ]);
+      setEvalData(evaluation);
+      setModelStatus(models);
+    } catch (e) {
+      console.warn('Could not load ML evaluation from backend:', e);
+    } finally {
+      setIsLoadingEvaluation(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchLiveEvaluation();
+  }, []);
 
   // Confirmation modal states
   const [modalOpen, setModalOpen] = useState(false);
@@ -149,11 +178,117 @@ export const AdminPage: React.FC = () => {
         <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-sm">
           <span className="text-xs font-medium text-emerald-700 uppercase">Whisper STT Pipeline</span>
           <p className="text-xs font-bold text-emerald-800 mt-2 flex items-center gap-1.5">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>Simulated Mock v1.0</span>
+            <span
+              className={`w-2 h-2 rounded-full ${
+                backendStatus === 'connected' ? 'bg-emerald-500 animate-pulse' : 'bg-slate-400'
+              }`}
+            />
+            <span>
+              {modelStatus?.speech_recognition
+                ? `${modelStatus.speech_recognition.engine} (${modelStatus.speech_recognition.model_size})`
+                : 'faster-whisper (CPU)'}
+            </span>
           </p>
-          <p className="text-[11px] text-slate-500 mt-0.5">faster-whisper planned in Phase 3</p>
+          <p className="text-[11px] text-slate-500 mt-0.5">
+            Backend status: <span className="font-semibold capitalize">{backendStatus}</span>
+          </p>
         </div>
+      </div>
+
+      {/* Machine Learning Model Governance & Evaluation Performance */}
+      <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 space-y-5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-3">
+          <div>
+            <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
+              <Brain className="w-5 h-5 text-police-700" />
+              <span>Machine Learning Model Governance & Performance</span>
+            </h3>
+            <p className="text-xs text-slate-500">
+              Real evaluation metrics computed on held-out test split using Scikit-learn (TF-IDF + Logistic Regression).
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={fetchLiveEvaluation}
+            disabled={isLoadingEvaluation}
+            className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 rounded-lg text-xs font-semibold flex items-center gap-1.5 self-start sm:self-auto"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 ${isLoadingEvaluation ? 'animate-spin' : ''}`} />
+            <span>Re-fetch Model Metrics</span>
+          </button>
+        </div>
+
+        {evalData ? (
+          <div className="space-y-6">
+            {/* Top Metric Badges */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                <span className="text-[11px] font-bold uppercase text-slate-500">Test Accuracy</span>
+                <p className="text-2xl font-extrabold text-police-900 font-mono mt-0.5">
+                  {(evalData.accuracy * 100).toFixed(1)}%
+                </p>
+                <span className="text-[10px] text-slate-400">Held-out test set</span>
+              </div>
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                <span className="text-[11px] font-bold uppercase text-slate-500">Weighted F1</span>
+                <p className="text-2xl font-extrabold text-blue-900 font-mono mt-0.5">
+                  {evalData.weighted_f1.toFixed(4)}
+                </p>
+                <span className="text-[10px] text-slate-400">Harmonic mean</span>
+              </div>
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                <span className="text-[11px] font-bold uppercase text-slate-500">Weighted Precision</span>
+                <p className="text-2xl font-extrabold text-emerald-900 font-mono mt-0.5">
+                  {evalData.weighted_precision.toFixed(4)}
+                </p>
+                <span className="text-[10px] text-slate-400">True positive rate</span>
+              </div>
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+                <span className="text-[11px] font-bold uppercase text-slate-500">Weighted Recall</span>
+                <p className="text-2xl font-extrabold text-purple-900 font-mono mt-0.5">
+                  {evalData.weighted_recall.toFixed(4)}
+                </p>
+                <span className="text-[10px] text-slate-400">Sensitivity</span>
+              </div>
+            </div>
+
+            {/* Per-Class Metrics Table */}
+            {evalData.per_class_metrics && (
+              <div className="overflow-x-auto border border-slate-200 rounded-xl">
+                <table className="w-full text-left text-xs">
+                  <thead className="bg-slate-50 border-b border-slate-200 text-slate-600 font-semibold uppercase tracking-wider text-[10px]">
+                    <tr>
+                      <th className="px-4 py-2.5">Category Class</th>
+                      <th className="px-4 py-2.5">Precision</th>
+                      <th className="px-4 py-2.5">Recall</th>
+                      <th className="px-4 py-2.5">F1-Score</th>
+                      <th className="px-4 py-2.5 text-right">Support</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 font-mono">
+                    {Object.entries(evalData.per_class_metrics).map(([clsName, metrics]) => (
+                      <tr key={clsName} className="hover:bg-slate-50/60">
+                        <td className="px-4 py-2 font-sans font-medium text-slate-800">{clsName}</td>
+                        <td className="px-4 py-2 text-slate-700">{(metrics.precision * 100).toFixed(1)}%</td>
+                        <td className="px-4 py-2 text-slate-700">{(metrics.recall * 100).toFixed(1)}%</td>
+                        <td className="px-4 py-2 font-semibold text-police-900">
+                          {(metrics.f1_score * 100).toFixed(1)}%
+                        </td>
+                        <td className="px-4 py-2 text-right text-slate-500">{metrics.support}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        ) : (
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl text-center text-xs text-slate-500">
+            {isLoadingEvaluation
+              ? 'Loading real evaluation metrics from FastAPI backend...'
+              : 'Backend evaluation metrics will load when FastAPI server is connected.'}
+          </div>
+        )}
       </div>
 
       {/* User Management Section */}

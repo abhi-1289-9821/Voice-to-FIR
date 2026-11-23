@@ -13,6 +13,7 @@ import {
   INITIAL_USERS,
   INITIAL_ACTIVITIES,
 } from '../data/mockData';
+import { mlApi, HealthResponse } from '../services/mlApi';
 
 export interface ToastMessage {
   id: string;
@@ -38,6 +39,11 @@ interface AppContextType {
   complaints: Complaint[];
   users: UserAccount[];
   activities: SystemActivity[];
+
+  // Backend Integration State
+  backendStatus: 'checking' | 'connected' | 'offline';
+  backendHealth: HealthResponse | null;
+  refreshBackendData: () => Promise<void>;
 
   // Mutations
   addComplaint: (newComplaintData: Omit<Complaint, 'id' | 'createdAt' | 'updatedAt' | 'timeline' | 'officerNotes'>) => Complaint;
@@ -111,6 +117,42 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   });
 
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
+
+  // Backend Integration State
+  const [backendStatus, setBackendStatus] = useState<'checking' | 'connected' | 'offline'>('checking');
+  const [backendHealth, setBackendHealth] = useState<HealthResponse | null>(null);
+
+  const refreshBackendData = async () => {
+    try {
+      setBackendStatus('checking');
+      const health = await mlApi.checkBackendHealth();
+      setBackendHealth(health);
+      setBackendStatus('connected');
+
+      // Fetch complaints from SQLite backend
+      const backendComplaints = await mlApi.fetchComplaints();
+      if (backendComplaints && backendComplaints.length > 0) {
+        setComplaints((prev) => {
+          const map = new Map<string, Complaint>();
+          // 1. Add backend complaints
+          backendComplaints.forEach((c) => map.set(c.referenceNumber, c));
+          // 2. Add local presets if not already present
+          prev.forEach((c) => {
+            if (!map.has(c.referenceNumber)) {
+              map.set(c.referenceNumber, c);
+            }
+          });
+          return Array.from(map.values());
+        });
+      }
+    } catch {
+      setBackendStatus('offline');
+    }
+  };
+
+  useEffect(() => {
+    refreshBackendData();
+  }, []);
 
   // Persist state to localStorage
   useEffect(() => {
@@ -297,7 +339,20 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     };
     setActivities((prev) => [newAct, ...prev]);
 
-    addToast('Status Updated', `Case marked as "${newStatus}" in local demo state.`, 'success');
+    // Sync status change to backend SQLite database if target exists
+    const targetComp = complaints.find((c) => c.id === complaintId);
+    if (targetComp) {
+      mlApi
+        .updateComplaintStatus(targetComp.referenceNumber, newStatus, noteText, officerName)
+        .catch(() => {});
+      if (noteText) {
+        mlApi
+          .addOfficerNote(targetComp.referenceNumber, noteText, officerName)
+          .catch(() => {});
+      }
+    }
+
+    addToast('Status Updated', `Case marked as "${newStatus}".`, 'success');
   };
 
   const updateUserStatus = (userId: string, newStatus: 'Active' | 'Suspended') => {
@@ -368,6 +423,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         complaints,
         users,
         activities,
+        backendStatus,
+        backendHealth,
+        refreshBackendData,
         addComplaint,
         updateComplaintStatus,
         updateUserStatus,

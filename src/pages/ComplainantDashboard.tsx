@@ -25,6 +25,8 @@ export const ComplainantDashboard: React.FC = () => {
     setSelectedComplaintId,
     demoViewMode,
     setDemoViewMode,
+    refreshBackendData,
+    backendStatus,
   } = useApp();
 
   const [searchTerm, setSearchTerm] = useState('');
@@ -80,6 +82,15 @@ export const ComplainantDashboard: React.FC = () => {
           </div>
 
           <div className="flex-shrink-0 flex flex-col sm:flex-row gap-3">
+            <button
+              type="button"
+              onClick={() => refreshBackendData()}
+              className="px-4 py-3 bg-police-800/80 hover:bg-police-700 text-white font-medium text-xs sm:text-sm rounded-xl border border-police-700 transition-all flex items-center justify-center gap-2"
+              title="Sync with SQLite database"
+            >
+              <RefreshCw className={`w-4 h-4 ${backendStatus === 'checking' ? 'animate-spin' : ''}`} />
+              <span>Sync Cases</span>
+            </button>
             <button
               onClick={() => setActivePage('new-complaint')}
               className="px-5 py-3 bg-amber-500 hover:bg-amber-400 text-police-950 font-bold text-sm rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 transform hover:-translate-y-0.5"

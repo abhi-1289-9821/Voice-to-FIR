@@ -25,6 +25,8 @@ export const Navbar: React.FC = () => {
     logout,
     resetDemoData,
     complaints,
+    backendStatus,
+    refreshBackendData,
   } = useApp();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -148,8 +150,39 @@ export const Navbar: React.FC = () => {
               </button>
             </nav>
 
-            {/* Right Action Tools: Role Switcher & Reset Demo */}
+            {/* Right Action Tools: Backend Health Indicator, Role Switcher & Reset Demo */}
             <div className="hidden sm:flex items-center gap-2">
+              {/* Live Backend Health Indicator */}
+              <button
+                type="button"
+                onClick={() => refreshBackendData()}
+                title="Click to re-check ML Backend connection"
+                className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold border transition-all ${
+                  backendStatus === 'connected'
+                    ? 'bg-emerald-950/60 text-emerald-300 border-emerald-700/60'
+                    : backendStatus === 'checking'
+                    ? 'bg-amber-950/60 text-amber-300 border-amber-700/60 animate-pulse'
+                    : 'bg-red-950/60 text-red-300 border-red-700/60'
+                }`}
+              >
+                <span
+                  className={`w-2 h-2 rounded-full ${
+                    backendStatus === 'connected'
+                      ? 'bg-emerald-400'
+                      : backendStatus === 'checking'
+                      ? 'bg-amber-400'
+                      : 'bg-red-400'
+                  }`}
+                />
+                <span>
+                  {backendStatus === 'connected'
+                    ? 'ML Backend Online'
+                    : backendStatus === 'checking'
+                    ? 'Connecting...'
+                    : 'Backend Offline'}
+                </span>
+              </button>
+
               {/* Persona / Role Quick Switcher */}
               <div className="relative">
                 <button

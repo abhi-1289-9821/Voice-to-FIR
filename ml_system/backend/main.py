@@ -10,8 +10,10 @@ from fastapi.responses import JSONResponse
 import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
+from backend.database.connection import init_db
 from backend.routes.analysis import router as analysis_router
 from backend.routes.classification import router as classification_router
+from backend.routes.complaints import router as complaints_router
 from backend.routes.extraction import router as extraction_router
 from backend.routes.transcription import router as transcription_router
 from backend.schemas.complaint import HealthResponse, ModelStatusResponse
@@ -26,9 +28,15 @@ logger = logging.getLogger("AwaazSetuBackend")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
-    Load models once during application startup.
-    Avoids re-loading model weights on individual requests.
+    Initialize SQLite database tables and pre-load machine learning models.
     """
+    logger.info("Initializing SQLite database tables...")
+    try:
+        init_db()
+        logger.info("SQLite database tables initialized.")
+    except Exception as e:
+        logger.error(f"Database initialization error: {e}")
+
     logger.info("Starting AwaazSetu ML/DL Engine. Pre-loading models...")
     try:
         classifier = ComplaintClassifier.get_instance()
@@ -68,6 +76,7 @@ app.include_router(classification_router)
 app.include_router(extraction_router)
 app.include_router(transcription_router)
 app.include_router(analysis_router)
+app.include_router(complaints_router)
 
 
 @app.get("/", tags=["General"])
@@ -86,6 +95,7 @@ async def root():
             "analyze_text": "/api/analyze",
             "transcribe_audio": "/api/transcribe",
             "analyze_audio": "/api/analyze-audio",
+            "complaints": "/api/complaints",
         },
         "legal_notice": "Academic prototype. Assists complaint intake and review. Does not legally register an FIR.",
     }

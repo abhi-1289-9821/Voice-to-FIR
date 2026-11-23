@@ -6,12 +6,13 @@ import {
   CheckCircle2,
   Play,
   Pause,
+  RefreshCw,
 } from 'lucide-react';
 import { StatusBadge, PriorityBadge } from '../components/common/StatusBadge';
 import { ComplaintStatus } from '../types';
 
 export const OfficerDashboard: React.FC = () => {
-  const { complaints, updateComplaintStatus, currentUser } = useApp();
+  const { complaints, updateComplaintStatus, currentUser, refreshBackendData, backendStatus } = useApp();
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedStatusFilter, setSelectedStatusFilter] = useState<string>('ALL');
@@ -100,24 +101,36 @@ export const OfficerDashboard: React.FC = () => {
           </div>
         </div>
 
-        {/* Quick Triage Counters */}
-        <div className="flex items-center gap-3 bg-police-900/80 p-3 rounded-xl border border-police-800">
-          <div className="text-center px-3 border-r border-police-800">
-            <p className="text-xs text-amber-400 font-medium">Pending</p>
-            <p className="text-lg font-bold text-white font-mono">{pendingCount}</p>
+        {/* Quick Triage Counters & Sync */}
+        <div className="flex flex-col sm:flex-row items-center gap-3">
+          <div className="flex items-center gap-3 bg-police-900/80 p-3 rounded-xl border border-police-800">
+            <div className="text-center px-3 border-r border-police-800">
+              <p className="text-xs text-amber-400 font-medium">Pending</p>
+              <p className="text-lg font-bold text-white font-mono">{pendingCount}</p>
+            </div>
+            <div className="text-center px-3 border-r border-police-800">
+              <p className="text-xs text-blue-400 font-medium">Under Review</p>
+              <p className="text-lg font-bold text-white font-mono">{underReviewCount}</p>
+            </div>
+            <div className="text-center px-3 border-r border-police-800">
+              <p className="text-xs text-purple-400 font-medium">Needs Info</p>
+              <p className="text-lg font-bold text-white font-mono">{needsInfoCount}</p>
+            </div>
+            <div className="text-center px-3">
+              <p className="text-xs text-slate-400 font-medium">Closed</p>
+              <p className="text-lg font-bold text-white font-mono">{closedCount}</p>
+            </div>
           </div>
-          <div className="text-center px-3 border-r border-police-800">
-            <p className="text-xs text-blue-400 font-medium">Under Review</p>
-            <p className="text-lg font-bold text-white font-mono">{underReviewCount}</p>
-          </div>
-          <div className="text-center px-3 border-r border-police-800">
-            <p className="text-xs text-purple-400 font-medium">Needs Info</p>
-            <p className="text-lg font-bold text-white font-mono">{needsInfoCount}</p>
-          </div>
-          <div className="text-center px-3">
-            <p className="text-xs text-slate-400 font-medium">Closed</p>
-            <p className="text-lg font-bold text-white font-mono">{closedCount}</p>
-          </div>
+
+          <button
+            type="button"
+            onClick={() => refreshBackendData()}
+            className="px-3 py-2.5 bg-police-800 hover:bg-police-700 text-slate-200 border border-police-700 rounded-xl text-xs font-semibold flex items-center gap-1.5 transition-all self-stretch sm:self-auto justify-center"
+            title="Fetch latest complaints from SQLite database"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 ${backendStatus === 'checking' ? 'animate-spin' : ''}`} />
+            <span>Sync DB</span>
+          </button>
         </div>
       </div>
 
