@@ -3,138 +3,236 @@
 
 > **Academic Prototype & Legal Scope Disclaimer:**  
 > AwaazSetu is an academic demonstration prototype designed to assist citizens in drafting complaints using spoken or typed statements and to assist police officers in triaging, reviewing, and organizing incident details.  
-> **This prototype does not claim to register a legally valid First Information Report (FIR), does not make legal or judicial decisions, and does not replace an authorized police station house officer (SHO).** For actual emergency assistance, citizens must dial 112 directly.
+> **This prototype does NOT claim to register a legally valid First Information Report (FIR), does NOT make legal or judicial decisions, and does NOT replace an authorized police station house officer (SHO).** For actual emergency assistance, citizens must dial **112** directly.
 
 ---
 
-## 1. Project Overview & Phase 1 Scope
+## 1. Executive Summary & Integration Status
 
-This repository contains **Phase 1: Complete UI Prototype** for the project **“Voice-to-FIR: A Secure AI-Assisted Police Complaint and Case Management System”** (system name: **AwaazSetu**).
+### **Question: Are Frontend and Backend Integrated right now?**
 
-Phase 1 focuses **strictly on the complete frontend user experience**, visual flows, responsive interface design, and client-side simulation. It includes realistic mock scenarios (e.g., metro backpack theft, UPI phishing cyber fraud, vehicle theft, lost identity documents) and reactive local state so that the entire complaint lifecycle can be presented to your evaluator or teacher in a smooth, interactive demonstration.
+### **Answer: They are currently MODULAR and DECOUPLED (Not yet wired together over live network requests).**
 
-### What is included in Phase 1:
-- **Landing Page**: Plain-language system purpose, prominent legal limitation warning, entry points for citizens, police officers, and administrators, and an operational workflow diagram.
-- **Sign-in & Registration Screen**: Polished multi-role access forms (Citizen, Officer, Admin) with instant 1-click persona switchers and client-side validation.
-- **Citizen / Complainant Dashboard**: Overview cards with status counts, recent complaint cards with reference IDs (`AS-2026-XXXX`), search/filter tools, and presentation view mode toggles (Normal, Empty, Loading, and Error states).
-- **New Complaint Wizard**: A 4-step guided intake wizard:
-  1. *Voice Input & Audio Upload*: Realistic waveform animation, recording timer simulation, preset incident loader, and clear visual mockup notice.
-  2. *Review & Edit Transcript*: Directly editable speech transcript allowing the user to correct simulated STT errors (demonstrating human-in-the-loop verification).
-  3. *Incident Particulars Form*: Structured fields for incident summary, category, date, time, location, landmark, assigned police station, and complainant contact particulars with client-side required field validation.
-  4. *Final Verification & Submit*: Complete case factsheet review, citizen truthfulness declaration checkbox, simulated reference token generation (`AS-2026-XXXX`), and instant addition to the local demo state.
-- **Complaint Detail & Status Tracking Screen**: Printable receipt, interactive vertical status timeline (Submitted → Under Review → Needs Information → Closed), audio playback mockup, user-verified transcript viewer, and official officer note logs.
-- **Police Officer Dashboard & Triage Console**: Searchable and filterable case queue with status tabs (Pending Review, Under Review, Needs Information, Closed), side-by-side incident factsheet and speech transcript, mock audio player, interactive status dropdown, and canned police note presets that update the local case record immediately.
-- **Administrator Console**: System diagnostics counters, user table with role assignments, simulated account suspend/activate actions and role changes backed by confirmation modal dialogs, and a chronological system activity audit log.
-- **Shared Navigation & Presentation Tools**: Fixed disclaimer banner, responsive navigation header, quick persona dropdown, persistent toast notifications, and a 1-click **Reset Demo Data** tool to restore initial sample states at any time.
+Here is the exact current architectural status:
 
----
+```
++-----------------------------------------------------------------------------------------+
+|                                  AwaazSetu Project Root                                  |
+|                                                                                         |
+|  +-------------------------------------+       +-------------------------------------+  |
+|  |             FRONTEND                |       |          BACKEND / ML ENGINE        |  |
+|  |           (React + Vite)            |       |         (FastAPI + Python ML)       |  |
+|  |                                     |       |                                     |  |
+|  | - Directory: src/                   |       | - Directory: ml_system/             |  |
+|  | - Port: http://localhost:5173       |       | - Port: http://127.0.0.1:8000       |  |
+|  | - State: Simulated local React     |  X    | - Endpoints: /api/analyze,          |  |
+|  |   Context + browser LocalStorage    |       |   /api/classify, /api/extract,      |  |
+|  | - Status: Complete UI Demo          |       |   /api/transcribe, /api/evaluation  |  |
+|  |   (Phase 1 requirement)             |       | - Status: Complete & Tested         |  |
+|  +-------------------------------------+       +-------------------------------------+  |
+|                                                                                         |
+|                   [Current Status: Independent & Independently Testable]                |
+|                    Planned Bridge: REST API connection in Phase 3                       |
++-----------------------------------------------------------------------------------------+
+```
 
-## 2. Technology Stack
-
-### Phase 1 Implementation Stack:
-- **Framework**: React 18 with TypeScript
-- **Build Tool**: Vite 6
-- **Styling**: Tailwind CSS with custom public-service color schemes (`police` navy tones, `amber` alerts, accessible high-contrast text)
-- **Icons**: Lucide React
-- **Client State**: React Context API with LocalStorage caching for session persistence
-
-### Planned Stack for Later Phases:
-- **Browser Audio Recording**: MediaRecorder API *(Phase 2)*
-- **Backend Service**: Python & FastAPI *(Phase 3)*
-- **Speech Recognition Engine**: Whisper via `faster-whisper` *(Phase 3)*
-- **Audio Pre-processing**: FFmpeg *(Phase 3)*
-- **Database & Migrations**: PostgreSQL, SQLAlchemy ORM, Alembic *(Phase 5)*
-- **Authentication & Security**: Role-Based Access Control (RBAC) with JWT *(Phase 5)*
-- **Deployment & Packaging**: Docker & Docker Compose *(Phase 7)*
+### Why are they decoupled?
+1. **Academic Development Requirement**: The development specification explicitly mandated:
+   > *"The first objective is to build a fully functional, independently testable ML/DL system inside `ml_system/`. Do not unnecessarily modify the existing React frontend. The frontend will be connected to this system later through REST APIs."*
+2. **Demonstration Safety**: The React frontend can be presented offline without running the Python server, using rich mock presets.
+3. **Independent Verification**: The ML/DL backend can be tested and evaluated using Pytest, Swagger UI (`/docs`), or `curl` without launching Node.js.
+4. **CORS Ready**: The FastAPI backend already has CORS configured for `http://localhost:5173` so that when you connect them in Phase 3, no CORS errors will occur.
 
 ---
 
-## 3. How to Run the Frontend Locally
+## 2. System Architecture & Components
 
-### Prerequisites:
-- Node.js (v18 or higher recommended; developed and tested on Node.js v24)
-- npm (comes with Node.js)
+The project consists of two standalone engines:
 
-### Steps to Run:
-1. **Clone or navigate to the project directory:**
-   ```bash
-   cd D:\AwaazSetu
-   ```
+### A. Frontend Application (`src/`)
+- **Technology**: React 18, TypeScript, Vite, Tailwind CSS, Lucide React.
+- **Role**: Presentation-ready citizen and police portal with:
+  1. **Landing Page**: Public explanation and non-FIR legal disclaimer.
+  2. **Role Switcher**: Instant switching between Citizen, Officer (SI Rajesh Kumar), and Admin.
+  3. **4-Step Intake Wizard**: Audio recording mockup, editable transcript review, structured particulars form, and truthfulness declaration.
+  4. **Citizen Dashboard**: Case status tracking timeline (`AS-2026-XXXX`).
+  5. **Officer Triage Console**: Queue filtering, audio review, status transition controls, and official police notes.
+  6. **Admin Panel**: Role management, user activation/suspension, and audit logging.
 
-2. **Install dependencies (if not already installed):**
-   ```bash
-   npm install
-   ```
-
-3. **Start the local Vite development server:**
-   ```bash
-   npm run dev
-   ```
-   *The console will display the local development URL, typically `http://localhost:5173/`.*
-
-4. **Open in browser:**
-   Navigate to [http://localhost:5173/](http://localhost:5173/) to interact with the full presentation demo.
-
-5. **(Optional) Build production bundle:**
-   ```bash
-   npm run build
-   ```
-   To preview the optimized production build:
-   ```bash
-   npm run preview
-   ```
+### B. Machine Learning & Deep Learning Engine (`ml_system/`)
+- **Technology**: Python 3.12, FastAPI, faster-whisper (Whisper), Scikit-learn, Joblib.
+- **Zero Paid APIs**: Absolutely NO OpenAI, Gemini, Claude, ChatGPT, or external cloud LLMs.
+- **The 7 Core Modules**:
+  1. **Speech Recognition**: Pretrained Whisper (`faster-whisper-base`) with Hindi/English detection and timestamps.
+  2. **Custom ML Classifier**: TF-IDF + Logistic Regression (C=2.5, balanced) trained across 7 complaint categories.
+  3. **Information Extraction (NLP)**: Hybrid regex & NER extracting Person, Location, Date, Time, Money, Phone, and Object.
+  4. **Missing Information Detector**: Deterministic rule engine identifying missing critical facts per category.
+  5. **Structured Complaint Generator**: Non-generative, template-based factsheet drafting with legal disclaimers.
+  6. **Model Evaluation**: Accuracy (75.0%), Weighted F1 (0.7422), Confusion Matrix, and WER benchmarks.
+  7. **REST Backend**: Unified `/api/analyze` and modular endpoints with Swagger UI.
 
 ---
 
-## 4. What is Mocked vs. What is Still Unimplemented
+## 3. How to Run Each Component
 
-To ensure academic honesty during project evaluation, here is the explicit breakdown of Phase 1:
-
-| Feature Area | Current State in Phase 1 (UI Prototype) | Unimplemented / Future Phase |
-| :--- | :--- | :--- |
-| **User Interface & Flows** | **Fully Built**: All 7 screens, dialogs, forms, badges, and responsive layouts. | None (all Phase 1 UI requirements complete). |
-| **Authentication** | **Mocked**: 1-click persona switching (Citizen, Officer, Admin) and mock form validation. | Real password hashing, JWT tokens, refresh tokens, and session cookies (*Phase 5*). |
-| **Data Storage** | **Mocked**: Client-side memory and browser `localStorage`. Changes persist in session and can be reset with one click. | Real PostgreSQL database, SQLAlchemy models, and Alembic migrations (*Phase 5*). |
-| **Microphone / Audio** | **Mocked**: Visual timer, animated waveform, and preset audio scenario loader. | Real browser `MediaRecorder` API and blob serialization (*Phase 2*). |
-| **Speech Recognition** | **Mocked**: Pre-loaded simulated transcripts with client-side editing interface. | Python FastAPI backend running `faster-whisper` (*Phase 3*). |
-| **Officer Actions** | **Mocked**: Status updates and note additions write to client demo state. | Backend database updates, audit logs, and push notifications (*Phase 6*). |
-| **Legal Validity** | **Explicitly Non-Legal**: Complaints are drafts for officer review. | Legal FIR registration requires authorized officer sign-off under statutory law (*Not replaced by AI*). |
+### Running the Frontend (UI Demo)
+```bash
+# In project root: D:\AwaazSetu
+npm install
+npm run dev
+```
+Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
 
 ---
 
-## 5. Phase-by-Phase Roadmap for Later Work
+### Running the ML/DL Backend
+```bash
+# In project root: D:\AwaazSetu
+# Activate Python virtual environment:
+& "D:\AwaazSetu\ml_system\.venv\Scripts\Activate.ps1"
 
-The project follows a structured 7-phase roadmap:
+# Navigate to ml_system
+cd ml_system
 
-- **Phase 1 (Completed)**: Complete UI Prototype (React, TypeScript, Vite, Tailwind CSS, mock data, role switching).
-- **Phase 2 — Audio Recording and Upload**: Connect browser microphone recording via `MediaRecorder` API, WAV/MP3 file upload dropzones, audio playback of actual recorded user clips, and file format validation.
-- **Phase 3 — Backend and Speech Recognition**: Set up FastAPI service, handle multipart audio uploads, configure FFmpeg for audio resampling, and integrate Whisper models through `faster-whisper` for multilingual transcription.
-- **Phase 4 — Transcript Correction and Complaint Submission**: Link real model transcripts into the review/editing step, compute phonetic similarity/diffs, and implement draft complaint saving and submission APIs.
-- **Phase 5 — Database and Authentication**: Design PostgreSQL schemas (Users, Complaints, Transcripts, TimelineEvents, AuditLogs), implement SQLAlchemy models and Alembic migrations, and add JWT authentication with Role-Based Access Control (Complainant, Police Officer, Administrator).
-- **Phase 6 — Officer and Administrator Workflows**: Connect officer triage dashboards to backend REST endpoints, implement official review note additions, status transitions with role guards, citizen notification webhooks/SMS mock, and immutable admin audit trails.
-- **Phase 7 — Security, Evaluation, and Presentation**: Conduct security review (input sanitization, PII masking, rate limiting), evaluate speech transcription accuracy across diverse accents/noise conditions using Word Error Rate (WER) on consented recordings, and prepare final Docker Compose deployment.
+# Launch FastAPI server
+python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+```
+Open **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)** for interactive Swagger API testing.
 
 ---
 
-## 6. Guide for Presenting to Evaluators / Teachers
+### Running ML Model Training & Evaluation
+```bash
+# Retrain classification model (TF-IDF + Logistic Regression vs Linear SVM)
+python ml_system/training/train_classifier.py
 
-When demonstrating AwaazSetu to your teacher:
-1. **Landing Page**: Highlight the clear public-service aesthetic, plain-language explanation, and prominent **Non-Legal FIR Disclaimer**.
-2. **Citizen Workflow**:
-   - Click **"File a Complaint"** to enter the 4-step wizard.
-   - On Step 1, select a sample preset (e.g. *Metro Backpack Theft*) and demonstrate the mock voice recording waveform.
-   - On Step 2, show how the transcript is **directly editable** so complainants can correct any misheard terms (e.g., brand names, serial numbers, landmarks).
-   - On Step 3, show structured incident fields and client-side validation.
-   - On Step 4, tick the declaration and submit. Show the generated reference number (`AS-2026-XXXX`).
-3. **Citizen Dashboard**:
-   - Click the **View States** buttons (*Empty State*, *Loading State*, *Error State*) to demonstrate robust UI state handling.
-   - Click the submitted complaint card to view the **Case Tracking Timeline**.
-4. **Police Officer Portal**:
-   - Use the top navigation role switcher to select **SI Rajesh Kumar (Police Officer)**.
-   - Filter complaints by status (e.g., *Pending Review*).
-   - Open the newly submitted complaint, listen to the mock audio player, select *Under Review*, click a canned note (*"CCTV footage requested"*), and commit the update.
-   - Switch back to the Citizen portal to demonstrate that the status change immediately reflected in the citizen's case timeline!
-5. **Admin Console**:
-   - Switch to **System Admin**. Show user role management, account suspension with confirmation modal, and the live activity audit log.
-   - Click **Reset Demo State** to cleanly restore all initial sample records.
+# Run evaluation and generate confusion matrix plot
+python ml_system/training/evaluate_classifier.py
 
+# Run automated tests
+python -m pytest ml_system/tests -v
+```
+
+---
+
+## 4. How to Connect Frontend and Backend (Phase 3 Integration)
+
+When you are ready to connect the React UI to the live ML backend:
+
+### Step 1: Create an API client in the frontend
+Create `src/services/mlApi.ts`:
+```typescript
+const ML_API_BASE = "http://127.0.0.1:8000/api";
+
+export async function analyzeComplaintText(text: string, language = "en") {
+  const response = await fetch(`${ML_API_BASE}/analyze`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text, language }),
+  });
+  if (!response.ok) throw new Error("ML analysis failed");
+  return response.json();
+}
+
+export async function transcribeAudioBlob(audioBlob: Blob, language = "en") {
+  const formData = new FormData();
+  formData.append("file", audioBlob, "recording.wav");
+  formData.append("language", language);
+
+  const response = await fetch(`${ML_API_BASE}/analyze-audio`, {
+    method: "POST",
+    body: formData,
+  });
+  if (!response.ok) throw new Error("Audio analysis failed");
+  return response.json();
+}
+```
+
+### Step 2: Call the API in the New Complaint Wizard
+In `src/pages/NewComplaintPage.tsx`:
+- When user finishes speaking or types their statement, call `analyzeComplaintText(transcript)`.
+- Automatically pre-fill the **Category** dropdown with `result.classification.predicted_category`.
+- Automatically pre-fill **Date**, **Time**, **Location**, and **Suspect/Property** fields from `result.extraction.entities`.
+- Show any missing fields using `result.missing_information.missing_fields` and display follow-up questions!
+
+---
+
+## 5. Repository Directory Structure
+
+```
+AwaazSetu/
+├── README.md                      # Main project documentation (this file)
+├── package.json                   # Frontend dependencies
+├── vite.config.ts                 # Vite bundler configuration
+├── tsconfig.json                  # TypeScript configuration
+├── tailwind.config.js             # Tailwind CSS public-service theme
+│
+├── src/                           # FRONTEND (Phase 1 UI Prototype)
+│   ├── components/                # Reusable UI components (Navbar, Modals, AudioWaveform)
+│   ├── context/                   # ComplaintContext & AuthContext (local simulated state)
+│   ├── data/                      # Sample demo complaints (Metro theft, UPI fraud, etc.)
+│   ├── pages/                     # Landing, Dashboard, NewComplaint, Detail, Officer, Admin
+│   └── types/                     # TypeScript data interfaces
+│
+└── ml_system/                     # INDEPENDENT ML/DL/NLP ENGINE
+    ├── README.md                  # Comprehensive ML system documentation
+    ├── config.py                  # ML configuration & model paths
+    ├── requirements.txt           # Python dependencies
+    ├── pytest.ini                 # Pytest test configuration
+    │
+    ├── datasets/
+    │   ├── raw/complaints_dataset.csv     # 217 hand-curated multilingual samples
+    │   ├── processed/train.csv, test.csv  # Stratified 80/20 train/test splits
+    │   └── create_dataset.py              # Dataset builder script
+    │
+    ├── nlp/
+    │   ├── text_preprocessing.py          # Multilingual text normalization
+    │   ├── entity_extraction.py           # NER & regex for incident facts
+    │   └── missing_information.py         # Missing field rules & draft generator
+    │
+    ├── training/
+    │   ├── train_classifier.py            # TF-IDF + Logistic Regression training
+    │   ├── evaluate_classifier.py         # Test set evaluation suite
+    │   └── predict.py                     # Singleton inference service
+    │
+    ├── evaluation/
+    │   ├── metrics.py                     # Accuracy, F1, Precision, Recall, WER
+    │   ├── confusion_matrix.py            # Matplotlib plot generator
+    │   ├── evaluation_report.json         # Evaluation metrics report
+    │   ├── confusion_matrix.png           # Rendered Confusion Matrix
+    │   └── classification_metrics.png     # Rendered Metrics Bar Chart
+    │
+    ├── models/
+    │   ├── complaint_classifier/          # Saved Joblib model & vectorizer
+    │   └── speech_recognition/            # faster-whisper loader & engine
+    │
+    ├── backend/                           # FastAPI REST Service
+    │   ├── main.py                        # FastAPI entry point & CORS
+    │   ├── schemas/complaint.py           # Pydantic request & response schemas
+    │   └── routes/                        # Modular route handlers
+    │       ├── classification.py          # POST /api/classify
+    │       ├── extraction.py              # POST /api/extract
+    │       ├── transcription.py           # POST /api/transcribe
+    │       └── analysis.py                # POST /api/analyze & /api/analyze-audio
+    │
+    └── tests/                             # Automated Test Suite
+        ├── test_classifier.py             # 5 Unit tests for ML classifier
+        ├── test_nlp.py                    # 5 Unit tests for NLP & extraction
+        └── test_api.py                    # 11 Integration tests for FastAPI endpoints
+```
+
+---
+
+## 6. Academic Presentation Checklist
+
+When presenting this project to your professor or evaluator:
+1. **Highlight the Clear Separation**:
+   - The React frontend handles the responsive citizen & police UX.
+   - The Python `ml_system/` handles real machine learning, NLP, and speech processing.
+2. **Emphasize Academic Integrity**:
+   - Zero reliance on paid black-box APIs (no OpenAI, no Gemini).
+   - Real, locally trained Machine Learning model with measurable metrics (`Accuracy: 75.0%`, `F1: 0.7422`).
+   - Grounded NLP extraction and deterministic factsheet generation to prevent AI hallucinations.
+3. **Showcase the Evaluation Artifacts**:
+   - Display `ml_system/evaluation/confusion_matrix.png` and `classification_metrics.png`.
+   - Open `/docs` in the browser to run live model inference in front of the evaluator.

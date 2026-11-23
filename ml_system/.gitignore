@@ -1,0 +1,31 @@
+# Python & Virtual Environment
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Data and Models
+models/speech_recognition/models--*
+models/speech_recognition/.locks/
+models/speech_recognition/CACHEDIR.TAG
+models/speech_recognition/*.bin
+models/speech_recognition/*.model
+models/speech_recognition/*.pt
+*.h5
+
+# Audio sample cache & temp files
+temp_audio/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
